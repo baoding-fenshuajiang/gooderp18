@@ -1,0 +1,1432 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* core
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0-20221222\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-30 07:46+0000\n"
+"PO-Revision-Date: 2023-02-02 12:40+0800\n"
+"Last-Translator: 保定-粉刷匠 <992102498@qq.com>\n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 2.4.3\n"
+
+#. module: core
+#. odoo-python
+#: code:addons/core/models/goods.py:0 code:addons/core/models/partner.py:0
+#, python-format
+msgid "%s (copy)"
+msgstr ""
+
+#. module: core
+#: model:ir.model.fields,help:core.field_goods__conversion
+msgid "1个辅助单位等于多少计量单位的数量，如1箱30个苹果，这里就输入30"
+msgstr "1 auxiliary unit is equal to the number of units of measurement, such as 1 box of 30 apples, enter 30 here"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_clean_business_data__message_needaction
+#: model:ir.model.fields,field_description:core.field_goods__message_needaction
+#: model:ir.model.fields,field_description:core.field_partner__message_needaction
+#: model:ir.model.fields,field_description:core.field_staff__message_needaction
+msgid "Action Needed"
+msgstr ""
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_clean_business_data__activity_ids
+#: model:ir.model.fields,field_description:core.field_goods__activity_ids
+#: model:ir.model.fields,field_description:core.field_partner__activity_ids
+#: model:ir.model.fields,field_description:core.field_staff__activity_ids
+msgid "Activities"
+msgstr ""
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_clean_business_data__activity_exception_decoration
+#: model:ir.model.fields,field_description:core.field_goods__activity_exception_decoration
+#: model:ir.model.fields,field_description:core.field_partner__activity_exception_decoration
+#: model:ir.model.fields,field_description:core.field_staff__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr ""
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_clean_business_data__activity_state
+#: model:ir.model.fields,field_description:core.field_goods__activity_state
+#: model:ir.model.fields,field_description:core.field_partner__activity_state
+#: model:ir.model.fields,field_description:core.field_staff__activity_state
+msgid "Activity State"
+msgstr ""
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_clean_business_data__activity_type_icon
+#: model:ir.model.fields,field_description:core.field_goods__activity_type_icon
+#: model:ir.model.fields,field_description:core.field_partner__activity_type_icon
+#: model:ir.model.fields,field_description:core.field_staff__activity_type_icon
+msgid "Activity Type Icon"
+msgstr ""
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_clean_business_data__message_attachment_count
+#: model:ir.model.fields,field_description:core.field_goods__message_attachment_count
+#: model:ir.model.fields,field_description:core.field_partner__message_attachment_count
+#: model:ir.model.fields,field_description:core.field_staff__message_attachment_count
+msgid "Attachment Count"
+msgstr ""
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_core_value__color
+msgid "Color Index"
+msgstr ""
+
+#. module: core
+#: model:ir.model,name:core.model_res_company
+msgid "Companies"
+msgstr ""
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_res_company__logo
+msgid "Company Logo"
+msgstr ""
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_bank_account__create_uid
+#: model:ir.model.fields,field_description:core.field_business_data_table__create_uid
+#: model:ir.model.fields,field_description:core.field_clean_business_data__create_uid
+#: model:ir.model.fields,field_description:core.field_clean_business_log__create_uid
+#: model:ir.model.fields,field_description:core.field_core_category__create_uid
+#: model:ir.model.fields,field_description:core.field_core_value__create_uid
+#: model:ir.model.fields,field_description:core.field_goods__create_uid
+#: model:ir.model.fields,field_description:core.field_partner__create_uid
+#: model:ir.model.fields,field_description:core.field_pay_method__create_uid
+#: model:ir.model.fields,field_description:core.field_pricing__create_uid
+#: model:ir.model.fields,field_description:core.field_service__create_uid
+#: model:ir.model.fields,field_description:core.field_settle_mode__create_uid
+#: model:ir.model.fields,field_description:core.field_staff__create_uid
+#: model:ir.model.fields,field_description:core.field_team__create_uid
+#: model:ir.model.fields,field_description:core.field_uom__create_uid
+#: model:ir.model.fields,field_description:core.field_warehouse__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_bank_account__create_date
+#: model:ir.model.fields,field_description:core.field_business_data_table__create_date
+#: model:ir.model.fields,field_description:core.field_clean_business_data__create_date
+#: model:ir.model.fields,field_description:core.field_clean_business_log__create_date
+#: model:ir.model.fields,field_description:core.field_core_category__create_date
+#: model:ir.model.fields,field_description:core.field_core_value__create_date
+#: model:ir.model.fields,field_description:core.field_goods__create_date
+#: model:ir.model.fields,field_description:core.field_partner__create_date
+#: model:ir.model.fields,field_description:core.field_pay_method__create_date
+#: model:ir.model.fields,field_description:core.field_pricing__create_date
+#: model:ir.model.fields,field_description:core.field_service__create_date
+#: model:ir.model.fields,field_description:core.field_settle_mode__create_date
+#: model:ir.model.fields,field_description:core.field_staff__create_date
+#: model:ir.model.fields,field_description:core.field_team__create_date
+#: model:ir.model.fields,field_description:core.field_uom__create_date
+#: model:ir.model.fields,field_description:core.field_warehouse__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: core
+#: model:ir.model,name:core.model_res_currency
+msgid "Currency"
+msgstr ""
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_bank_account__display_name
+#: model:ir.model.fields,field_description:core.field_business_data_table__display_name
+#: model:ir.model.fields,field_description:core.field_clean_business_data__display_name
+#: model:ir.model.fields,field_description:core.field_clean_business_log__display_name
+#: model:ir.model.fields,field_description:core.field_core_category__display_name
+#: model:ir.model.fields,field_description:core.field_core_value__display_name
+#: model:ir.model.fields,field_description:core.field_goods__display_name
+#: model:ir.model.fields,field_description:core.field_partner__display_name
+#: model:ir.model.fields,field_description:core.field_pay_method__display_name
+#: model:ir.model.fields,field_description:core.field_pricing__display_name
+#: model:ir.model.fields,field_description:core.field_service__display_name
+#: model:ir.model.fields,field_description:core.field_settle_mode__display_name
+#: model:ir.model.fields,field_description:core.field_staff__display_name
+#: model:ir.model.fields,field_description:core.field_team__display_name
+#: model:ir.model.fields,field_description:core.field_uom__display_name
+#: model:ir.model.fields,field_description:core.field_warehouse__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_clean_business_data__message_follower_ids
+#: model:ir.model.fields,field_description:core.field_goods__message_follower_ids
+#: model:ir.model.fields,field_description:core.field_partner__message_follower_ids
+#: model:ir.model.fields,field_description:core.field_staff__message_follower_ids
+msgid "Followers"
+msgstr ""
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_clean_business_data__message_partner_ids
+#: model:ir.model.fields,field_description:core.field_goods__message_partner_ids
+#: model:ir.model.fields,field_description:core.field_partner__message_partner_ids
+#: model:ir.model.fields,field_description:core.field_staff__message_partner_ids
+msgid "Followers (Partners)"
+msgstr ""
+
+#. module: core
+#: model:ir.model.fields,help:core.field_clean_business_data__activity_type_icon
+#: model:ir.model.fields,help:core.field_goods__activity_type_icon
+#: model:ir.model.fields,help:core.field_partner__activity_type_icon
+#: model:ir.model.fields,help:core.field_staff__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr ""
+
+#. module: core
+#: model_terms:ir.ui.view,arch_db:core.menus_template
+msgid "GoodERP"
+msgstr ""
+
+#. module: core
+#: model:ir.actions.act_url,name:core.action_open_menus
+msgid "GoodERP - 尽力为简 按需就繁"
+msgstr "GoodERP - Keep it as simple as you can"
+
+#. module: core
+#: model:ir.model.fields,help:core.field_res_company__cost_method
+msgid ""
+"GoodERP仓库模块使用个别计价规则匹配\n"
+"                每次出库对应入库成本和数量，但不实时记账。\n"
+"                财务月结时使用此方法相应调整发出成本"
+msgstr ""
+"The GoodERP warehouse module is matched using individual pricing rules\n"
+"                Each outbound corresponds to the inbound cost and quantity, but does not record in real time.\n"
+"                Use this method at the end of the financial month to adjust the emitted costs accordingly"
+
+#. module: core
+#: model:ir.model.fields,help:core.field_goods__cost_method
+msgid ""
+"GoodERP仓库模块使用先进先出规则匹配\n"
+"                                   每次出库对应的入库成本和数量，但不实时记账。\n"
+"                                   财务月结时使用此方法相应调整发出成本"
+msgstr ""
+"The GoodERP warehouse module uses FIFO rule matching\n"
+"                                   The inbound cost and quantity corresponding to each outbound shipment, but not real-time accounting.\n"
+"                                   Use this method at the end of the financial month to adjust the emitted costs accordingly"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_clean_business_data__has_message
+#: model:ir.model.fields,field_description:core.field_goods__has_message
+#: model:ir.model.fields,field_description:core.field_partner__has_message
+#: model:ir.model.fields,field_description:core.field_staff__has_message
+msgid "Has Message"
+msgstr ""
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_bank_account__id
+#: model:ir.model.fields,field_description:core.field_business_data_table__id
+#: model:ir.model.fields,field_description:core.field_clean_business_data__id
+#: model:ir.model.fields,field_description:core.field_clean_business_log__id
+#: model:ir.model.fields,field_description:core.field_core_category__id
+#: model:ir.model.fields,field_description:core.field_core_value__id
+#: model:ir.model.fields,field_description:core.field_goods__id
+#: model:ir.model.fields,field_description:core.field_partner__id
+#: model:ir.model.fields,field_description:core.field_pay_method__id
+#: model:ir.model.fields,field_description:core.field_pricing__id
+#: model:ir.model.fields,field_description:core.field_service__id
+#: model:ir.model.fields,field_description:core.field_settle_mode__id
+#: model:ir.model.fields,field_description:core.field_staff__id
+#: model:ir.model.fields,field_description:core.field_team__id
+#: model:ir.model.fields,field_description:core.field_uom__id
+#: model:ir.model.fields,field_description:core.field_warehouse__id
+msgid "ID"
+msgstr ""
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_clean_business_data__activity_exception_icon
+#: model:ir.model.fields,field_description:core.field_goods__activity_exception_icon
+#: model:ir.model.fields,field_description:core.field_partner__activity_exception_icon
+#: model:ir.model.fields,field_description:core.field_staff__activity_exception_icon
+msgid "Icon"
+msgstr ""
+
+#. module: core
+#: model:ir.model.fields,help:core.field_clean_business_data__activity_exception_icon
+#: model:ir.model.fields,help:core.field_goods__activity_exception_icon
+#: model:ir.model.fields,help:core.field_partner__activity_exception_icon
+#: model:ir.model.fields,help:core.field_staff__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr ""
+
+#. module: core
+#: model:ir.model.fields,help:core.field_clean_business_data__message_needaction
+#: model:ir.model.fields,help:core.field_goods__message_needaction
+#: model:ir.model.fields,help:core.field_partner__message_needaction
+#: model:ir.model.fields,help:core.field_staff__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr ""
+
+#. module: core
+#: model:ir.model.fields,help:core.field_clean_business_data__message_has_error
+#: model:ir.model.fields,help:core.field_goods__message_has_error
+#: model:ir.model.fields,help:core.field_partner__message_has_error
+#: model:ir.model.fields,help:core.field_staff__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr ""
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_clean_business_data__message_is_follower
+#: model:ir.model.fields,field_description:core.field_goods__message_is_follower
+#: model:ir.model.fields,field_description:core.field_partner__message_is_follower
+#: model:ir.model.fields,field_description:core.field_staff__message_is_follower
+msgid "Is Follower"
+msgstr ""
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_bank_account____last_update
+#: model:ir.model.fields,field_description:core.field_business_data_table____last_update
+#: model:ir.model.fields,field_description:core.field_clean_business_data____last_update
+#: model:ir.model.fields,field_description:core.field_clean_business_log____last_update
+#: model:ir.model.fields,field_description:core.field_core_category____last_update
+#: model:ir.model.fields,field_description:core.field_core_value____last_update
+#: model:ir.model.fields,field_description:core.field_goods____last_update
+#: model:ir.model.fields,field_description:core.field_partner____last_update
+#: model:ir.model.fields,field_description:core.field_pay_method____last_update
+#: model:ir.model.fields,field_description:core.field_pricing____last_update
+#: model:ir.model.fields,field_description:core.field_service____last_update
+#: model:ir.model.fields,field_description:core.field_settle_mode____last_update
+#: model:ir.model.fields,field_description:core.field_staff____last_update
+#: model:ir.model.fields,field_description:core.field_team____last_update
+#: model:ir.model.fields,field_description:core.field_uom____last_update
+#: model:ir.model.fields,field_description:core.field_warehouse____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_bank_account__write_uid
+#: model:ir.model.fields,field_description:core.field_business_data_table__write_uid
+#: model:ir.model.fields,field_description:core.field_clean_business_data__write_uid
+#: model:ir.model.fields,field_description:core.field_clean_business_log__write_uid
+#: model:ir.model.fields,field_description:core.field_core_category__write_uid
+#: model:ir.model.fields,field_description:core.field_core_value__write_uid
+#: model:ir.model.fields,field_description:core.field_goods__write_uid
+#: model:ir.model.fields,field_description:core.field_partner__write_uid
+#: model:ir.model.fields,field_description:core.field_pay_method__write_uid
+#: model:ir.model.fields,field_description:core.field_pricing__write_uid
+#: model:ir.model.fields,field_description:core.field_service__write_uid
+#: model:ir.model.fields,field_description:core.field_settle_mode__write_uid
+#: model:ir.model.fields,field_description:core.field_staff__write_uid
+#: model:ir.model.fields,field_description:core.field_team__write_uid
+#: model:ir.model.fields,field_description:core.field_uom__write_uid
+#: model:ir.model.fields,field_description:core.field_warehouse__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_bank_account__write_date
+#: model:ir.model.fields,field_description:core.field_business_data_table__write_date
+#: model:ir.model.fields,field_description:core.field_clean_business_data__write_date
+#: model:ir.model.fields,field_description:core.field_clean_business_log__write_date
+#: model:ir.model.fields,field_description:core.field_core_category__write_date
+#: model:ir.model.fields,field_description:core.field_core_value__write_date
+#: model:ir.model.fields,field_description:core.field_goods__write_date
+#: model:ir.model.fields,field_description:core.field_partner__write_date
+#: model:ir.model.fields,field_description:core.field_pay_method__write_date
+#: model:ir.model.fields,field_description:core.field_pricing__write_date
+#: model:ir.model.fields,field_description:core.field_service__write_date
+#: model:ir.model.fields,field_description:core.field_settle_mode__write_date
+#: model:ir.model.fields,field_description:core.field_staff__write_date
+#: model:ir.model.fields,field_description:core.field_team__write_date
+#: model:ir.model.fields,field_description:core.field_uom__write_date
+#: model:ir.model.fields,field_description:core.field_warehouse__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: core
+#: model_terms:ir.ui.view,arch_db:core.menus_template
+msgid "Logo"
+msgstr ""
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_clean_business_data__message_main_attachment_id
+#: model:ir.model.fields,field_description:core.field_goods__message_main_attachment_id
+#: model:ir.model.fields,field_description:core.field_partner__message_main_attachment_id
+#: model:ir.model.fields,field_description:core.field_staff__message_main_attachment_id
+msgid "Main Attachment"
+msgstr ""
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_clean_business_data__message_has_error
+#: model:ir.model.fields,field_description:core.field_goods__message_has_error
+#: model:ir.model.fields,field_description:core.field_partner__message_has_error
+#: model:ir.model.fields,field_description:core.field_staff__message_has_error
+msgid "Message Delivery error"
+msgstr ""
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_clean_business_data__message_ids
+#: model:ir.model.fields,field_description:core.field_goods__message_ids
+#: model:ir.model.fields,field_description:core.field_partner__message_ids
+#: model:ir.model.fields,field_description:core.field_staff__message_ids
+msgid "Messages"
+msgstr ""
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_clean_business_data__my_activity_date_deadline
+#: model:ir.model.fields,field_description:core.field_goods__my_activity_date_deadline
+#: model:ir.model.fields,field_description:core.field_partner__my_activity_date_deadline
+#: model:ir.model.fields,field_description:core.field_staff__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr ""
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_clean_business_data__activity_date_deadline
+#: model:ir.model.fields,field_description:core.field_goods__activity_date_deadline
+#: model:ir.model.fields,field_description:core.field_partner__activity_date_deadline
+#: model:ir.model.fields,field_description:core.field_staff__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr ""
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_clean_business_data__activity_summary
+#: model:ir.model.fields,field_description:core.field_goods__activity_summary
+#: model:ir.model.fields,field_description:core.field_partner__activity_summary
+#: model:ir.model.fields,field_description:core.field_staff__activity_summary
+msgid "Next Activity Summary"
+msgstr ""
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_clean_business_data__activity_type_id
+#: model:ir.model.fields,field_description:core.field_goods__activity_type_id
+#: model:ir.model.fields,field_description:core.field_partner__activity_type_id
+#: model:ir.model.fields,field_description:core.field_staff__activity_type_id
+msgid "Next Activity Type"
+msgstr ""
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_res_users__notification_type
+msgid "Notification"
+msgstr ""
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_clean_business_data__message_needaction_counter
+#: model:ir.model.fields,field_description:core.field_goods__message_needaction_counter
+#: model:ir.model.fields,field_description:core.field_partner__message_needaction_counter
+#: model:ir.model.fields,field_description:core.field_staff__message_needaction_counter
+msgid "Number of Actions"
+msgstr ""
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_clean_business_data__message_has_error_counter
+#: model:ir.model.fields,field_description:core.field_goods__message_has_error_counter
+#: model:ir.model.fields,field_description:core.field_partner__message_has_error_counter
+#: model:ir.model.fields,field_description:core.field_staff__message_has_error_counter
+msgid "Number of errors"
+msgstr ""
+
+#. module: core
+#: model:ir.model.fields,help:core.field_clean_business_data__message_needaction_counter
+#: model:ir.model.fields,help:core.field_goods__message_needaction_counter
+#: model:ir.model.fields,help:core.field_partner__message_needaction_counter
+#: model:ir.model.fields,help:core.field_staff__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr ""
+
+#. module: core
+#: model:ir.model.fields,help:core.field_clean_business_data__message_has_error_counter
+#: model:ir.model.fields,help:core.field_goods__message_has_error_counter
+#: model:ir.model.fields,help:core.field_partner__message_has_error_counter
+#: model:ir.model.fields,help:core.field_staff__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr ""
+
+#. module: core
+#: model:ir.model.fields,help:core.field_res_users__notification_type
+msgid ""
+"Policy on how to handle Chatter notifications:\n"
+"- Handle by Emails: notifications are sent to your email address\n"
+"- Handle in Odoo: notifications appear in your Odoo Inbox"
+msgstr ""
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_clean_business_data__activity_user_id
+#: model:ir.model.fields,field_description:core.field_goods__activity_user_id
+#: model:ir.model.fields,field_description:core.field_partner__activity_user_id
+#: model:ir.model.fields,field_description:core.field_staff__activity_user_id
+msgid "Responsible User"
+msgstr ""
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_clean_business_log__sql
+msgid "SQL"
+msgstr ""
+
+#. module: core
+#: model_terms:ir.ui.view,arch_db:core.service_form
+msgid "Service"
+msgstr ""
+
+#. module: core
+#: model:ir.model.fields,help:core.field_clean_business_data__activity_state
+#: model:ir.model.fields,help:core.field_goods__activity_state
+#: model:ir.model.fields,help:core.field_partner__activity_state
+#: model:ir.model.fields,help:core.field_staff__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: core
+#: model:ir.model.fields,help:core.field_clean_business_data__activity_exception_decoration
+#: model:ir.model.fields,help:core.field_goods__activity_exception_decoration
+#: model:ir.model.fields,help:core.field_partner__activity_exception_decoration
+#: model:ir.model.fields,help:core.field_staff__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr ""
+
+#. module: core
+#: model:ir.model,name:core.model_res_users
+msgid "User"
+msgstr ""
+
+#. module: core
+#: model:ir.module.category,name:core.Gooderp
+msgid "gooderp"
+msgstr ""
+
+#. module: core
+#: model_terms:ir.ui.view,arch_db:core.bank_account_tree
+#: model_terms:ir.ui.view,arch_db:core.customer_tree
+#: model_terms:ir.ui.view,arch_db:core.vendor_tree
+msgid "sum"
+msgstr ""
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_core_value__parent_id
+msgid "上级"
+msgstr "Parent Category"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_goods__not_buyable
+msgid "不可采购"
+msgstr "Not Available For Purchase"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_goods__not_saleable
+msgid "不可销售"
+msgstr "Not for Sale"
+
+#. module: core
+#: model:ir.model,name:core.model_partner
+msgid "业务伙伴"
+msgstr "Business Partners"
+
+#. module: core
+#: model:ir.model.constraint,message:core.constraint_partner_name_uniq
+msgid "业务伙伴不能重名"
+msgstr "Business partners cannot have the same name"
+
+#. module: core
+#: model:ir.model.fields,help:core.field_partner__tax_rate
+msgid "业务伙伴税率"
+msgstr "Business partner tax rate"
+
+#. module: core
+#: model:ir.model,name:core.model_business_data_table
+#: model_terms:ir.ui.view,arch_db:core.core_clean_business_data_form
+msgid "业务数据表"
+msgstr "Business Data Sheets"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_business_data_table__name
+msgid "业务数据表名"
+msgstr "Business data table name"
+
+#. module: core
+#: model:ir.model.fields.selection,name:core.selection__goods__cost_method__fifo
+msgid "个别计价法"
+msgstr "Individual Pricing Method"
+
+#. module: core
+#: model:ir.model.fields.selection,name:core.selection__res_company__cost_method__fifo
+msgid "个别计划法"
+msgstr "Individual Planning Method"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_partner__main_contact
+msgid "主联系人"
+msgstr "Primary Contact"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_partner__main_mobile
+msgid "主要联系方式"
+msgstr "Primary Contact Details"
+
+#. module: core
+#: model:ir.module.category,name:core.good_staff
+msgid "人事"
+msgstr "Staff"
+
+#. module: core
+#: model:ir.model.fields,help:core.field_goods__category_id
+msgid "从会计科目角度划分的类别"
+msgstr "A category from the perspective of a ledger account"
+
+#. module: core
+#: model:ir.model,name:core.model_warehouse
+#: model:ir.model.fields,field_description:core.field_pricing__warehouse_id
+#: model:ir.module.category,name:core.good_warehouse
+msgid "仓库"
+msgstr "Warehouse"
+
+#. module: core
+#: model:ir.model.constraint,message:core.constraint_warehouse_name_uniq
+msgid "仓库不能重名"
+msgstr "Repositories cannot have duplicate names"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_partner__pay_method
+msgid "付款方式"
+msgstr "Payment Method"
+
+#. module: core
+#: model:ir.model,name:core.model_pay_method
+msgid "付款条件"
+msgstr "Payment Terms"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_service__price
+msgid "价格"
+msgstr "Price"
+
+#. module: core
+#: model:ir.module.category,name:core.good_task
+msgid "任务"
+msgstr "Task"
+
+#. module: core
+#: model:ir.module.category,name:core.good_finance
+msgid "会计"
+msgstr "Finance"
+
+#. module: core
+#: model_terms:ir.ui.view,arch_db:core.company_form
+msgid "会计属性"
+msgstr "Accounting properties"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_bank_account__balance
+msgid "余额"
+msgstr "Balance"
+
+#. module: core
+#: model:ir.actions.act_window,name:core.vendor_action
+#: model:ir.model.fields.selection,name:core.selection__core_category__type__supplier
+#: model:ir.model.fields.selection,name:core.selection__warehouse__type__supplier
+#: model_terms:ir.ui.view,arch_db:core.supplier_address_form
+#: model_terms:ir.ui.view,arch_db:core.vendor_search
+#: model_terms:ir.ui.view,arch_db:core.vendor_tree
+msgid "供应商"
+msgstr "Vendor"
+
+#. module: core
+#: model_terms:ir.ui.view,arch_db:core.supplier_address_form
+msgid "供应商名称"
+msgstr "Name of Vendor"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_partner__s_category_id
+#: model_terms:ir.ui.view,arch_db:core.vendor_search
+msgid "供应商类别"
+msgstr "Vendor Category"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_partner__supp_priority
+msgid "供应商重要性"
+msgstr "Vendor Importance"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_partner__credit_limit
+msgid "信用额度"
+msgstr "Credit Limit"
+
+#. module: core
+#: model:ir.model.fields.selection,name:core.selection__goods__cost_method__average
+#: model:ir.model.fields.selection,name:core.selection__res_company__cost_method__average
+msgid "全月一次加权平均法"
+msgstr "Weighted average method once a month"
+
+#. module: core
+#: model:ir.actions.act_window,name:core.company_action
+#: model:ir.model.fields,field_description:core.field_bank_account__company_id
+#: model:ir.model.fields,field_description:core.field_business_data_table__company_id
+#: model:ir.model.fields,field_description:core.field_clean_business_data__company_id
+#: model:ir.model.fields,field_description:core.field_clean_business_log__company_id
+#: model:ir.model.fields,field_description:core.field_core_category__company_id
+#: model:ir.model.fields,field_description:core.field_core_value__company_id
+#: model:ir.model.fields,field_description:core.field_goods__company_id
+#: model:ir.model.fields,field_description:core.field_partner__company_id
+#: model:ir.model.fields,field_description:core.field_pricing__company_id
+#: model:ir.model.fields,field_description:core.field_res_currency__company_id
+#: model:ir.model.fields,field_description:core.field_service__company_id
+#: model:ir.model.fields,field_description:core.field_settle_mode__company_id
+#: model:ir.model.fields,field_description:core.field_staff__company_id
+#: model:ir.model.fields,field_description:core.field_uom__company_id
+#: model:ir.model.fields,field_description:core.field_warehouse__company_id
+#: model:ir.ui.menu,name:core.company_menu
+msgid "公司"
+msgstr "Company"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_partner__share_id
+msgid "共享人员"
+msgstr "Share people"
+
+#. module: core
+#: model:ir.model.fields.selection,name:core.selection__warehouse__type__others
+#: model_terms:ir.ui.view,arch_db:core.customer_address_form
+#: model_terms:ir.ui.view,arch_db:core.supplier_address_form
+msgid "其他"
+msgstr "Other"
+
+#. module: core
+#: model_terms:ir.ui.view,arch_db:core.customer_address_form
+#: model_terms:ir.ui.view,arch_db:core.supplier_address_form
+msgid "其他信息"
+msgstr "Additional Information"
+
+#. module: core
+#: model:ir.model.fields.selection,name:core.selection__core_category__type__other_pay
+msgid "其他支出"
+msgstr "Other expenses"
+
+#. module: core
+#: model:ir.model.fields.selection,name:core.selection__core_category__type__other_get
+msgid "其他收入"
+msgstr "Other Income"
+
+#. module: core
+#: model_terms:ir.ui.view,arch_db:core.customer_address_form
+msgid "具体来源"
+msgstr "Specific sources"
+
+#. module: core
+#: model_terms:ir.ui.view,arch_db:core.core_category_search
+#: model_terms:ir.ui.view,arch_db:core.core_value_search
+#: model_terms:ir.ui.view,arch_db:core.customer_search
+#: model_terms:ir.ui.view,arch_db:core.service_search
+#: model_terms:ir.ui.view,arch_db:core.vendor_search
+msgid "分组"
+msgstr "Group"
+
+#. module: core
+#: model:ir.model.fields,help:core.field_res_company__draft_invoice
+msgid "勾选这里，所有新建的结算单不会自动记账"
+msgstr "Check this box and all new invoices will not be automatically billed"
+
+#. module: core
+#: model:ir.actions.act_window,name:core.uom_action
+#: model_terms:ir.ui.view,arch_db:core.uom_search
+#: model_terms:ir.ui.view,arch_db:core.uom_tree
+msgid "单位"
+msgstr "Unit of Mesure"
+
+#. module: core
+#: model:ir.model.constraint,message:core.constraint_uom_name_uniq
+msgid "单位不能重名"
+msgstr "Units cannot have the same name"
+
+#. module: core
+#: model:ir.actions.act_window,name:core.core_value_action
+#: model:ir.model,name:core.model_core_value
+#: model:ir.ui.menu,name:core.core_value_menu
+#: model_terms:ir.ui.view,arch_db:core.core_value_form
+#: model_terms:ir.ui.view,arch_db:core.core_value_search
+#: model_terms:ir.ui.view,arch_db:core.core_value_tree
+msgid "可选值"
+msgstr "Optional value"
+
+#. module: core
+#: model:ir.model.constraint,message:core.constraint_core_value_name_uniq
+msgid "同类可选值不能重名"
+msgstr "Identical optional values cannot have the same name"
+
+#. module: core
+#: model:ir.model.constraint,message:core.constraint_core_category_name_uniq
+msgid "同类型的类别不能重名"
+msgstr "Categories of the same type cannot have the same name"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_bank_account__name
+#: model:ir.model.fields,field_description:core.field_core_category__name
+#: model:ir.model.fields,field_description:core.field_core_value__name
+#: model:ir.model.fields,field_description:core.field_goods__name
+#: model:ir.model.fields,field_description:core.field_partner__name
+#: model:ir.model.fields,field_description:core.field_pay_method__name
+#: model:ir.model.fields,field_description:core.field_service__name
+#: model:ir.model.fields,field_description:core.field_settle_mode__name
+#: model:ir.model.fields,field_description:core.field_team__name
+#: model:ir.model.fields,field_description:core.field_uom__name
+#: model:ir.model.fields,field_description:core.field_warehouse__name
+msgid "名称"
+msgstr "Name"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_bank_account__active
+#: model:ir.model.fields,field_description:core.field_core_category__active
+#: model:ir.model.fields,field_description:core.field_core_value__active
+#: model:ir.model.fields,field_description:core.field_goods__active
+#: model:ir.model.fields,field_description:core.field_partner__active
+#: model:ir.model.fields,field_description:core.field_pricing__active
+#: model:ir.model.fields,field_description:core.field_service__active
+#: model:ir.model.fields,field_description:core.field_settle_mode__active
+#: model:ir.model.fields,field_description:core.field_uom__active
+#: model:ir.model.fields,field_description:core.field_warehouse__active
+msgid "启用"
+msgstr "Activate"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_res_company__start_date
+msgid "启用日期"
+msgstr "Enabled date"
+
+#. module: core
+#: model:ir.model,name:core.model_staff
+msgid "员工"
+msgstr "Employee"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_goods__brand
+msgid "品牌"
+msgstr "Brand"
+
+#. module: core
+#: model:ir.model,name:core.model_goods
+#: model:ir.model.fields,field_description:core.field_pricing__goods_id
+#: model:ir.model.fields.selection,name:core.selection__core_category__type__goods
+msgid "商品"
+msgstr "goods"
+
+#. module: core
+#: model:ir.model.constraint,message:core.constraint_goods_name_uniq
+msgid "商品不能重名"
+msgstr "Products cannot have the same name"
+
+#. module: core
+#: model:ir.model.fields.selection,name:core.selection__core_category__type__attribute
+msgid "商品属性"
+msgstr "Goods Attributes"
+
+#. module: core
+#: model:ir.model.fields,help:core.field_goods__not_buyable
+msgid "商品是否不可采购，勾选了就不可采购，未勾选可采购"
+msgstr "Whether the goods are not purchasable, if checked, they cannot be purchased, and if they are not checked, they can be purchased"
+
+#. module: core
+#: model:ir.model.fields,help:core.field_goods__not_saleable
+msgid "商品是否不可销售，勾选了就不可销售，未勾选可销售"
+msgstr "Whether the product is not sellable, if it is checked, it cannot be sold, and if it is not checked, it can be sold"
+
+#. module: core
+#: model:ir.model.fields,help:core.field_pricing__discount_rate
+msgid "商品的价格 × 折扣率 = 商品的实际价格"
+msgstr "The price of the item × discount rate = the actual price of the item"
+
+#. module: core
+#: model:ir.model.constraint,message:core.constraint_goods_conversion_no_zero
+msgid "商品的转化率不能为0"
+msgstr "The conversion rate of the item cannot be 0"
+
+#. module: core
+#: model:ir.model.fields,help:core.field_goods__tax_rate
+msgid "商品税率"
+msgstr "Commodity tax rate"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_pricing__goods_category_id
+msgid "商品类别"
+msgstr "Goods Category"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_goods__priority
+msgid "商品重要性"
+msgstr "Commodity Importance"
+
+#. module: core
+#: model:ir.module.category,name:core.good_crm
+msgid "商机"
+msgstr "Business opportunities"
+
+#. module: core
+#: model:ir.model,name:core.model_team
+msgid "团队"
+msgstr "team"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_warehouse__address
+msgid "地址"
+msgstr "Address"
+
+#. module: core
+#: model_terms:ir.ui.view,arch_db:core.customer_address_form
+#: model_terms:ir.ui.view,arch_db:core.supplier_address_form
+msgid "基本信息"
+msgstr "General Information"
+
+#. module: core
+#: model:ir.ui.menu,name:core.config_data_menu
+msgid "基本配置"
+msgstr "General Configuration"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_core_category__note
+#: model:ir.model.fields,field_description:core.field_core_value__note
+#: model:ir.model.fields,field_description:core.field_partner__note
+#: model_terms:ir.ui.view,arch_db:core.customer_address_form
+#: model_terms:ir.ui.view,arch_db:core.supplier_address_form
+msgid "备注"
+msgstr "Note"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_pay_method__add_days
+msgid "天数"
+msgstr "Days"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_goods__cost_method
+#: model:ir.model.fields,field_description:core.field_res_company__cost_method
+msgid "存货计价方法"
+msgstr "Inventory Valuation Method"
+
+#. module: core
+#: model:ir.model,name:core.model_pricing
+msgid "定价策略"
+msgstr "Pricing strategy"
+
+#. module: core
+#: model:ir.model.fields.selection,name:core.selection__goods__cost_method__std
+#: model:ir.model.fields.selection,name:core.selection__res_company__cost_method__std
+msgid "定额成本"
+msgstr "Fixed cost"
+
+#. module: core
+#: model:ir.actions.act_window,name:core.customer_action
+#: model:ir.model.fields.selection,name:core.selection__core_category__type__customer
+#: model:ir.model.fields.selection,name:core.selection__warehouse__type__customer
+#: model_terms:ir.ui.view,arch_db:core.customer_address_form
+#: model_terms:ir.ui.view,arch_db:core.customer_search
+#: model_terms:ir.ui.view,arch_db:core.customer_tree
+msgid "客户"
+msgstr "Customer"
+
+#. module: core
+#: model_terms:ir.ui.view,arch_db:core.customer_address_form
+msgid "客户名称"
+msgstr "Customer name"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_partner__c_category_id
+#: model:ir.model.fields,field_description:core.field_pricing__c_category_id
+#: model_terms:ir.ui.view,arch_db:core.customer_search
+msgid "客户类别"
+msgstr "Customer category"
+
+#. module: core
+#: model:ir.model.fields,help:core.field_partner__credit_limit
+msgid "客户购买商品时，一般本次发货金额+客户应收余额要小于客户信用额度"
+msgstr "When the customer purchases goods, generally the delivery amount + the balance receivable of the customer should be less than the customer's credit limit"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_partner__priority
+msgid "客户重要性"
+msgstr "Customer importance"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_res_users__employee_ids
+msgid "对应员工"
+msgstr "Corresponding Employees"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_staff__user_id
+msgid "对应用户"
+msgstr "Corresponding User"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_partner__recon_day
+msgid "对账日"
+msgstr "Reconciliation Date"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_goods__size
+msgid "尺寸"
+msgstr "Size"
+
+#. module: core
+#: model:ir.model.fields.selection,name:core.selection__warehouse__type__stock
+msgid "库存"
+msgstr "Inventory"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_warehouse__user_ids
+msgid "库管"
+msgstr "Warehouse Keeper"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_partner__payable
+msgid "应付余额"
+msgstr "Balance Payable"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_partner__receivable
+msgid "应收余额"
+msgstr "Balance receivable"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_pricing__active_date
+msgid "开始日期"
+msgstr "Start Date"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_partner__bank_name
+#: model:ir.model.fields,field_description:core.field_res_company__bank_account_id
+msgid "开户行"
+msgstr "Account bank"
+
+#. module: core
+#: model_terms:ir.ui.view,arch_db:core.customer_address_form
+#: model_terms:ir.ui.view,arch_db:core.supplier_address_form
+msgid "开票信息"
+msgstr "Invoicing Information"
+
+#. module: core
+#: model:ir.model.fields,help:core.field_partner__days_qualify
+msgid "当天到资质到期日期的天数差"
+msgstr "The difference in the number of days from the day to the qualification expiration date"
+
+#. module: core
+#: model:res.groups,name:core.nobody_can_see
+msgid "彻底隐藏"
+msgstr "Completely hidden"
+
+#. module: core
+#: model_terms:ir.ui.view,arch_db:core.customer_address_form
+#: model_terms:ir.ui.view,arch_db:core.supplier_address_form
+msgid "往来信息"
+msgstr "Correspondence Information"
+
+#. module: core
+#: model:res.groups,name:core.group_all_manager
+msgid "总经理"
+msgstr "managing director"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_goods__cost
+msgid "成本"
+msgstr "Cost"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_res_users__team_id
+msgid "所属团队"
+msgstr "Belongs to the team"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_pricing__discount_rate
+msgid "折扣率%"
+msgstr "Discount Rate %"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_pricing__name
+msgid "描述"
+msgstr "Description"
+
+#. module: core
+#: model:ir.model.fields,help:core.field_pricing__name
+msgid "描述!"
+msgstr "Description!"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_service__pay_categ_id
+#: model_terms:ir.ui.view,arch_db:core.service_search
+msgid "支出类别"
+msgstr "Expense category"
+
+#. module: core
+#: model:ir.model.fields.selection,name:core.selection__core_category__type__income
+msgid "收入"
+msgstr "Revenue"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_service__get_categ_id
+#: model_terms:ir.ui.view,arch_db:core.service_search
+msgid "收入类别"
+msgstr "Revenue Category"
+
+#. module: core
+#: model:ir.actions.act_window,name:core.service_action
+#: model:ir.model,name:core.model_service
+#: model_terms:ir.ui.view,arch_db:core.service_search
+#: model_terms:ir.ui.view,arch_db:core.service_tree
+msgid "收支项"
+msgstr "Income And Expenditure"
+
+#. module: core
+#: model:ir.actions.act_window,name:core.core_clean_business_data_action
+#: model:ir.ui.menu,name:core.clean_data_menu
+#: model_terms:ir.ui.view,arch_db:core.core_clean_business_data_form
+msgid "数据清理"
+msgstr "Data cleansing"
+
+#. module: core
+#: model_terms:ir.ui.view,arch_db:core.customer_address_form
+#: model_terms:ir.ui.view,arch_db:core.supplier_address_form
+msgid "暂无备注信息"
+msgstr "No Note Available"
+
+#. module: core
+#: model_terms:ir.ui.view,arch_db:core.core_clean_business_data_form
+msgid "最近一次清理人"
+msgstr "The last time to clean up people"
+
+#. module: core
+#: model_terms:ir.ui.view,arch_db:core.core_clean_business_data_form
+msgid "最近一次清理时间"
+msgstr "The most recent cleanup time"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_pay_method__add_months
+msgid "月数"
+msgstr "Number of months"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_partner__source
+msgid "来源"
+msgstr "source"
+
+#. module: core
+#: model_terms:ir.ui.view,arch_db:core.customer_address_form
+msgid "来源渠道"
+msgstr "Source channel"
+
+#. module: core
+#: model:res.groups,name:core.group_mail
+msgid "查看消息"
+msgstr "Review the message"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_partner__tag_ids
+msgid "标签"
+msgstr "Label"
+
+#. module: core
+#: model:ir.model.fields.selection,name:core.selection__core_category__type__finance
+msgid "核算"
+msgstr "Accounting Category"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_goods__category_id
+msgid "核算类别"
+msgstr "Accounting Category"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_res_company__draft_invoice
+msgid "根据发票确认应收应付"
+msgstr "Confirm A/R against invoices"
+
+#. module: core
+#: model:ir.model.fields,help:core.field_core_value__note
+msgid "此字段用于详细描述该可选值的意义，或者使用一些特殊字符作为程序控制的标识"
+msgstr "This field is used to describe in detail the meaning of the optional value, or to use some special characters as an identifier for program control"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_partner__main_address
+msgid "注册地址 电话"
+msgstr "Registered Address Telephone"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_business_data_table__clean_business_id
+#: model:ir.model.fields,field_description:core.field_clean_business_log__clean_business_id
+msgid "清理数据对象"
+msgstr "Clean up data objects"
+
+#. module: core
+#: model:ir.model,name:core.model_clean_business_log
+#: model:ir.model.fields,field_description:core.field_clean_business_data__need_clean_log
+#: model_terms:ir.ui.view,arch_db:core.core_clean_business_data_form
+msgid "清理日志"
+msgstr "Clean up the logs"
+
+#. module: core
+#: model:ir.model,name:core.model_clean_business_data
+msgid "清理记录"
+msgstr "Clean up records"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_partner__channel_id
+msgid "渠道"
+msgstr "channel"
+
+#. module: core
+#: model:ir.model.fields.selection,name:core.selection__warehouse__type__production
+msgid "生产"
+msgstr "produce"
+
+#. module: core
+#: model:res.groups,comment:core.group_mail
+msgid "用于显示【消息】根菜单"
+msgstr "Used to display the Message root menu"
+
+#. module: core
+#: model:res.groups,comment:core.master_groups
+msgid "用于显示【配置】根菜单。建议分配给公司IT部门"
+msgstr "Used to display the Configuration root menu. It is recommended to assign to the company's IT department"
+
+#. module: core
+#: model:res.groups,comment:core.group_all_manager
+msgid "用于显示【首页】根菜单"
+msgstr "Used to display the Home root menu"
+
+#. module: core
+#: model:res.groups,comment:core.service_groups
+msgid "用于显示收支项类商品功能，服务类商品不管理库存数量"
+msgstr "Used to display the function of income and expenditure items, service products do not manage inventory quantity"
+
+#. module: core
+#: model:res.groups,comment:core.settle_mode_groups
+msgid "用于显示结算方式和结算编号"
+msgstr "Used to display the billing method and settlement reference"
+
+#. module: core
+#: model:ir.ui.menu,name:core.users_menu
+#: model_terms:ir.ui.view,arch_db:core.res_users_form_inherit
+#: model_terms:ir.ui.view,arch_db:core.res_users_tree_inherit
+msgid "用户"
+msgstr "User"
+
+#. module: core
+#: model:res.groups,comment:core.nobody_can_see
+msgid "用来隐藏管理员也没必要看到的菜单等...(使用时请慎重)!"
+msgstr "Used to hide menus that administrators do not need to see, etc... (Please use with caution)!"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_warehouse__phone
+msgid "电话"
+msgstr "Phone Number"
+
+#. module: core
+#: model:ir.model.fields.selection,name:core.selection__warehouse__type__inventory
+msgid "盘点"
+msgstr "Inventory Adjustments"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_partner__tax_num
+msgid "税务登记号"
+msgstr "Tax Registration Reference"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_service__tax_rate
+msgid "税率%"
+msgstr "Tax Rate"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_goods__tax_rate
+#: model:ir.model.fields,field_description:core.field_partner__tax_rate
+msgid "税率(%)"
+msgstr "Tax Rate(%)"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_res_company__sign
+msgid "签章"
+msgstr "Signature"
+
+#. module: core
+#: model_terms:ir.ui.view,arch_db:core.customer_address_form
+#: model_terms:ir.ui.view,arch_db:core.supplier_address_form
+msgid "管理信息"
+msgstr "Manage Information"
+
+#. module: core
+#: model:res.groups,name:core.service_groups
+msgid "管理收支项"
+msgstr "Manage Income And Expenditure"
+
+#. module: core
+#: model:res.groups,name:core.settle_mode_groups
+msgid "管理结算方式"
+msgstr "Manage Billing Methods"
+
+#. module: core
+#: model:ir.actions.act_window,name:core.core_category_action
+#: model:ir.model,name:core.model_core_category
+#: model:ir.ui.menu,name:core.core_category_menu
+#: model_terms:ir.ui.view,arch_db:core.core_category_form
+#: model_terms:ir.ui.view,arch_db:core.core_category_search
+#: model_terms:ir.ui.view,arch_db:core.core_category_tree
+msgid "类别"
+msgstr "Category"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_core_category__type
+#: model:ir.model.fields,field_description:core.field_core_value__type
+#: model:ir.model.fields,field_description:core.field_warehouse__type
+#: model_terms:ir.ui.view,arch_db:core.core_category_search
+#: model_terms:ir.ui.view,arch_db:core.core_value_search
+msgid "类型"
+msgstr "Type"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_pricing__deactive_date
+msgid "终止日期"
+msgstr "Termination date"
+
+#. module: core
+#: model:ir.actions.act_window,name:core.settle_mode_action
+#: model:ir.model,name:core.model_settle_mode
+#: model_terms:ir.ui.view,arch_db:core.settle_mode_search
+#: model_terms:ir.ui.view,arch_db:core.settle_mode_tree
+msgid "结算方式"
+msgstr "Billing method"
+
+#. module: core
+#: model:ir.model.constraint,message:core.constraint_settle_mode_name_uniq
+msgid "结算方式不能重名"
+msgstr "The billing method cannot be the same name"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_goods__code
+#: model:ir.model.fields,field_description:core.field_partner__code
+#: model:ir.model.fields,field_description:core.field_warehouse__code
+msgid "编号"
+msgstr "Code"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_warehouse__contact
+msgid "联系人"
+msgstr "Contacts"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_clean_business_data__need_clean_table
+msgid "要清理的业务数据表"
+msgstr "The business data table to clean"
+
+#. module: core
+#: model:ir.model,name:core.model_uom
+#: model:ir.model.fields,field_description:core.field_goods__uom_id
+msgid "计量单位"
+msgstr "Unit of Measure"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_partner__responsible_id
+msgid "负责人员"
+msgstr "Responsible personnel"
+
+#. module: core
+#: model_terms:ir.ui.view,arch_db:core.customer_address_form
+#: model_terms:ir.ui.view,arch_db:core.supplier_address_form
+msgid "财务信息"
+msgstr "Financial Information"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_bank_account__num
+msgid "账号"
+msgstr "Account"
+
+#. module: core
+#: model:ir.actions.act_window,name:core.bank_account_action
+#: model:ir.model,name:core.model_bank_account
+#: model_terms:ir.ui.view,arch_db:core.bank_account_search
+#: model_terms:ir.ui.view,arch_db:core.bank_account_tree
+msgid "账户"
+msgstr "Account"
+
+#. module: core
+#: model:ir.model.constraint,message:core.constraint_bank_account_name_uniq
+msgid "账户不能重名"
+msgstr "Accounts Cannot Have The Same Name"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_partner__days_qualify
+msgid "资质到期天数"
+msgstr "Number of days to expire"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_partner__date_qualify
+msgid "资质到期日期"
+msgstr "Qualification Expiration Date"
+
+#. module: core
+#: model:ir.module.category,name:core.good_money
+msgid "资金"
+msgstr "Money"
+
+#. module: core
+#: model_terms:ir.ui.view,arch_db:core.customer_address_form
+msgid "转为供应商"
+msgstr "Switch to a Vendor"
+
+#. module: core
+#: model_terms:ir.ui.view,arch_db:core.supplier_address_form
+msgid "转为客户"
+msgstr "Turn into a customer"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_goods__conversion
+msgid "转化率"
+msgstr "Conversion Rate"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_goods__uos_id
+msgid "辅助单位"
+msgstr "Auxiliary Unit of Measure"
+
+#. module: core
+#: model:ir.ui.menu,name:core.setting_menu
+#: model:res.groups,name:core.master_groups
+msgid "配置"
+msgstr "Configuration"
+
+#. module: core
+#: model:ir.model.fields.selection,name:core.selection__core_category__type__expense
+#: model:ir.module.category,name:core.good_buy
+msgid "采购"
+msgstr "Purchase"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_partner__bank_num
+msgid "银行账号"
+msgstr "Account"
+
+#. module: core
+#: model:ir.module.category,name:core.good_sell
+msgid "销售"
+msgstr "Sale"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_team__member_ids
+msgid "队员"
+msgstr "Players"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_team__leader_id
+msgid "队长"
+msgstr "captain"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_business_data_table__model
+msgid "需要清理的表"
+msgstr "Tables that need to be cleaned up"
+
+#. module: core
+#: model:ir.ui.menu,name:core.system_menu
+msgid "高级配置"
+msgstr "Advanced configuration"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_res_company__import_tax_rate
+msgid "默认进项税税率"
+msgstr "Default purchase tax rate"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_res_company__output_tax_rate
+msgid "默认销项税税率"
+msgstr "Default output tax rate"

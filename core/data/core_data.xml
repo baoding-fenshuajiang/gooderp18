@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <!-- 系统里都是按 name 字符串搜索的，所以千万不要修改name -->
+        <record id='decimal_quantity' model="decimal.precision">
+            <field name="name">Quantity</field>
+            <field name="digits" eval="0"/>
+        </record>
+        <record id='decimal_amount' model="decimal.precision">
+            <field name="name">Amount</field>
+            <field name="digits" eval="2"/>
+        </record>
+        <record id='decimal_price' model="decimal.precision">
+            <field name="name">Price</field>
+            <field name="digits" eval="2"/>
+        </record>
+        <record id="warehouse_general" model="warehouse">
+            <field name="name">主仓库</field>
+            <field name="code">General</field>
+            <field name='type'>stock</field>
+        </record>
+        <record id='main_pay_method' model="pay.method">
+            <field name="name">月结15天</field>
+            <field name="add_months" eval="1"/>
+            <field name="add_days" eval="15"/>
+        </record>
+        <record id='pay_on_the_nail_pay_method' model="pay.method">
+            <field name="name">立即支付</field>
+            <field name="add_months" eval="0"/>
+            <field name="add_days" eval="0"/>
+        </record>
+        <record id="base.main_company" model="res.company">
+            <field name="currency_id" ref="base.CNY" />
+            <field name='cost_method'>average</field>
+            <field name="logo" type="base64" file="core/static/description/logo.png"/>
+        </record>
+    </data>
+</odoo>

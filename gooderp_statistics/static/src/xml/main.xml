@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+    <t t-inherit="web.ErrorDialog" t-inherit-mode="extension">
+        <xpath expr="//t[@t-set-slot='footer']" position="inside">
+            <div>
+                <a href="https://t.zsxq.com/181ah4Sy8" target="_blank">向作者求助</a>
+            </div>
+        </xpath>
+    </t>
+    <t t-inherit="web.WarningDialog" t-inherit-mode="extension">
+        <xpath expr="//t[@t-set-slot='footer']" position="inside">
+            <div>
+                <a href="https://t.zsxq.com/181ah4Sy8" target="_blank">向作者求助</a>
+            </div>
+        </xpath>
+    </t>
+    <t t-inherit="web.RedirectWarningDialog" t-inherit-mode="extension">
+        <xpath expr="//t[@t-set-slot='footer']" position="inside">
+            <div>
+                <a href="https://t.zsxq.com/181ah4Sy8" target="_blank">向作者求助</a>
+            </div>
+        </xpath>
+    </t>
+</templates>

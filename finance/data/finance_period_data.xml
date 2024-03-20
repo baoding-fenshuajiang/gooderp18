@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<odoo>
+    <data  noupdate="1">
+        <!--创建系统启用日期所属会计期间-->
+        <function model="finance.period" name="init_period"/>
+    </data>
+</odoo>

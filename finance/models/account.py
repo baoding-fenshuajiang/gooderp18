@@ -18,7 +18,7 @@ class FinanceAccountType(models.Model):
     _rec_name = 'name'
     _order = 'name ASC'
 
-    name = fields.Char('名称', required="1")
+    name = fields.Char('名称', required=True)
     active = fields.Boolean(string='启用', default="True")
     costs_types = fields.Selection([
         ('assets', '资产'),
@@ -27,7 +27,7 @@ class FinanceAccountType(models.Model):
         ('in', '收入类'),
         ('out', '费用类'),
         ('cost', '成本类'),
-    ], '类型', required="1", help='用于会计报表的生成。')
+    ], '类型', required=True, help='用于会计报表的生成。')
 
 
 class FinanceAccount(models.Model):
@@ -119,10 +119,10 @@ class FinanceAccount(models.Model):
 
         return data
 
-    name = fields.Char('名称', required="1")
-    code = fields.Char('编码', required="1")
+    name = fields.Char('名称', required=True)
+    code = fields.Char('编码', required=True)
     balance_directions = fields.Selection(
-        BALANCE_DIRECTIONS_TYPE, '余额方向', required="1",
+        BALANCE_DIRECTIONS_TYPE, '余额方向', required=True,
         help='根据科目的类型，判断余额方向是借方或者贷方！')
     auxiliary_financing = fields.Selection(
         [('customer', '客户'),
@@ -575,6 +575,6 @@ class CoreCategory(models.Model):
 
     account_id = fields.Many2one(
         'finance.account',
-        '科目', required=True,
+        '科目',
         help='科目',
         domain="[('account_type','=','normal')]")

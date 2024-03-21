@@ -7,6 +7,7 @@
     "author": '上海开阖软件有限公司',
     "website": "http://www.gooderp.org",
     "category": "gooderp",
+    "license": "AGPL-3",
     "description": """
     """,
     "depends": ['web'],

@@ -12,6 +12,7 @@
             "开阖软件, "
             "信莱德软件"
             "JET<1150252397@qq.com>"
+            "保定-粉刷匠<992102498@qq.com>"
     ,
     'description':
     '''
@@ -41,7 +42,12 @@ word模板报表引擎
         'demo/report.xml',
     ],
     'assets': {
-        'web.assets_backend': [
+        # 'web.assets_backend': [
+        #     ('remove', 'report_docx/static/src/js/tools.esm.js'),
+        #     ('remove', 'report_docx/static/src/js/report.esm.js'),
+        #     ('remove', 'report_docx/static/src/js/actionmanager.js'),
+        # ],
+        'web.assets_backend_lazy': [
             'report_docx/static/src/js/tools.esm.js',
             'report_docx/static/src/js/report.esm.js',
             'report_docx/static/src/js/actionmanager.js',

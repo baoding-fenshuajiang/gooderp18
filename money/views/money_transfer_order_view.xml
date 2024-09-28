@@ -6,12 +6,12 @@
             <field name="name">money.transfer.order.tree</field>
             <field name="model">money.transfer.order</field>
             <field name="arch" type="xml">
-                <tree string="资金转账单" decoration-info='state == "draft"' decoration-muted= 'state == "cancel"' >
+                <list string="资金转账单" decoration-info='state == "draft"' decoration-muted= 'state == "cancel"' >
                     <field name="name"/>
                     <field name="date"/>
                     <field name="transfer_amount"/>
                     <field name="state"/>
-                </tree>
+                </list>
             </field>
         </record>
 
@@ -41,7 +41,7 @@
                             </group>
                         </group>
                         <field name="line_ids">
-                            <tree string="Money Transfer Order Lines" editable="bottom">
+                            <list string="Money Transfer Order Lines" editable="bottom">
                                 <field name="out_bank_id" optional="show"/>
                                 <field name="in_bank_id" optional="show"/>
                                 <field name="currency_amount" sum="外币合计"
@@ -50,7 +50,7 @@
                                 <field name="mode_id" groups='core.settle_mode_groups' optional="show"/>
                                 <field name="number" groups='core.settle_mode_groups' optional="show"/>
                                 <field name="note" optional="show"/>
-                            </tree>
+                            </list>
                         </field>
                         <field name="note"  placeholder="备注信息……"/>
                     </sheet>
@@ -85,7 +85,7 @@
             <field name="name">资金转账单</field>
             <field name="type">ir.actions.act_window</field>
             <field name="res_model">money.transfer.order</field>
-            <field name="view_mode">tree,form</field>
+            <field name="view_mode">list,form</field>
             <field name="help" type="html">
                 <p class="oe_view_nocontent_create">
                     点击创建资金转账单

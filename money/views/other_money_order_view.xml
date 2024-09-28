@@ -6,7 +6,7 @@
             <field name="name">other.money.order.tree</field>
             <field name="model">other.money.order</field>
             <field name="arch" type="xml">
-                <tree string="其他收支单" decoration-info='state == "draft"' decoration-muted= 'state == "cancel"' >
+                <list string="其他收支单" decoration-info='state == "draft"' decoration-muted= 'state == "cancel"' >
                     <field name="name" optional="show"/>
                     <field name="date" optional="show"/>
                     <field name="partner_id" optional="show"/>
@@ -15,7 +15,7 @@
                     <field name="state" optional="show"/>
                     <field name="note" optional="show"/>
                     <field name="is_init" invisible="1" optional="show"/>
-                </tree>
+                </list>
             </field>
         </record>
 
@@ -55,7 +55,7 @@
                         </group>
                     </group>
                     <field name="line_ids" context="{'order_type': type}">
-                    	<tree string="其他收支单明细" editable="bottom">
+                    	<list string="其他收支单明细" editable="bottom">
                     		<field name="service" groups="core.service_groups" optional="show"/>
 							<field name="category_id" required="1" domain="[('type', '=', parent.type)]" optional="show"/>
                     		<field name="account_id" optional="show"/>
@@ -64,7 +64,7 @@
                             <field name="tax_rate" groups="money.tax_groups" optional="show"/>
                             <field name="tax_amount" groups="money.tax_groups" sum="合计" optional="show"/>
                             <field name="note" optional="show"/>
-                       </tree>
+                       </list>
                     </field>
                     <group>
                     	<group>
@@ -109,7 +109,7 @@
             <field name="name">其他收入单</field>
             <field name="type">ir.actions.act_window</field>
             <field name="res_model">other.money.order</field>
-            <field name="view_mode">tree,form</field>
+            <field name="view_mode">list,form</field>
             <field  name='context'>{'type':'other_get'}</field>
             <field name="domain">[('type','=','other_get')]</field>
             <field name="help" type="html">
@@ -124,7 +124,7 @@
             <field name="name">其他支出单</field>
             <field name="type">ir.actions.act_window</field>
             <field name="res_model">other.money.order</field>
-            <field name="view_mode">tree,form</field>
+            <field name="view_mode">list,form</field>
             <field  name='context'>{'type':'other_pay'}</field>
             <field name="domain">[('type','=','other_pay')]</field>
             <field name="help" type="html">

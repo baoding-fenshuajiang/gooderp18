@@ -67,10 +67,10 @@ class PartnerStatementsReportWizard(models.TransientModel):
             # 浏览器格式
             return {
                 'name': name,
-                'view_mode': 'tree',
+                'view_mode': 'list',
                 'res_model': res_model,
                 'view_id': False,
-                'views': [(view.id, 'tree')],
+                'views': [(view.id, 'list')],
                 'limit': 65535,
                 'type': 'ir.actions.act_window',
                 'target': 'main',
@@ -188,10 +188,10 @@ class PartnerStatementsReportWizard(models.TransientModel):
 
                 return {
                     'name': u'客户对账单:' + s.partner_id.name,
-                    'view_mode': 'tree',
+                    'view_mode': 'list',
                     'res_model': 'customer.statements.report.with.goods',
                     'view_id': False,
-                    'views': [(view.id, 'tree')],
+                    'views': [(view.id, 'list')],
                     'limit': 65535,
                     'type': 'ir.actions.act_window',
                     'target': 'main',
@@ -246,10 +246,10 @@ class PartnerStatementsReportWizard(models.TransientModel):
 
                 return {
                     'name': u'供应商对账单:' + s.partner_id.name,
-                    'view_mode': 'tree',
+                    'view_mode': 'list',
                     'res_model': 'supplier.statements.report.with.goods',
                     'view_id': False,
-                    'views': [(view.id, 'tree')],
+                    'views': [(view.id, 'list')],
                     'limit': 65535,
                     'type': 'ir.actions.act_window',
                     'target': 'main',

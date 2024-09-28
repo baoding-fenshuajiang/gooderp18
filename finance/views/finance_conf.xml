@@ -28,15 +28,15 @@
         <record id="view_finance_account_type_tree" model="ir.ui.view">
             <field name="name">view.finance.account.type.tree</field>
             <field name="model">finance.account.type</field>
-            <field name="type">tree</field>
+            <field name="type">list</field>
             <field name="mode">primary</field>
             <field name="priority" eval="16" />
             <field name="active" eval="True" />
             <field name="arch" type="xml">
-                <tree string="finance_account_type_tree" create="false" delete="false" edit="false">
+                <list string="finance_account_type_tree" create="false" delete="false" edit="false">
                     <field name="name" />
                     <field name="costs_types" />
-                </tree>
+                </list>
             </field>
         </record>
         <!-- Form view for "finance.account.type" -->
@@ -69,7 +69,7 @@
             <field name="name">finance.account.tree</field>
             <field name="model">finance.account</field>
             <field name="arch" type="xml">
-                <tree editable="top" string="科目" decoration-info="account_type == 'view'" create="1">
+                <list editable="top" string="科目" decoration-info="account_type == 'view'" create="1">
                     <button name="button_add_child" string="增加下级科目" type="object" class="oe_highlight" invisible="context.get('hide_button',True)"/>
                     <field name="code" readonly="1" optional="show"/>
                     <field name="name" optional="show"/>
@@ -83,7 +83,7 @@
                     <field name="currency_id" optional="show"/>
                     <field name="exchange" optional="show"/>
                     <field name='active'  invisible='1' optional="show"/>
-                </tree>
+                </list>
             </field>
         </record>
         <record id="finance_account_form" model="ir.ui.view">
@@ -126,7 +126,7 @@
             <field name="res_model">finance.account</field>
             <field name="type">ir.actions.act_window</field>
             
-            <field name="view_mode">tree</field>
+            <field name="view_mode">list</field>
             <field name="context">{'modify_from_webclient':True, 'hide_button':False}</field>
         </record>
 
@@ -137,7 +137,7 @@
             <field name="name">finance.account.tree</field>
             <field name="model">finance.account</field>
             <field name="arch" type="xml">
-                <tree editable="top" string="科目" decoration-info="account_type == 'view'" create="0" delete="0" duplicate="0">
+                <list editable="top" string="科目" decoration-info="account_type == 'view'" create="0" delete="0" duplicate="0">
                     <field name="code" readonly="1" optional="show"/>
                     <field name="name" readonly="1" optional="show"/>
                     <field name="level"  optional="show"/>
@@ -149,7 +149,7 @@
                     <field name="restricted_credit"  optional="show"/>
                     <field name="restrict_credit_msg" required= "restricted_credit" optional="show"/>
 
-                </tree>
+                </list>
             </field>
         </record>
 
@@ -171,7 +171,7 @@
             <field name="res_model">finance.account</field>
             <field name="type">ir.actions.act_window</field>
             
-            <field name="view_mode">tree</field>
+            <field name="view_mode">list</field>
             <field name="search_view_id" ref="finance_account_restricted_search" />
             <field name="view_id" ref="finance_account_restricted_tree"/>
         </record>
@@ -239,12 +239,12 @@
             <field name="name">auxiliary.financing.tree</field>
             <field name="model">auxiliary.financing</field>
             <field name="arch" type="xml">
-                <tree editable="top" string="辅助核算">
+                <list editable="top" string="辅助核算">
                     <field name="code" />
                     <field name="name" />
                     <field name="type" />
                     <field name='active' invisible='1' />
-                </tree>
+                </list>
             </field>
         </record>
 
@@ -266,7 +266,7 @@
             <field name="res_model">auxiliary.financing</field>
             <field name="type">ir.actions.act_window</field>
             
-            <field name="view_mode">tree</field>
+            <field name="view_mode">list</field>
         </record>
 
         <menuitem id='auxiliary_financing_menu' action='auxiliary_financing_action' parent='finance_setting_menu' sequence='30'/>       
@@ -276,12 +276,12 @@
             <field name="name">finance.period.tree</field>
             <field name="model">finance.period</field>
             <field name="arch" type="xml">
-                <tree editable="top" delete='false' string="会计期间">
+                <list editable="top" delete='false' string="会计期间">
                     <field name="name"/>
                     <field name="year" readonly="is_closed"/>
                     <field name="month" readonly="is_closed"/>
                     <field name="is_closed" readonly='1'/>
-                </tree>
+                </list>
             </field>
         </record>
         <record id="period_form" model="ir.ui.view">
@@ -321,7 +321,7 @@
             <field name="res_model">finance.period</field>
             <field name="type">ir.actions.act_window</field>
             
-            <field name="view_mode">tree</field>
+            <field name="view_mode">list</field>
         </record>
         <menuitem id='period_menu' action='period_action' parent='finance_setting_menu' sequence='10'/>
     </data>

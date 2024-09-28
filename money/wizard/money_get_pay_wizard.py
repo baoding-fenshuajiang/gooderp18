@@ -54,10 +54,10 @@ class MoneyGetPayWizard(models.Model):
 
         return {
             'name': u'资金收支报表',
-            'view_mode': 'tree',
+            'view_mode': 'list',
             'res_model': 'money.get.pay.report',
             'view_id': False,
-            'views': [(view.id, 'tree')],
+            'views': [(view.id, 'list')],
             'limit': 65535,
             'type': 'ir.actions.act_window',
             'target': 'main',

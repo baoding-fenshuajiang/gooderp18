@@ -58,7 +58,7 @@
                         <notebook>
                             <page string="凭证明细" >
                                 <field name="line_ids" context="{'line_ids':line_ids}">
-                                    <tree editable='bottom'>
+                                    <list editable='bottom'>
                                         <field name='name' optional="show"/>
                                         <field name='account_id'  options="{'no_create': True}"
                                                context="{'show_balance':False}"
@@ -78,7 +78,7 @@
                                         <field name='debit' sum='借方合计' optional="show"/>
                                         <field name='credit' sum='贷方合计' optional="show"/>
                                         <field name='init_obj' invisible="1" optional="show"/>
-                                    </tree>
+                                    </list>
                                 </field>
                             </page>
                         </notebook>
@@ -97,7 +97,7 @@
             <field name="name">voucher.tree</field>
             <field name="model">voucher</field>
             <field name="arch" type="xml">
-                <tree string="会计凭证" decoration-info="state=='draft'" decoration-muted="state=='cancel'">
+                <list string="会计凭证" decoration-info="state=='draft'" decoration-muted="state=='cancel'">
                     <field name="period_id" optional="show"/>
                     <field name="name" optional="show"/>
                     <field name="date" optional="show"/>
@@ -105,7 +105,7 @@
                     <field name="details" widget="html" optional="show"/>
                     <field name="state" invisible="1"  optional="show"/>
                     <field name="is_init" invisible="1"  optional="show"/>
-                </tree>
+                </list>
             </field>
         </record>
 
@@ -114,7 +114,7 @@
             <field name="res_model">voucher</field>
             <field name="type">ir.actions.act_window</field>
             
-            <field name="view_mode">tree,form</field>
+            <field name="view_mode">list,form</field>
             <field name="context">{'entry_manual': True, }</field>
         </record>
 
@@ -156,7 +156,7 @@
             <field name="name">voucher.line.tree</field>
             <field name="model">voucher.line</field>
             <field name="arch" type="xml">
-                <tree string='分录查询' decoration-info="state=='draft'" decoration-muted="state=='cancel'" create="false" edit='false'>
+                <list string='分录查询' decoration-info="state=='draft'" decoration-muted="state=='cancel'" create="false" edit='false'>
                     <field name='date' optional="show"/>
                     <field name='period_id' optional="show"/>
                     <field name='voucher_id' optional="show"/>
@@ -178,7 +178,7 @@
                     	optional="show"/>
                     <field name='state' optional="show"/>
                     <field name='init_obj' invisible="1" optional="show"/>
-                </tree>
+                </list>
             </field>
         </record>
 
@@ -211,7 +211,7 @@
             <field name="res_model">voucher.line</field>
             <field name="type">ir.actions.act_window</field>
             
-            <field name="view_mode">tree,graph,pivot</field>
+            <field name="view_mode">list,graph,pivot</field>
         </record>
 
         <menuitem id='voucher_line_menu' action='voucher_line_action' parent='voucher_books_menu' sequence='10' />
@@ -220,12 +220,12 @@
             <field name="name">change.voucher.name.tree</field>
             <field name="model">change.voucher.name</field>
             <field name="arch" type="xml">
-				<tree string='凭证变更记录' create='0'>
+				<list string='凭证变更记录' create='0'>
                     <field name="period_id" optional="show"/>
                     <field name="before_voucher_name" optional="show"/>
                     <field name="after_voucher_name" optional="show"/>
                     <field name="write_date" string="变更日期" optional="show"/>
-				</tree>
+				</list>
 			</field>
         </record>
 
@@ -234,7 +234,7 @@
             <field name="res_model">change.voucher.name</field>
             <field name="type">ir.actions.act_window</field>
             
-            <field name="view_mode">tree</field>
+            <field name="view_mode">list</field>
         </record>
 
         <menuitem id='chang_voucher_name_menu_finance' name="月末凭证变更记录"

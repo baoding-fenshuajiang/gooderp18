@@ -38,10 +38,10 @@ class PartnerStatementsReportWizard(models.Model):
 
         return {
             'name': u'现金银行报表:' + self.bank_id.name,
-            'view_mode': 'tree',
+            'view_mode': 'list',
             'res_model': 'bank.statements.report',
             'view_id': False,
-            'views': [(view.id, 'tree')],
+            'views': [(view.id, 'list')],
             'limit': 65535,
             'type': 'ir.actions.act_window',
             'target': 'main',

@@ -6,7 +6,7 @@
             <field name="name">trial.balance.tree</field>
             <field name="model">trial.balance</field>
             <field name="arch" type="xml">
-                <tree string="科目余额表" decoration-info="account_type=='view'" default_order='subject_name_id'>
+                <list string="科目余额表" decoration-info="account_type=='view'" default_order='subject_name_id'>
                     <field name="period_id"/>
                     <field name="subject_code"/>
                     <field name="subject_name_id"/>
@@ -18,14 +18,14 @@
                     <field name="current_occurrence_credit"/>
                     <field name="ending_balance_debit"/>
                     <field name="ending_balance_credit"/>
-                </tree>
+                </list>
             </field>
         </record>
         <record id="init_balance_tree" model="ir.ui.view">
             <field name="name">initial.balance.form</field>
             <field name="model">trial.balance</field>
             <field name="arch" type="xml">
-                <tree string="科目余额表" decoration-info="account_type=='view'" default_order='subject_name_id'>
+                <list string="科目余额表" decoration-info="account_type=='view'" default_order='subject_name_id'>
                 	<field name="period_id"/>
                     <field name="subject_code"/>
                     <field name="subject_name_id"/>
@@ -38,7 +38,7 @@
                     <field name="cumulative_occurrence_credit" />
                     <field name="ending_balance_debit" />
                     <field name="ending_balance_credit" />
-                </tree>
+                </list>
             </field>
         </record>
 
@@ -65,7 +65,7 @@
             <field name="res_model">trial.balance</field>
             <field name="type">ir.actions.act_window</field>
             
-            <field name="view_mode">tree</field>
+            <field name="view_mode">list</field>
         </record>
         <record id="create_trial_balance_wizard_form" model="ir.ui.view">
             <field name="name">create.trial.balance.wizard.form</field>
@@ -217,7 +217,7 @@
             <field name="name">trial.balance.form</field>
             <field name="model">vouchers.summary</field>
             <field name="arch" type="xml">
-                <tree string="科目明细账" create="false" edit='false'>
+                <list string="科目明细账" create="false" edit='false'>
                     <field name="date" optional="show"/>
                     <field name="period_id" optional="show"/>
                     <field name="voucher_id" optional="show"/>
@@ -227,7 +227,7 @@
                     <field name="credit"  optional="show"/>
                      <field name="direction" optional="show"/>
                     <field name="balance" optional="show"/>
-                </tree>
+                </list>
             </field>
         </record>
 
@@ -254,7 +254,7 @@
             <field name="res_model">vouchers.summary</field>
             <field name="type">ir.actions.act_window</field>
             
-            <field name="view_mode">tree</field>
+            <field name="view_mode">list</field>
         </record>
 
         <record id="create_ledger_account_action" model="ir.actions.act_window">
@@ -269,14 +269,14 @@
             <field name="name">general_ledger_account_tree</field>
             <field name="model">general.ledger.account</field>
             <field name="arch" type="xml">
-                <tree string="科目总账" create="false" edit='false'>
+                <list string="科目总账" create="false" edit='false'>
                     <field name="period_id" optional="show"/>
                     <field name="summary" optional="show"/>
                     <field name="debit" optional="show"/>
                     <field name="credit"  optional="show"/>
                      <field name="direction" optional="show"/>
                     <field name="balance" optional="show"/>
-                </tree>
+                </list>
             </field>
         </record>
 
@@ -300,7 +300,7 @@
             <field name="res_model">general.ledger.account</field>
             <field name="type">ir.actions.act_window</field>
             
-            <field name="view_mode">tree</field>
+            <field name="view_mode">list</field>
         </record>
      <menuitem id='create_general_ledger_account_menu' action='create_ledger_account_action' parent='voucher_books_menu' sequence='60' name="科目总账"/>
      <menuitem id='create_vouchers_summary_menu' action='create_vouchers_summary_wizard_action' parent='voucher_books_menu' sequence='50' name="科目明细账"/>

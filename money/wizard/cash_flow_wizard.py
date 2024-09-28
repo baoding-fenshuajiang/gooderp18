@@ -149,11 +149,11 @@ class CashFlowWizard(models.TransientModel):
         return {
             'type': 'ir.actions.act_window',
             'name': u'现金流量表：' + self.period_id.name,
-            'view_mode': 'tree',
+            'view_mode': 'list',
             'res_model': 'cash.flow.statement',
             'target': 'main',
             'view_id': False,
-            'views': [(view_id, 'tree')],
+            'views': [(view_id, 'list')],
             'context': {'period_id': self.period_id.id, 'attachment_information': attachment_information},
             'domain': [('id', 'in', rep_ids)],
             'limit': 65535,

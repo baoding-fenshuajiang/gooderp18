@@ -26,7 +26,7 @@
             <field name="name">money.order.tree</field>
             <field name="model">money.order</field>
             <field name="arch" type="xml">
-                <tree string="收付款单" decoration-info='state == "draft"' decoration-muted= 'state == "cancel"' >
+                <list string="收付款单" decoration-info='state == "draft"' decoration-muted= 'state == "cancel"' >
                     <field name="name" string="单据编号" optional="show"/>
                     <field name="date" optional="show"/>
                     <field name="partner_id" optional="show"/>
@@ -35,7 +35,7 @@
                     <field name="to_reconcile" sum="未核销总额" optional="show"/>
                     <button name="create_reconcile" type='object' string="核销"
                             invisible="to_reconcile==0"/>
-                </tree>
+                </list>
             </field>
         </record>
 
@@ -76,7 +76,7 @@
                         </group>
                        <group>
                             <field name="line_ids" nolabel="1" colspan='2'>
-                                <tree string="Money Order Lines" editable="bottom">
+                                <list string="Money Order Lines" editable="bottom">
                                     <field name="bank_id" optional="show"/>
                                     <field name="amount" sum="合计" optional="show"/>
                                     <field name="currency_id"
@@ -84,13 +84,13 @@
                                     <field name="mode_id" groups='core.settle_mode_groups' optional="show"/>
                                     <field name="number" groups='core.settle_mode_groups' optional="show"/>
                                     <field name="note" optional="show"/>
-                            </tree>
+                            </list>
                             </field>
                         </group>
                     </group>
                     <button name="write_off_reset" invisible="state!='draft'" string="核销行金额清零" type="object" class="oe_right"/>
                     <field name="source_ids" groups='money.reconcile_groups'>
-						<tree string="Source Order Lines" create="false" editable="bottom">
+						<list string="Source Order Lines" create="false" editable="bottom">
                     		<field name="name" readonly='1' force_save="1" optional="show"/>
                     		<field name="category_id" readonly='1' force_save="1" optional="show"/>
                             <field name="date" readonly='1' force_save="1" optional="hide"/>
@@ -100,7 +100,7 @@
                             <field name="reconciled" readonly='1' sum="合计" force_save="1" optional="show"/>
                             <field name="to_reconcile" readonly='1' sum="合计" force_save="1" optional="show"/>
                             <field name="this_reconcile" sum="合计" optional="show"/>
-                       </tree>
+                       </list>
                     </field>
 	                <field name="note"  placeholder="备注信息……"/>
 	                <group>
@@ -161,7 +161,7 @@
             <field name="name">收款单</field>
             <field name="type">ir.actions.act_window</field>
             <field name="res_model">money.order</field>
-            <field name="view_mode">tree,form,graph</field>
+            <field name="view_mode">list,form,graph</field>
             <field  name='context'>{'type':'get', 'default_get': 1, 'default_pay': 0}</field>
             <field name="domain">[('type','=','get')]</field>
             <field name="help" type="html">
@@ -176,7 +176,7 @@
             <field name="name">付款单</field>
             <field name="type">ir.actions.act_window</field>
             <field name="res_model">money.order</field>
-            <field name="view_mode">tree,form</field>
+            <field name="view_mode">list,form</field>
             <field  name='context'>{'type':'pay', 'default_get': 0, 'default_pay': 1}</field>
             <field name="domain">[('type','=','pay')]</field>
             <field name="help" type="html">
@@ -191,7 +191,7 @@
             <field name="name">money.invoice.tree</field>
             <field name="model">money.invoice</field>
             <field name="arch" type="xml">
-                <tree string="结算单" editable='top' create="false" delete="false">
+                <list string="结算单" editable='top' create="false" delete="false">
                     <field name="state" invisible="1" optional="show"/>
                     <field name="date" readonly="1" optional="show"/>
                     <field name="name" readonly="1" optional="show"/>
@@ -218,7 +218,7 @@
                     <field name="overdue_days" readonly="1"  optional="show"/>
                     <field name="overdue_amount" sum="逾期金额" readonly="1" optional="show"/>
                     <field name="is_init" invisible="1" optional="show"/>
-                </tree>
+                </list>
             </field>
         </record>
 
@@ -228,7 +228,7 @@
             <field name="model">money.invoice</field>
             <field name="priority">17</field>
             <field name="arch" type="xml">
-                <tree string="结算单" decoration-info='state == "draft"'>
+                <list string="结算单" decoration-info='state == "draft"'>
                     <field name="state" invisible="1" optional="show"/>
                     <field name="date" readonly="1" optional="show"/>
                     <field name="name" readonly="1" optional="show"/>
@@ -249,7 +249,7 @@
                     <field name="note" optional="hide"/>
                     <field name="overdue_days" readonly="1"  optional="show"/>
                     <field name="overdue_amount" sum="逾期金额" readonly="1" optional="show"/>
-                </tree>
+                </list>
             </field>
         </record>
 
@@ -359,7 +359,7 @@
             <field name="type">ir.actions.act_window</field>
             <field name="view_id" ref="money_invoice_tree"/>
             <field name="res_model">money.invoice</field>
-            <field name="view_mode">tree,pivot</field>
+            <field name="view_mode">listpivot</field>
         </record>
 
         <!-- 查看结算单， 用于客户上的按钮显示未核销发票 -->
@@ -367,7 +367,7 @@
             <field name="name">money.invoice.tree</field>
             <field name="model">money.invoice</field>
             <field name="arch" type="xml">
-                <tree string="欠款记录" create="false" delete="false">
+                <list string="欠款记录" create="false" delete="false">
                     <field name="date"/>
                     <field name="name"/>
                     <button name="find_source_order" type="object" string="查看原始单据" icon="fa-search" 
@@ -384,7 +384,7 @@
                     <field name="invoice_date"/>
                     <field name="note" />
                     <field name="is_init" invisible="1"/>
-                </tree>
+                </list>
             </field>
         </record>
 
@@ -393,7 +393,7 @@
             <field name="type">ir.actions.act_window</field>
             <field name="view_id" ref="money_invoice_mini_tree"/>
             <field name="res_model">money.invoice</field>
-            <field name="view_mode">tree</field>
+            <field name="view_mode">list</field>
         </record>
 
         <!-- 手工结算单 action -->
@@ -403,10 +403,10 @@
             <field name="res_model">money.invoice</field>
             <field name="domain">[('handwork', '=', True)]</field>
             <field name="context">{'default_handwork':True}</field>
-            <field name="view_mode">tree,form</field>
+            <field name="view_mode">list,form</field>
             <field name="view_ids"
                eval="[(5, 0, 0),
-                      (0, 0, {'view_mode': 'tree', 'view_id': ref('money_handwork_invoice_tree')}),
+                      (0, 0, {'view_mode': 'list', 'view_id': ref('money_handwork_invoice_tree')}),
                       (0, 0, {'view_mode': 'form', 'view_id': ref('money_handwork_invoice_form')}),
                       ]"/>
         </record>

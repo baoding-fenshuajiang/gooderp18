@@ -6,7 +6,7 @@
             <field name="name">bank.statements.report.tree</field>
             <field name="model">bank.statements.report</field>
             <field name="arch" type="xml">
-                <tree string="Bank Statements Report">
+                <list string="Bank Statements Report">
                 	<field name="date" optional="show"/>
                     <field name="name" optional="show"/>
                     <button name="find_source_order" type="object" string="查看原始单据" icon="fa-search"/>
@@ -15,7 +15,7 @@
                     <field name="pay" sum="支出" optional="show"/>
                     <field name="balance" optional="show"/>
                     <field name="note" optional="show"/>
-                </tree>
+                </list>
             </field>
         </record>
 	</data>

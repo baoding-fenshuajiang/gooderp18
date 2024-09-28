@@ -2,7 +2,7 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 
 {
-    "name": "GoodERP Statistics",
+    "name": "GoodERP 统计",
     "version": '18.0',
     "author": '上海开阖软件有限公司',
     "website": "http://www.gooderp.org",

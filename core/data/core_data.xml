@@ -30,6 +30,7 @@
             <field name="add_days" eval="0"/>
         </record>
         <record id="base.main_company" model="res.company">
+            <field name="name">GoodERP18测试公司</field>
             <field name="currency_id" ref="base.CNY" />
             <field name='cost_method'>average</field>
             <field name="logo" type="base64" file="core/static/description/logo.png"/>

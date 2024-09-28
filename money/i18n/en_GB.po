@@ -1,0 +1,2437 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* money
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0-20221222\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-30 08:27+0000\n"
+"PO-Revision-Date: 2023-02-03 10:36+0800\n"
+"Last-Translator: 保定-粉刷匠 <992102498@qq.com>\n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.2.2\n"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_cash_flow_template__plus_ids
+#: model_terms:ir.ui.view,arch_db:money.cash_flow_template_form
+msgid "+表行"
+msgstr "+ Table rows"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_cash_flow_template__nega_ids
+#: model_terms:ir.ui.view,arch_db:money.cash_flow_template_form
+msgid "-表行"
+msgstr "- Table rows"
+
+#. module: money
+#: model_terms:ir.ui.view,arch_db:money.report_other_money_order
+msgid ""
+"<br/>\n"
+"                        <span>单据日期：</span>"
+msgstr ""
+"<br/>\n"
+"                        <span>Document Date:</span>"
+
+#. module: money
+#: model_terms:ir.ui.view,arch_db:money.report_other_money_order
+msgid ""
+"<br/>\n"
+"                        <span>单据编号：</span>"
+msgstr ""
+"<br/>\n"
+"                        <span>Document Number:</span>"
+
+#. module: money
+#: model_terms:ir.ui.view,arch_db:money.report_other_money_order
+msgid ""
+"<br/>\n"
+"                    <strong class=\"text-left\">开票说明：</strong>"
+msgstr ""
+"<br/>\n"
+"                    <strong class=\"text-left\">Invoicing instructions:</strong>"
+
+#. module: money
+#: model_terms:ir.ui.view,arch_db:money.report_other_money_order
+msgid "<span>客户名称：</span>"
+msgstr "<span>Customer Name:</span>"
+
+#. module: money
+#: model_terms:ir.ui.view,arch_db:money.report_other_money_order
+msgid "<strong class=\"text-left\">支付条款：</strong>"
+msgstr "<strong class=\"text-left\">Payment Terms:</strong>"
+
+#. module: money
+#: model_terms:ir.ui.view,arch_db:money.report_other_money_order
+msgid "<strong>合计</strong>"
+msgstr "<strong>Total</strong>"
+
+#. module: money
+#: model_terms:ir.ui.view,arch_db:money.report_other_money_order
+msgid "<strong>税前小计</strong>"
+msgstr "<strong>Pre-tax subtotal</strong>"
+
+#. module: money
+#: model_terms:ir.ui.view,arch_db:money.report_other_money_order
+msgid "<strong>纸质发票号：__________________________</strong><br/>"
+msgstr "<strong>Paper invoice number: ______</strong><br/>"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_money_order__message_needaction
+#: model:ir.model.fields,field_description:money.field_money_transfer_order__message_needaction
+#: model:ir.model.fields,field_description:money.field_other_money_order__message_needaction
+#: model:ir.model.fields,field_description:money.field_reconcile_order__message_needaction
+msgid "Action Needed"
+msgstr ""
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_money_order__activity_ids
+#: model:ir.model.fields,field_description:money.field_money_transfer_order__activity_ids
+#: model:ir.model.fields,field_description:money.field_other_money_order__activity_ids
+msgid "Activities"
+msgstr ""
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_money_order__activity_exception_decoration
+#: model:ir.model.fields,field_description:money.field_money_transfer_order__activity_exception_decoration
+#: model:ir.model.fields,field_description:money.field_other_money_order__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr ""
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_money_order__activity_state
+#: model:ir.model.fields,field_description:money.field_money_transfer_order__activity_state
+#: model:ir.model.fields,field_description:money.field_other_money_order__activity_state
+msgid "Activity State"
+msgstr ""
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_money_order__activity_type_icon
+#: model:ir.model.fields,field_description:money.field_money_transfer_order__activity_type_icon
+#: model:ir.model.fields,field_description:money.field_other_money_order__activity_type_icon
+msgid "Activity Type Icon"
+msgstr ""
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_money_order__message_attachment_count
+#: model:ir.model.fields,field_description:money.field_money_transfer_order__message_attachment_count
+#: model:ir.model.fields,field_description:money.field_other_money_order__message_attachment_count
+#: model:ir.model.fields,field_description:money.field_reconcile_order__message_attachment_count
+msgid "Attachment Count"
+msgstr ""
+
+#. module: money
+#: model_terms:ir.ui.view,arch_db:money.bank_statements_report_tree
+msgid "Bank Statements Report"
+msgstr ""
+
+#. module: money
+#: model_terms:ir.ui.view,arch_db:money.bank_statements_report_wizard_form
+#: model_terms:ir.ui.view,arch_db:money.other_money_statements_report_wizard_form
+msgid "Bank Statements Report Wizard"
+msgstr ""
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_advance_payment__create_uid
+#: model:ir.model.fields,field_description:money.field_bank_statements_report_wizard__create_uid
+#: model:ir.model.fields,field_description:money.field_cash_flow_statement__create_uid
+#: model:ir.model.fields,field_description:money.field_cash_flow_template__create_uid
+#: model:ir.model.fields,field_description:money.field_cash_flow_wizard__create_uid
+#: model:ir.model.fields,field_description:money.field_cost_line__create_uid
+#: model:ir.model.fields,field_description:money.field_money_get_pay_wizard__create_uid
+#: model:ir.model.fields,field_description:money.field_money_invoice__create_uid
+#: model:ir.model.fields,field_description:money.field_money_order__create_uid
+#: model:ir.model.fields,field_description:money.field_money_order_line__create_uid
+#: model:ir.model.fields,field_description:money.field_money_transfer_order__create_uid
+#: model:ir.model.fields,field_description:money.field_money_transfer_order_line__create_uid
+#: model:ir.model.fields,field_description:money.field_other_money_order__create_uid
+#: model:ir.model.fields,field_description:money.field_other_money_order_line__create_uid
+#: model:ir.model.fields,field_description:money.field_other_money_statements_report_wizard__create_uid
+#: model:ir.model.fields,field_description:money.field_partner_statements_report_wizard__create_uid
+#: model:ir.model.fields,field_description:money.field_reconcile_order__create_uid
+#: model:ir.model.fields,field_description:money.field_source_order_line__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_advance_payment__create_date
+#: model:ir.model.fields,field_description:money.field_bank_statements_report_wizard__create_date
+#: model:ir.model.fields,field_description:money.field_cash_flow_statement__create_date
+#: model:ir.model.fields,field_description:money.field_cash_flow_template__create_date
+#: model:ir.model.fields,field_description:money.field_cash_flow_wizard__create_date
+#: model:ir.model.fields,field_description:money.field_cost_line__create_date
+#: model:ir.model.fields,field_description:money.field_money_get_pay_wizard__create_date
+#: model:ir.model.fields,field_description:money.field_money_invoice__create_date
+#: model:ir.model.fields,field_description:money.field_money_order__create_date
+#: model:ir.model.fields,field_description:money.field_money_order_line__create_date
+#: model:ir.model.fields,field_description:money.field_money_transfer_order__create_date
+#: model:ir.model.fields,field_description:money.field_money_transfer_order_line__create_date
+#: model:ir.model.fields,field_description:money.field_other_money_order__create_date
+#: model:ir.model.fields,field_description:money.field_other_money_order_line__create_date
+#: model:ir.model.fields,field_description:money.field_other_money_statements_report_wizard__create_date
+#: model:ir.model.fields,field_description:money.field_partner_statements_report_wizard__create_date
+#: model:ir.model.fields,field_description:money.field_reconcile_order__create_date
+#: model:ir.model.fields,field_description:money.field_source_order_line__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_advance_payment__display_name
+#: model:ir.model.fields,field_description:money.field_bank_statements_report__display_name
+#: model:ir.model.fields,field_description:money.field_bank_statements_report_wizard__display_name
+#: model:ir.model.fields,field_description:money.field_cash_flow_statement__display_name
+#: model:ir.model.fields,field_description:money.field_cash_flow_template__display_name
+#: model:ir.model.fields,field_description:money.field_cash_flow_wizard__display_name
+#: model:ir.model.fields,field_description:money.field_cost_line__display_name
+#: model:ir.model.fields,field_description:money.field_customer_statements_report__display_name
+#: model:ir.model.fields,field_description:money.field_money_get_pay_report__display_name
+#: model:ir.model.fields,field_description:money.field_money_get_pay_wizard__display_name
+#: model:ir.model.fields,field_description:money.field_money_invoice__display_name
+#: model:ir.model.fields,field_description:money.field_money_order__display_name
+#: model:ir.model.fields,field_description:money.field_money_order_line__display_name
+#: model:ir.model.fields,field_description:money.field_money_transfer_order__display_name
+#: model:ir.model.fields,field_description:money.field_money_transfer_order_line__display_name
+#: model:ir.model.fields,field_description:money.field_other_money_order__display_name
+#: model:ir.model.fields,field_description:money.field_other_money_order_line__display_name
+#: model:ir.model.fields,field_description:money.field_other_money_statements_report__display_name
+#: model:ir.model.fields,field_description:money.field_other_money_statements_report_wizard__display_name
+#: model:ir.model.fields,field_description:money.field_partner_statements_report_wizard__display_name
+#: model:ir.model.fields,field_description:money.field_reconcile_order__display_name
+#: model:ir.model.fields,field_description:money.field_source_order_line__display_name
+#: model:ir.model.fields,field_description:money.field_supplier_statements_report__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_money_order__message_follower_ids
+#: model:ir.model.fields,field_description:money.field_money_transfer_order__message_follower_ids
+#: model:ir.model.fields,field_description:money.field_other_money_order__message_follower_ids
+#: model:ir.model.fields,field_description:money.field_reconcile_order__message_follower_ids
+msgid "Followers"
+msgstr ""
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_money_order__message_partner_ids
+#: model:ir.model.fields,field_description:money.field_money_transfer_order__message_partner_ids
+#: model:ir.model.fields,field_description:money.field_other_money_order__message_partner_ids
+#: model:ir.model.fields,field_description:money.field_reconcile_order__message_partner_ids
+msgid "Followers (Partners)"
+msgstr ""
+
+#. module: money
+#: model:ir.model.fields,help:money.field_money_order__activity_type_icon
+#: model:ir.model.fields,help:money.field_money_transfer_order__activity_type_icon
+#: model:ir.model.fields,help:money.field_other_money_order__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr ""
+
+#. module: money
+#: model_terms:ir.ui.view,arch_db:money.reconcile_order_form
+msgid "Get Order Lines"
+msgstr ""
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_money_order__has_message
+#: model:ir.model.fields,field_description:money.field_money_transfer_order__has_message
+#: model:ir.model.fields,field_description:money.field_other_money_order__has_message
+#: model:ir.model.fields,field_description:money.field_reconcile_order__has_message
+msgid "Has Message"
+msgstr ""
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_advance_payment__id
+#: model:ir.model.fields,field_description:money.field_bank_statements_report__id
+#: model:ir.model.fields,field_description:money.field_bank_statements_report_wizard__id
+#: model:ir.model.fields,field_description:money.field_cash_flow_statement__id
+#: model:ir.model.fields,field_description:money.field_cash_flow_template__id
+#: model:ir.model.fields,field_description:money.field_cash_flow_wizard__id
+#: model:ir.model.fields,field_description:money.field_cost_line__id
+#: model:ir.model.fields,field_description:money.field_customer_statements_report__id
+#: model:ir.model.fields,field_description:money.field_money_get_pay_report__id
+#: model:ir.model.fields,field_description:money.field_money_get_pay_wizard__id
+#: model:ir.model.fields,field_description:money.field_money_invoice__id
+#: model:ir.model.fields,field_description:money.field_money_order__id
+#: model:ir.model.fields,field_description:money.field_money_order_line__id
+#: model:ir.model.fields,field_description:money.field_money_transfer_order__id
+#: model:ir.model.fields,field_description:money.field_money_transfer_order_line__id
+#: model:ir.model.fields,field_description:money.field_other_money_order__id
+#: model:ir.model.fields,field_description:money.field_other_money_order_line__id
+#: model:ir.model.fields,field_description:money.field_other_money_statements_report__id
+#: model:ir.model.fields,field_description:money.field_other_money_statements_report_wizard__id
+#: model:ir.model.fields,field_description:money.field_partner_statements_report_wizard__id
+#: model:ir.model.fields,field_description:money.field_reconcile_order__id
+#: model:ir.model.fields,field_description:money.field_source_order_line__id
+#: model:ir.model.fields,field_description:money.field_supplier_statements_report__id
+msgid "ID"
+msgstr ""
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_money_order__activity_exception_icon
+#: model:ir.model.fields,field_description:money.field_money_transfer_order__activity_exception_icon
+#: model:ir.model.fields,field_description:money.field_other_money_order__activity_exception_icon
+msgid "Icon"
+msgstr ""
+
+#. module: money
+#: model:ir.model.fields,help:money.field_money_order__activity_exception_icon
+#: model:ir.model.fields,help:money.field_money_transfer_order__activity_exception_icon
+#: model:ir.model.fields,help:money.field_other_money_order__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr ""
+
+#. module: money
+#: model:ir.model.fields,help:money.field_money_order__message_needaction
+#: model:ir.model.fields,help:money.field_money_transfer_order__message_needaction
+#: model:ir.model.fields,help:money.field_other_money_order__message_needaction
+#: model:ir.model.fields,help:money.field_reconcile_order__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr ""
+
+#. module: money
+#: model:ir.model.fields,help:money.field_money_order__message_has_error
+#: model:ir.model.fields,help:money.field_money_order__message_has_sms_error
+#: model:ir.model.fields,help:money.field_money_transfer_order__message_has_error
+#: model:ir.model.fields,help:money.field_money_transfer_order__message_has_sms_error
+#: model:ir.model.fields,help:money.field_other_money_order__message_has_error
+#: model:ir.model.fields,help:money.field_other_money_order__message_has_sms_error
+#: model:ir.model.fields,help:money.field_reconcile_order__message_has_error
+#: model:ir.model.fields,help:money.field_reconcile_order__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr ""
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_money_order__message_is_follower
+#: model:ir.model.fields,field_description:money.field_money_transfer_order__message_is_follower
+#: model:ir.model.fields,field_description:money.field_other_money_order__message_is_follower
+#: model:ir.model.fields,field_description:money.field_reconcile_order__message_is_follower
+msgid "Is Follower"
+msgstr ""
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_advance_payment____last_update
+#: model:ir.model.fields,field_description:money.field_bank_statements_report____last_update
+#: model:ir.model.fields,field_description:money.field_bank_statements_report_wizard____last_update
+#: model:ir.model.fields,field_description:money.field_cash_flow_statement____last_update
+#: model:ir.model.fields,field_description:money.field_cash_flow_template____last_update
+#: model:ir.model.fields,field_description:money.field_cash_flow_wizard____last_update
+#: model:ir.model.fields,field_description:money.field_cost_line____last_update
+#: model:ir.model.fields,field_description:money.field_customer_statements_report____last_update
+#: model:ir.model.fields,field_description:money.field_money_get_pay_report____last_update
+#: model:ir.model.fields,field_description:money.field_money_get_pay_wizard____last_update
+#: model:ir.model.fields,field_description:money.field_money_invoice____last_update
+#: model:ir.model.fields,field_description:money.field_money_order____last_update
+#: model:ir.model.fields,field_description:money.field_money_order_line____last_update
+#: model:ir.model.fields,field_description:money.field_money_transfer_order____last_update
+#: model:ir.model.fields,field_description:money.field_money_transfer_order_line____last_update
+#: model:ir.model.fields,field_description:money.field_other_money_order____last_update
+#: model:ir.model.fields,field_description:money.field_other_money_order_line____last_update
+#: model:ir.model.fields,field_description:money.field_other_money_statements_report____last_update
+#: model:ir.model.fields,field_description:money.field_other_money_statements_report_wizard____last_update
+#: model:ir.model.fields,field_description:money.field_partner_statements_report_wizard____last_update
+#: model:ir.model.fields,field_description:money.field_reconcile_order____last_update
+#: model:ir.model.fields,field_description:money.field_source_order_line____last_update
+#: model:ir.model.fields,field_description:money.field_supplier_statements_report____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_advance_payment__write_uid
+#: model:ir.model.fields,field_description:money.field_bank_statements_report_wizard__write_uid
+#: model:ir.model.fields,field_description:money.field_cash_flow_statement__write_uid
+#: model:ir.model.fields,field_description:money.field_cash_flow_template__write_uid
+#: model:ir.model.fields,field_description:money.field_cash_flow_wizard__write_uid
+#: model:ir.model.fields,field_description:money.field_cost_line__write_uid
+#: model:ir.model.fields,field_description:money.field_money_get_pay_wizard__write_uid
+#: model:ir.model.fields,field_description:money.field_money_invoice__write_uid
+#: model:ir.model.fields,field_description:money.field_money_order__write_uid
+#: model:ir.model.fields,field_description:money.field_money_order_line__write_uid
+#: model:ir.model.fields,field_description:money.field_money_transfer_order__write_uid
+#: model:ir.model.fields,field_description:money.field_money_transfer_order_line__write_uid
+#: model:ir.model.fields,field_description:money.field_other_money_order__write_uid
+#: model:ir.model.fields,field_description:money.field_other_money_order_line__write_uid
+#: model:ir.model.fields,field_description:money.field_other_money_statements_report_wizard__write_uid
+#: model:ir.model.fields,field_description:money.field_partner_statements_report_wizard__write_uid
+#: model:ir.model.fields,field_description:money.field_reconcile_order__write_uid
+#: model:ir.model.fields,field_description:money.field_source_order_line__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_advance_payment__write_date
+#: model:ir.model.fields,field_description:money.field_bank_statements_report_wizard__write_date
+#: model:ir.model.fields,field_description:money.field_cash_flow_statement__write_date
+#: model:ir.model.fields,field_description:money.field_cash_flow_template__write_date
+#: model:ir.model.fields,field_description:money.field_cash_flow_wizard__write_date
+#: model:ir.model.fields,field_description:money.field_cost_line__write_date
+#: model:ir.model.fields,field_description:money.field_money_get_pay_wizard__write_date
+#: model:ir.model.fields,field_description:money.field_money_invoice__write_date
+#: model:ir.model.fields,field_description:money.field_money_order__write_date
+#: model:ir.model.fields,field_description:money.field_money_order_line__write_date
+#: model:ir.model.fields,field_description:money.field_money_transfer_order__write_date
+#: model:ir.model.fields,field_description:money.field_money_transfer_order_line__write_date
+#: model:ir.model.fields,field_description:money.field_other_money_order__write_date
+#: model:ir.model.fields,field_description:money.field_other_money_order_line__write_date
+#: model:ir.model.fields,field_description:money.field_other_money_statements_report_wizard__write_date
+#: model:ir.model.fields,field_description:money.field_partner_statements_report_wizard__write_date
+#: model:ir.model.fields,field_description:money.field_reconcile_order__write_date
+#: model:ir.model.fields,field_description:money.field_source_order_line__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_money_order__message_main_attachment_id
+#: model:ir.model.fields,field_description:money.field_money_transfer_order__message_main_attachment_id
+#: model:ir.model.fields,field_description:money.field_other_money_order__message_main_attachment_id
+#: model:ir.model.fields,field_description:money.field_reconcile_order__message_main_attachment_id
+msgid "Main Attachment"
+msgstr ""
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_money_order__message_has_error
+#: model:ir.model.fields,field_description:money.field_money_transfer_order__message_has_error
+#: model:ir.model.fields,field_description:money.field_other_money_order__message_has_error
+#: model:ir.model.fields,field_description:money.field_reconcile_order__message_has_error
+msgid "Message Delivery error"
+msgstr ""
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_money_order__message_ids
+#: model:ir.model.fields,field_description:money.field_money_transfer_order__message_ids
+#: model:ir.model.fields,field_description:money.field_other_money_order__message_ids
+#: model:ir.model.fields,field_description:money.field_reconcile_order__message_ids
+msgid "Messages"
+msgstr ""
+
+#. module: money
+#: model_terms:ir.ui.view,arch_db:money.money_order_form
+msgid "Money Order Lines"
+msgstr ""
+
+#. module: money
+#: model_terms:ir.ui.view,arch_db:money.money_transfer_order_form
+msgid "Money Transfer Order Lines"
+msgstr ""
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_money_order__my_activity_date_deadline
+#: model:ir.model.fields,field_description:money.field_money_transfer_order__my_activity_date_deadline
+#: model:ir.model.fields,field_description:money.field_other_money_order__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr ""
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_money_order__activity_date_deadline
+#: model:ir.model.fields,field_description:money.field_money_transfer_order__activity_date_deadline
+#: model:ir.model.fields,field_description:money.field_other_money_order__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr ""
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_money_order__activity_summary
+#: model:ir.model.fields,field_description:money.field_money_transfer_order__activity_summary
+#: model:ir.model.fields,field_description:money.field_other_money_order__activity_summary
+msgid "Next Activity Summary"
+msgstr ""
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_money_order__activity_type_id
+#: model:ir.model.fields,field_description:money.field_money_transfer_order__activity_type_id
+#: model:ir.model.fields,field_description:money.field_other_money_order__activity_type_id
+msgid "Next Activity Type"
+msgstr ""
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_money_order__message_needaction_counter
+#: model:ir.model.fields,field_description:money.field_money_transfer_order__message_needaction_counter
+#: model:ir.model.fields,field_description:money.field_other_money_order__message_needaction_counter
+#: model:ir.model.fields,field_description:money.field_reconcile_order__message_needaction_counter
+msgid "Number of Actions"
+msgstr ""
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_money_order__message_has_error_counter
+#: model:ir.model.fields,field_description:money.field_money_transfer_order__message_has_error_counter
+#: model:ir.model.fields,field_description:money.field_other_money_order__message_has_error_counter
+#: model:ir.model.fields,field_description:money.field_reconcile_order__message_has_error_counter
+msgid "Number of errors"
+msgstr ""
+
+#. module: money
+#: model:ir.model.fields,help:money.field_money_order__message_needaction_counter
+#: model:ir.model.fields,help:money.field_money_transfer_order__message_needaction_counter
+#: model:ir.model.fields,help:money.field_other_money_order__message_needaction_counter
+#: model:ir.model.fields,help:money.field_reconcile_order__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr ""
+
+#. module: money
+#: model:ir.model.fields,help:money.field_money_order__message_has_error_counter
+#: model:ir.model.fields,help:money.field_money_transfer_order__message_has_error_counter
+#: model:ir.model.fields,help:money.field_other_money_order__message_has_error_counter
+#: model:ir.model.fields,help:money.field_reconcile_order__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr ""
+
+#. module: money
+#: model_terms:ir.ui.view,arch_db:money.customer_statements_report_wizard_form
+#: model_terms:ir.ui.view,arch_db:money.partner_statements_report_wizard_form
+msgid "Partner Statements Report Wizard"
+msgstr ""
+
+#. module: money
+#: model_terms:ir.ui.view,arch_db:money.reconcile_order_form
+msgid "Pay Order Lines"
+msgstr ""
+
+#. module: money
+#: model_terms:ir.ui.view,arch_db:money.reconcile_order_form
+#: model_terms:ir.ui.view,arch_db:money.reconcile_order_tree
+msgid "Reconcile Order"
+msgstr ""
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_money_order__activity_user_id
+#: model:ir.model.fields,field_description:money.field_money_transfer_order__activity_user_id
+#: model:ir.model.fields,field_description:money.field_other_money_order__activity_user_id
+msgid "Responsible User"
+msgstr ""
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_money_order__message_has_sms_error
+#: model:ir.model.fields,field_description:money.field_money_transfer_order__message_has_sms_error
+#: model:ir.model.fields,field_description:money.field_other_money_order__message_has_sms_error
+#: model:ir.model.fields,field_description:money.field_reconcile_order__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr ""
+
+#. module: money
+#: model_terms:ir.ui.view,arch_db:money.money_order_form
+msgid "Source Order Lines"
+msgstr ""
+
+#. module: money
+#: model:ir.model.fields,help:money.field_money_order__activity_state
+#: model:ir.model.fields,help:money.field_money_transfer_order__activity_state
+#: model:ir.model.fields,help:money.field_other_money_order__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: money
+#: model:ir.model.fields,help:money.field_money_order__activity_exception_decoration
+#: model:ir.model.fields,help:money.field_money_transfer_order__activity_exception_decoration
+#: model:ir.model.fields,help:money.field_other_money_order__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr ""
+
+#. module: money
+#: model_terms:ir.ui.view,arch_db:money.money_get_pay_wizard_form
+msgid "or"
+msgstr ""
+
+#. module: money
+#: model_terms:ir.ui.view,arch_db:money.customer_statements_report_wizard_form
+#: model_terms:ir.ui.view,arch_db:money.partner_statements_report_wizard_form
+msgid "不带商品明细的对账单"
+msgstr "Statement without itemization"
+
+#. module: money
+#: model:ir.model,name:money.model_partner
+#: model:ir.model.fields,field_description:money.field_customer_statements_report__partner_id
+#: model:ir.model.fields,field_description:money.field_partner_statements_report_wizard__partner_id
+#: model:ir.model.fields,field_description:money.field_supplier_statements_report__partner_id
+#: model_terms:ir.ui.view,arch_db:money.money_invoice_search
+#: model_terms:ir.ui.view,arch_db:money.money_order_search
+#: model_terms:ir.ui.view,arch_db:money.reconcile_order_search
+msgid "业务伙伴"
+msgstr "Partner"
+
+#. module: money
+#: model:ir.model,name:money.model_partner_statements_report_wizard
+#: model_terms:ir.ui.view,arch_db:money.partner_statements_report_wizard_simple_form
+msgid "业务伙伴对账单向导"
+msgstr "Partner Statement Wizard"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_reconcile_order__payable_source_ids
+msgid "业务伙伴有应付结算单，自动带出，待与预付款单核销"
+msgstr "Business partners have payables, which are automatically taken out and are to be written off with advance payment slips"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_reconcile_order__receivable_source_ids
+msgid "业务伙伴有应收结算单，自动带出，待与预收款单核销"
+msgstr "Business partners have receivable statements, which are automatically taken out and are to be verified with advance receipts"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_reconcile_order__advance_payment_ids
+msgid "业务伙伴有预收/付款单，自动带出，用来与应收/应付款单核销"
+msgstr "The business partner has pre-receipt/payment slips, which are automatically brought out and used to reconcile with receivable/payables slips"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_money_order__currency_id
+msgid "业务伙伴的类别科目上对应的外币币别"
+msgstr "The foreign currency corresponding to the category account of the business partner"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_reconcile_order__business_type
+msgid "业务类型"
+msgstr "Business Type"
+
+#. module: money
+#: model:ir.model.fields.selection,name:money.selection__money_order__type__pay
+msgid "付款"
+msgstr "Payment"
+
+#. module: money
+#: model:ir.actions.act_window,name:money.money_payment_action
+#: model:ir.actions.report,name:money.report_money_order_pay
+#: model:ir.ui.menu,name:money.menu_money_payment_action
+msgid "付款单"
+msgstr "payment slips"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_supplier_statements_report__discount_money
+msgid "付款折扣"
+msgstr "Payment discounts"
+
+#. module: money
+#: model:ir.actions.act_window,name:money.pay_method_action
+#: model:ir.model.fields,field_description:money.field_money_invoice__pay_method
+#: model:ir.ui.menu,name:money.menu_pay_method
+#: model_terms:ir.ui.view,arch_db:money.pay_method_tree
+msgid "付款方式"
+msgstr "Payment Method"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_cash_flow_wizard__period_id
+msgid "会计期间"
+msgstr "Accounting period"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_cash_flow_template__begin_ids
+msgid "会计科目期初"
+msgstr "Beginning of an accounting period"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_cash_flow_template__end_ids
+msgid "会计科目期末"
+msgstr "End of an accounting period"
+
+#. module: money
+#: model_terms:ir.ui.view,arch_db:money.money_order_form
+#: model_terms:ir.ui.view,arch_db:money.money_transfer_order_form
+#: model_terms:ir.ui.view,arch_db:money.other_money_order_form
+#: model_terms:ir.ui.view,arch_db:money.reconcile_order_form
+msgid "作废"
+msgstr "Cancel"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_cost_line__partner_id
+#: model:ir.ui.menu,name:money.vendor_menu
+msgid "供应商"
+msgstr "Vendor"
+
+#. module: money
+#: model:ir.actions.report,name:money.report_supplier_statements_report
+#: model:ir.model,name:money.model_supplier_statements_report
+#: model:ir.ui.menu,name:money.report_supplier_statements_action
+#: model_terms:ir.ui.view,arch_db:money.supplier_statements_report_simple_tree
+msgid "供应商对账单"
+msgstr "Vendor Statements"
+
+#. module: money
+#: model:ir.actions.act_window,name:money.supplier_statements_report_wizard_action
+msgid "供应商对账单向导"
+msgstr "Vendor Statement Wizard"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_partner__payable_init
+msgid "供应商的应付期初余额"
+msgstr "Vendor's beginning balance payable"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_advance_payment__company_id
+#: model:ir.model.fields,field_description:money.field_bank_statements_report_wizard__company_id
+#: model:ir.model.fields,field_description:money.field_cost_line__company_id
+#: model:ir.model.fields,field_description:money.field_money_get_pay_wizard__company_id
+#: model:ir.model.fields,field_description:money.field_money_invoice__company_id
+#: model:ir.model.fields,field_description:money.field_money_order__company_id
+#: model:ir.model.fields,field_description:money.field_money_order_line__company_id
+#: model:ir.model.fields,field_description:money.field_money_transfer_order__company_id
+#: model:ir.model.fields,field_description:money.field_money_transfer_order_line__company_id
+#: model:ir.model.fields,field_description:money.field_other_money_order__company_id
+#: model:ir.model.fields,field_description:money.field_other_money_order_line__company_id
+#: model:ir.model.fields,field_description:money.field_other_money_statements_report_wizard__company_id
+#: model:ir.model.fields,field_description:money.field_partner_statements_report_wizard__company_id
+#: model:ir.model.fields,field_description:money.field_reconcile_order__company_id
+#: model:ir.model.fields,field_description:money.field_source_order_line__company_id
+msgid "公司"
+msgstr "Company"
+
+#. module: money
+#: model:ir.model.fields.selection,name:money.selection__money_get_pay_report__type__other_pay
+#: model:ir.model.fields.selection,name:money.selection__money_get_pay_wizard__type__other_pay
+#: model:ir.model.fields.selection,name:money.selection__other_money_order__type__other_pay
+msgid "其他支出"
+msgstr "Other expenses"
+
+#. module: money
+#: model:ir.actions.act_window,name:money.other_money_payment_action
+#: model:ir.ui.menu,name:money.menu_other_money_payment_action
+msgid "其他支出单"
+msgstr "Other expense bills"
+
+#. module: money
+#: model:ir.model.fields.selection,name:money.selection__money_get_pay_report__type__other_get
+#: model:ir.model.fields.selection,name:money.selection__money_get_pay_wizard__type__other_get
+#: model:ir.model.fields.selection,name:money.selection__other_money_order__type__other_get
+msgid "其他收入"
+msgstr "Other Income"
+
+#. module: money
+#: model:ir.model,name:money.model_other_money_order
+msgid "其他收入/其他支出"
+msgstr "Other Income/Other Expenses"
+
+#. module: money
+#: model_terms:ir.ui.view,arch_db:money.other_money_order_search
+msgid "其他收入/支出单"
+msgstr "Other Income/Expense Bills"
+
+#. module: money
+#: model:ir.actions.act_window,name:money.other_money_receipt_action
+#: model:ir.ui.menu,name:money.menu_other_money_receipt_action
+#: model_terms:ir.ui.view,arch_db:money.report_other_money_order
+msgid "其他收入单"
+msgstr "Other Income Bills"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_other_money_order_line__other_money_id
+#: model:ir.model.fields.selection,name:money.selection__cash_flow_template__line_type__category
+msgid "其他收支"
+msgstr "Other Income And Expenditure"
+
+#. module: money
+#: model:ir.actions.report,name:money.other_money_order_print
+#: model_terms:ir.ui.view,arch_db:money.other_money_order_form
+#: model_terms:ir.ui.view,arch_db:money.other_money_order_tree
+msgid "其他收支单"
+msgstr "Other Income And Expenditure Bills"
+
+#. module: money
+#: model:ir.model,name:money.model_other_money_order_line
+#: model_terms:ir.ui.view,arch_db:money.other_money_order_form
+msgid "其他收支单明细"
+msgstr "Other Income And Expenditure Statement Details"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_other_money_order__line_ids
+msgid "其他收支单明细行"
+msgstr "Other Income And Expenditure Statement Line Details"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_other_money_order__state
+msgid "其他收支单状态标识，新建时状态为草稿;确认后状态为已确认"
+msgstr "Other income and expenditure status identification, the status is draft when new; After confirmation, the status is Confirmed"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_other_money_order__voucher_id
+msgid "其他收支单确认时生成的对应凭证"
+msgstr "The corresponding voucher generated when other receipts and payments are confirmed"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_other_money_order_line__service
+msgid "其他收支单行上对应的收支项"
+msgstr "Other income and expenditure items corresponding to the income and expenditure line of income and expenditure"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_other_money_order_line__tax_rate
+msgid "其他收支单行上的税率"
+msgstr "Tax Rates On Other Income And Expenditure Lines"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_other_money_order_line__tax_amount
+msgid "其他收支单行上的税额"
+msgstr "The Amount Of Tax On Other Income And Expenditure Lines"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_other_money_order_line__auxiliary_id
+msgid "其他收支单行上的辅助核算"
+msgstr "Auxiliary accounting on other income and expenditure lines"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_other_money_order_line__amount
+msgid "其他收支单行上的金额"
+msgstr "The Amount On The Other Income And Expenditure Lines"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_other_money_order_line__other_money_id
+msgid "其他收支单行对应的其他收支单"
+msgstr "Other receipts and payments corresponding to other receipts and payments lines"
+
+#. module: money
+#: model:ir.actions.act_window,name:money.other_money_statements_report_wizard_action
+#: model:ir.model,name:money.model_other_money_statements_report
+#: model:ir.ui.menu,name:money.report_other_money_statements_action
+#: model_terms:ir.ui.view,arch_db:money.other_money_statements_report_tree
+msgid "其他收支明细表"
+msgstr "Other Statements Of Income And Expenditure"
+
+#. module: money
+#: model:ir.model,name:money.model_other_money_statements_report_wizard
+msgid "其他收支明细表向导"
+msgstr "Additional Income And Expenditure Schedule Wizard"
+
+#. module: money
+#: model:res.groups,name:money.group_cashier
+msgid "出纳"
+msgstr "Cashier"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_cost_line__category_id
+msgid "分类：其他支出"
+msgstr "Category: Other expenses"
+
+#. module: money
+#: model_terms:ir.ui.view,arch_db:money.bank_account_search_inherit
+#: model_terms:ir.ui.view,arch_db:money.money_order_search
+#: model_terms:ir.ui.view,arch_db:money.reconcile_order_search
+msgid "分组"
+msgstr "Group"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_other_money_order__is_init
+msgid "初始化应收应付"
+msgstr "Initialize accounts receivable and payables"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_partner__amount_due
+msgid "到期余额"
+msgstr "Balance due"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_money_invoice__date_due
+#: model:ir.model.fields,field_description:money.field_source_order_line__date_due
+#: model_terms:ir.ui.view,arch_db:money.money_invoice_search
+msgid "到期日"
+msgstr "Expiry Date"
+
+#. module: money
+#: model_terms:ir.ui.view,arch_db:money.money_order_form
+#: model_terms:ir.ui.view,arch_db:money.money_transfer_order_search
+msgid "制单人"
+msgstr "Document Maker"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_money_invoice__name
+msgid "前置单据编号"
+msgstr "Pre-document Number"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_advance_payment__date
+#: model:ir.model.fields,help:money.field_money_invoice__date
+#: model:ir.model.fields,help:money.field_money_order__date
+#: model:ir.model.fields,help:money.field_money_transfer_order__date
+#: model:ir.model.fields,help:money.field_other_money_order__date
+#: model:ir.model.fields,help:money.field_reconcile_order__date
+#: model:ir.model.fields,help:money.field_source_order_line__date
+msgid "单据创建日期"
+msgstr "Document creation date"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_other_money_order__partner_id
+msgid "单据对应的业务伙伴，单据确认时会影响他的应收应付余额"
+msgstr "The business partner corresponding to the document, when the document is recognized, affects his receivable and payable balance"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_advance_payment__date
+#: model:ir.model.fields,field_description:money.field_customer_statements_report__date
+#: model:ir.model.fields,field_description:money.field_money_order__date
+#: model:ir.model.fields,field_description:money.field_money_transfer_order__date
+#: model:ir.model.fields,field_description:money.field_other_money_order__date
+#: model:ir.model.fields,field_description:money.field_reconcile_order__date
+#: model:ir.model.fields,field_description:money.field_source_order_line__date
+#: model:ir.model.fields,field_description:money.field_supplier_statements_report__date
+#: model_terms:ir.ui.view,arch_db:money.money_invoice_search
+#: model_terms:ir.ui.view,arch_db:money.money_order_search
+#: model_terms:ir.ui.view,arch_db:money.money_transfer_order_search
+#: model_terms:ir.ui.view,arch_db:money.other_money_order_search
+#: model_terms:ir.ui.view,arch_db:money.reconcile_order_search
+msgid "单据日期"
+msgstr "Document Date"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_bank_statements_report__name
+#: model:ir.model.fields,field_description:money.field_customer_statements_report__name
+#: model:ir.model.fields,field_description:money.field_money_get_pay_report__name
+#: model:ir.model.fields,field_description:money.field_money_order__name
+#: model:ir.model.fields,field_description:money.field_money_transfer_order__name
+#: model:ir.model.fields,field_description:money.field_other_money_order__name
+#: model:ir.model.fields,field_description:money.field_other_money_statements_report__name
+#: model:ir.model.fields,field_description:money.field_reconcile_order__name
+#: model:ir.model.fields,field_description:money.field_supplier_statements_report__name
+#: model_terms:ir.ui.view,arch_db:money.money_order_tree
+msgid "单据编号"
+msgstr "Document Number"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_money_order__name
+#: model:ir.model.fields,help:money.field_other_money_order__name
+msgid "单据编号，创建时会根据类型自动生成"
+msgstr "The document number, which is automatically generated when it is created according to the type"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_money_transfer_order__name
+#: model:ir.model.fields,help:money.field_reconcile_order__name
+msgid "单据编号，创建时会自动生成"
+msgstr "The document number, which is automatically generated when it is created"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_advance_payment__amount
+#: model:ir.model.fields,field_description:money.field_source_order_line__amount
+msgid "单据金额"
+msgstr "Amount of Documents"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_money_invoice__currency_id
+msgid "原始单据对应的外币币别"
+msgstr "The foreign currency that corresponds to the original document"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_money_invoice__amount
+msgid "原始单据对应金额"
+msgstr "The corresponding amount for the original document"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_money_invoice__reconciled
+msgid "原始单据已核销掉的金额"
+msgstr "The amount that the original document has been reversed"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_money_invoice__to_reconcile
+msgid "原始单据未核销掉的金额"
+msgstr "The amount that was not written off from the original document"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_money_order__origin_name
+#: model:ir.model.fields,help:money.field_money_order__origin_name
+msgid "原始单据编号"
+msgstr "The original document number"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_source_order_line__name
+#: model_terms:ir.ui.view,arch_db:money.reconcile_order_form
+msgid "发票号"
+msgstr "Invoice Reference"
+
+#. module: money
+#: model_terms:ir.ui.view,arch_db:money.bank_statements_report_wizard_form
+#: model_terms:ir.ui.view,arch_db:money.customer_statements_report_wizard_form
+#: model_terms:ir.ui.view,arch_db:money.money_get_pay_wizard_form
+#: model_terms:ir.ui.view,arch_db:money.other_money_statements_report_wizard_form
+#: model_terms:ir.ui.view,arch_db:money.partner_statements_report_wizard_form
+#: model_terms:ir.ui.view,arch_db:money.partner_statements_report_wizard_simple_form
+msgid "取消"
+msgstr "Cancel"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_money_order_line__note
+msgid "可以为本次结算添加一些需要的标识信息"
+msgstr "You can add some required identification information for this settlement"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_advance_payment__note
+#: model:ir.model.fields,help:money.field_money_order__note
+#: model:ir.model.fields,help:money.field_money_transfer_order__note
+#: model:ir.model.fields,help:money.field_money_transfer_order_line__note
+#: model:ir.model.fields,help:money.field_other_money_order__note
+#: model:ir.model.fields,help:money.field_other_money_order_line__note
+#: model:ir.model.fields,help:money.field_reconcile_order__note
+msgid "可以为该单据添加一些需要的标识信息"
+msgstr "You can add some of the required identification information to the document"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_money_invoice__note
+msgid "可填入到期日计算的依据"
+msgstr "You can fill in the basis for calculating the due date"
+
+#. module: money
+#: model_terms:ir.ui.view,arch_db:money.money_order_form
+#: model_terms:ir.ui.view,arch_db:money.money_order_tree
+#: model_terms:ir.ui.view,arch_db:money.money_transfer_order_form
+#: model_terms:ir.ui.view,arch_db:money.other_money_order_form
+#: model_terms:ir.ui.view,arch_db:money.other_money_statements_report_tree
+#: model_terms:ir.ui.view,arch_db:money.reconcile_order_form
+msgid "合计"
+msgstr "Total"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_advance_payment__note
+#: model:ir.model.fields,field_description:money.field_bank_statements_report__note
+#: model:ir.model.fields,field_description:money.field_cost_line__note
+#: model:ir.model.fields,field_description:money.field_customer_statements_report__note
+#: model:ir.model.fields,field_description:money.field_money_invoice__note
+#: model:ir.model.fields,field_description:money.field_money_order__note
+#: model:ir.model.fields,field_description:money.field_money_order_line__note
+#: model:ir.model.fields,field_description:money.field_money_transfer_order__note
+#: model:ir.model.fields,field_description:money.field_money_transfer_order_line__note
+#: model:ir.model.fields,field_description:money.field_other_money_order__note
+#: model:ir.model.fields,field_description:money.field_other_money_order_line__note
+#: model:ir.model.fields,field_description:money.field_other_money_statements_report__note
+#: model:ir.model.fields,field_description:money.field_reconcile_order__note
+#: model:ir.model.fields,field_description:money.field_supplier_statements_report__note
+#: model_terms:ir.ui.view,arch_db:money.other_money_order_form
+#: model_terms:ir.ui.view,arch_db:money.report_other_money_order
+msgid "备注"
+msgstr "Note"
+
+#. module: money
+#: model_terms:ir.ui.view,arch_db:money.money_order_form
+#: model_terms:ir.ui.view,arch_db:money.money_transfer_order_form
+#: model_terms:ir.ui.view,arch_db:money.reconcile_order_form
+msgid "备注信息……"
+msgstr "Note Information..."
+
+#. module: money
+#: model_terms:ir.ui.view,arch_db:money.money_transfer_order_form
+msgid "外币合计"
+msgstr "Foreign currency totals"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_money_invoice__currency_id
+msgid "外币币别"
+msgstr "Foreign Currency"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_money_transfer_order_line__currency_amount
+#: model:ir.model.fields,field_description:money.field_other_money_order__currency_amount
+msgid "外币金额"
+msgstr "Foreign Currency Amount"
+
+#. module: money
+#: model:ir.model.fields.selection,name:money.selection__money_invoice__state__done
+msgid "完成"
+msgstr "Completion"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_customer_statements_report__done_date
+#: model:ir.model.fields,field_description:money.field_supplier_statements_report__done_date
+msgid "完成日期"
+msgstr "Completion Date"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_supplier_statements_report__pay_amount
+msgid "实际付款金额"
+msgstr "Actual amount paid"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_customer_statements_report__pay_amount
+msgid "实际收款金额"
+msgstr "Actual amount received"
+
+#. module: money
+#: model:ir.ui.menu,name:money.customer_menu
+msgid "客户"
+msgstr "Customer"
+
+#. module: money
+#: model:ir.actions.report,name:money.report_customer_statements_report
+#: model:ir.model,name:money.model_customer_statements_report
+#: model:ir.ui.menu,name:money.report_customer_statements_action
+#: model_terms:ir.ui.view,arch_db:money.customer_statements_report_simple_tree
+msgid "客户对账单"
+msgstr "Customer statements"
+
+#. module: money
+#: model:ir.actions.act_window,name:money.customer_statements_report_wizard_action
+msgid "客户对账单向导"
+msgstr "Customer Statement Wizard"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_partner__receivable_init
+msgid "客户的应收期初余额"
+msgstr "The customer's opening balance receivable"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_money_invoice__voucher_id
+#: model:ir.model.fields,field_description:money.field_money_order__voucher_id
+#: model:ir.model.fields,field_description:money.field_money_transfer_order__voucher_id
+#: model:ir.model.fields,field_description:money.field_other_money_order__voucher_id
+msgid "对应凭证"
+msgstr "Corresponding Voucher"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_money_invoice__tax_amount
+msgid "对应税额"
+msgstr "Corresponding tax"
+
+#. module: money
+#: model:ir.actions.report,name:money.customer_overdue_report
+#: model_terms:ir.ui.view,arch_db:money.partner_statements_report_wizard_simple_form
+msgid "对账单"
+msgstr "Correspondence list"
+
+#. module: money
+#: model:ir.model.fields.selection,name:money.selection__money_order__state__cancel
+#: model:ir.model.fields.selection,name:money.selection__money_transfer_order__state__cancel
+#: model:ir.model.fields.selection,name:money.selection__other_money_order__state__cancel
+#: model:ir.model.fields.selection,name:money.selection__reconcile_order__state__cancel
+msgid "已作废"
+msgstr "Voided"
+
+#. module: money
+#: model:ir.model.fields.selection,name:money.selection__money_order__state__done
+msgid "已完成"
+msgstr "Completed"
+
+#. module: money
+#: model_terms:ir.ui.view,arch_db:money.money_invoice_search
+msgid "已开票"
+msgstr "Invoiced"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_advance_payment__reconciled
+#: model:ir.model.fields,help:money.field_money_order__reconciled
+msgid "已核销的预收/预付款金额"
+msgstr "Reversed Prepaid/Prepayment Amounts"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_advance_payment__reconciled
+#: model:ir.model.fields,field_description:money.field_money_invoice__reconciled
+#: model:ir.model.fields,field_description:money.field_money_order__reconciled
+#: model:ir.model.fields,field_description:money.field_source_order_line__reconciled
+#: model_terms:ir.ui.view,arch_db:money.money_handwork_invoice_tree
+#: model_terms:ir.ui.view,arch_db:money.money_invoice_tree
+msgid "已核销金额"
+msgstr "Amount Reversed"
+
+#. module: money
+#: model:ir.model.fields.selection,name:money.selection__money_transfer_order__state__done
+#: model:ir.model.fields.selection,name:money.selection__other_money_order__state__done
+#: model:ir.model.fields.selection,name:money.selection__reconcile_order__state__done
+#: model_terms:ir.ui.view,arch_db:money.money_order_search
+#: model_terms:ir.ui.view,arch_db:money.money_transfer_order_search
+#: model_terms:ir.ui.view,arch_db:money.other_money_order_search
+#: model_terms:ir.ui.view,arch_db:money.reconcile_order_search
+msgid "已确认"
+msgstr "Confirmed"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_money_order__currency_id
+#: model:ir.model.fields,field_description:money.field_money_order_line__currency_id
+msgid "币别"
+msgstr "Currency"
+
+#. module: money
+#: model_terms:ir.ui.view,arch_db:money.money_order_search
+msgid "币种"
+msgstr "Currency"
+
+#. module: money
+#: model_terms:ir.ui.view,arch_db:money.customer_statements_report_wizard_form
+#: model_terms:ir.ui.view,arch_db:money.partner_statements_report_wizard_form
+msgid "带商品明细的对账单"
+msgstr "Statement with item details"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_cash_flow_template__sequence
+msgid "序号"
+msgstr "Sequence Number"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_partner__payable_init
+msgid "应付期初"
+msgstr "Beginning of the payable period"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_source_order_line__payable_reconcile_id
+msgid "应付核销单"
+msgstr "Write-off Notes Payable"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_supplier_statements_report__balance_amount
+msgid "应付款余额"
+msgstr "Balance payable"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_reconcile_order__payable_source_ids
+msgid "应付结算单行"
+msgstr "Payable Statement Lines"
+
+#. module: money
+#: model:ir.model.fields.selection,name:money.selection__reconcile_order__business_type__pay_to_pay
+msgid "应付转应付"
+msgstr "Payables to payables"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_supplier_statements_report__amount
+msgid "应付金额"
+msgstr "Balance payable"
+
+#. module: money
+#: model_terms:ir.ui.view,arch_db:money.customer_address_form
+msgid "应收余额"
+msgstr "Balance receivable"
+
+#. module: money
+#: model:ir.model.fields.selection,name:money.selection__reconcile_order__business_type__get_to_pay
+msgid "应收冲应付"
+msgstr "Receivables and charges payable"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_partner__receivable_init
+msgid "应收期初"
+msgstr "Beginning of receivables"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_source_order_line__receivable_reconcile_id
+msgid "应收核销单"
+msgstr "Receivables Written Off"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_customer_statements_report__balance_amount
+msgid "应收款余额"
+msgstr "Receivables balance"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_reconcile_order__receivable_source_ids
+msgid "应收结算单行"
+msgstr "Account Receivable Statement Bank"
+
+#. module: money
+#: model:ir.model.fields.selection,name:money.selection__reconcile_order__business_type__get_to_get
+msgid "应收转应收"
+msgstr "Receivables to receivables"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_reconcile_order__to_partner_id
+msgid "应收转应收、应付转应付时对应的转入业务伙伴，订单确认时会影响该业务伙伴的应收/应付"
+msgstr "When the receivables are transferred to the business partner, the receivable/payable will affect the receivable/payable of the business partner when the order is confirmed"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_customer_statements_report__amount
+msgid "应收金额"
+msgstr "Balance receivable"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_bank_statements_report_wizard__from_date
+#: model:ir.model.fields,field_description:money.field_money_get_pay_wizard__date_start
+#: model:ir.model.fields,field_description:money.field_other_money_statements_report_wizard__from_date
+#: model:ir.model.fields,field_description:money.field_partner_statements_report_wizard__from_date
+msgid "开始日期"
+msgstr "Start Date"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_money_order__bank_name
+#: model:ir.model.fields,field_description:money.field_other_money_order__bank_name
+msgid "开户行"
+msgstr "Account bank"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_money_order__bank_name
+msgid "开户行取自业务伙伴，可修改"
+msgstr "The bank is taken from the business partner and can be modified"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_money_invoice__invoice_date
+#: model:ir.model.fields,field_description:money.field_source_order_line__invoice_date
+msgid "开票日期"
+msgstr "Invoice Data"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_money_invoice__overdue_days
+msgid "当前日期 - 到期日"
+msgstr "Current Date - Due Date"
+
+#. module: money
+#: model_terms:ir.ui.view,arch_db:money.money_order_form
+msgid "录单时间"
+msgstr "Recording time"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_bank_statements_report__partner_id
+#: model:ir.model.fields,field_description:money.field_money_get_pay_report__partner_id
+#: model:ir.model.fields,field_description:money.field_money_invoice__partner_id
+#: model:ir.model.fields,field_description:money.field_money_order__partner_id
+#: model:ir.model.fields,field_description:money.field_other_money_order__partner_id
+#: model:ir.model.fields,field_description:money.field_other_money_statements_report__partner_id
+#: model:ir.model.fields,field_description:money.field_reconcile_order__partner_id
+#: model_terms:ir.ui.view,arch_db:money.money_get_pay_report_search
+#: model_terms:ir.ui.view,arch_db:money.other_money_order_search
+msgid "往来单位"
+msgstr "Correspondence Companys"
+
+#. module: money
+#: model:ir.model,name:money.model_source_order_line
+#: model:ir.model.fields,field_description:money.field_money_order__source_ids
+msgid "待核销行"
+msgstr "Banks to be Rewrited"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_source_order_line__money_id
+msgid "待核销行对应的收付款单"
+msgstr "The receipt and payment slip corresponding to the bank to be rewrited"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_source_order_line__name
+msgid "待核销行对应的结算单"
+msgstr "The statement corresponding to the bank to be rewrited"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_source_order_line__amount
+msgid "待核销行对应金额"
+msgstr "The corresponding amount of the bank to be rewrited"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_source_order_line__reconciled
+msgid "待核销行已核销掉的金额"
+msgstr "The amount that has been written off by the bank to be rewrited"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_source_order_line__invoice_date
+msgid "待核销行开票日期"
+msgstr "The invoice date of the pending write-off bank"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_source_order_line__to_reconcile
+msgid "待核销行未核销掉的金额"
+msgstr "The amount not written off by the write-off bank"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_source_order_line__date_due
+msgid "待核销行的到期日"
+msgstr "The expiration date of the bank to be rewrited"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_source_order_line__category_id
+msgid "待核销行类别：采购 或者 销售等"
+msgstr "Category of banks to be rewrited: Purchase or Sales, etc"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_money_order__amount
+msgid "总金额"
+msgstr "Total amount"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_money_invoice__cogs_voucher_id
+msgid "成本凭证"
+msgstr "Cost Documents"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_money_order__discount_amount
+msgid "我方承担费用"
+msgstr "Costs are borne by our company"
+
+#. module: money
+#: model_terms:ir.ui.view,arch_db:money.bank_statements_report_wizard_form
+#: model_terms:ir.ui.view,arch_db:money.customer_statements_report_wizard_form
+#: model_terms:ir.ui.view,arch_db:money.other_money_statements_report_wizard_form
+#: model_terms:ir.ui.view,arch_db:money.partner_statements_report_wizard_form
+#: model_terms:ir.ui.view,arch_db:money.partner_statements_report_wizard_simple_form
+msgid "或者"
+msgstr "Or"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_money_invoice__handwork
+msgid "手工结算"
+msgstr "Manual Settlement"
+
+#. module: money
+#: model:ir.actions.act_window,name:money.money_invoice_handwork_action
+#: model:ir.ui.menu,name:money.menu_money_invoice_handwork_action
+msgid "手工结算单"
+msgstr "Manual Invoicing"
+
+#. module: money
+#: model_terms:ir.ui.view,arch_db:money.money_order_form_print_inherit_get
+#: model_terms:ir.ui.view,arch_db:money.money_order_form_print_inherit_pay
+#: model_terms:ir.ui.view,arch_db:money.money_transfer_order_form_print_inherit
+#: model_terms:ir.ui.view,arch_db:money.other_money_order_form_print_inherit
+#: model_terms:ir.ui.view,arch_db:money.transfer_order_form_print_inherit_adv_get
+#: model_terms:ir.ui.view,arch_db:money.transfer_order_form_print_inherit_adv_pay
+#: model_terms:ir.ui.view,arch_db:money.transfer_order_form_print_inherit_get_to_get
+#: model_terms:ir.ui.view,arch_db:money.transfer_order_form_print_inherit_get_to_pay
+#: model_terms:ir.ui.view,arch_db:money.transfer_order_form_print_inherit_pay_to_pay
+msgid "打印"
+msgstr "Print"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_partner_statements_report_wizard__is_doc
+msgid "打印word格式"
+msgstr "Print In Word Format"
+
+#. module: money
+#: model:ir.ui.menu,name:money.menu_money_report
+msgid "报表"
+msgstr "Statement"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_money_get_pay_report__type
+#: model:ir.model.fields,help:money.field_money_get_pay_wizard__type
+msgid "按类型筛选"
+msgstr "Filter by type"
+
+#. module: money
+#: model_terms:ir.ui.view,arch_db:money.money_handwork_invoice_form
+#: model_terms:ir.ui.view,arch_db:money.money_invoice_form
+#: model_terms:ir.ui.view,arch_db:money.money_invoice_tree
+#: model_terms:ir.ui.view,arch_db:money.reconcile_order_form
+msgid "撤销"
+msgstr "Revocation"
+
+#. module: money
+#: model_terms:ir.ui.view,arch_db:money.money_order_form
+#: model_terms:ir.ui.view,arch_db:money.money_transfer_order_form
+#: model_terms:ir.ui.view,arch_db:money.other_money_order_form
+msgid "撤销确认"
+msgstr "Revocation of Confirmation"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_bank_statements_report__pay
+#: model:ir.model.fields,field_description:money.field_money_get_pay_report__pay
+#: model:ir.model.fields,field_description:money.field_other_money_statements_report__pay
+#: model_terms:ir.ui.view,arch_db:money.bank_statements_report_tree
+#: model_terms:ir.ui.view,arch_db:money.money_get_pay_report_search
+msgid "支出"
+msgstr "Expenditures"
+
+#. module: money
+#: model_terms:ir.ui.view,arch_db:money.money_get_pay_report_tree
+msgid "支出合计"
+msgstr "Total expenditures"
+
+#. module: money
+#: model_terms:ir.ui.view,arch_db:money.money_order_search
+msgid "收/付款单"
+msgstr "Receipt/payment slips"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_money_order__source_ids
+msgid "收/付款单待核销行"
+msgstr "Banks for Receipt/Payment Slips To Be Reversed"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_money_order__line_ids
+msgid "收/付款单明细行"
+msgstr "Receipt/payment detail bank"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_money_order__state
+msgid "收/付款单状态标识，新建时状态为草稿;确认后状态为已完成"
+msgstr "Receipt/payment order status identification, the status is draft when new; After confirmation, the status is Completed"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_money_order__voucher_id
+msgid "收/付款单确认时生成的对应凭证"
+msgstr "The corresponding voucher generated when the receipt/payment order is confirmed"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_money_order__discount_account_id
+msgid "收/付款单确认生成凭证时，手续费或折扣对应的科目"
+msgstr "The receipt/payment order confirms the account corresponding to the fee or discount when the voucher is generated"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_money_order__line_ids
+msgid "收/付款单行"
+msgstr "Receive/pay order banks"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_money_order__amount
+msgid "收/付款单行金额总和"
+msgstr "The sum of the receipt/payment order bank amounts"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_money_order__discount_amount
+msgid "收/付款时发生的银行手续费或给业务伙伴的现金折扣。"
+msgstr "Bank charges or cash discounts to business partners incurred when receiving/paying."
+
+#. module: money
+#: model:ir.model,name:money.model_money_order
+#: model:ir.model.fields,field_description:money.field_money_order_line__money_id
+#: model:ir.model.fields,field_description:money.field_source_order_line__money_id
+#: model_terms:ir.ui.view,arch_db:money.money_order_form
+#: model_terms:ir.ui.view,arch_db:money.money_order_tree
+msgid "收付款单"
+msgstr "Receipt and payment slips"
+
+#. module: money
+#: model:ir.model,name:money.model_money_order_line
+msgid "收付款单明细"
+msgstr "Payment slip details"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_bank_statements_report__get
+#: model:ir.model.fields,field_description:money.field_money_get_pay_report__get
+#: model:ir.model.fields,field_description:money.field_other_money_statements_report__get
+#: model_terms:ir.ui.view,arch_db:money.bank_statements_report_tree
+#: model_terms:ir.ui.view,arch_db:money.money_get_pay_report_search
+msgid "收入"
+msgstr "Revenue"
+
+#. module: money
+#: model_terms:ir.ui.view,arch_db:money.money_get_pay_report_tree
+msgid "收入合计"
+msgstr "Total Revenue"
+
+#. module: money
+#: model_terms:ir.ui.view,arch_db:money.report_other_money_order
+msgid "收入类别"
+msgstr "Revenue Category"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_other_money_order__line_ids
+msgid "收支单行"
+msgstr "Receipt And Payment Bank"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_cash_flow_template__category_ids
+#: model:ir.model.fields,field_description:money.field_money_get_pay_report__category_id
+#: model_terms:ir.ui.view,arch_db:money.cash_flow_template_form
+#: model_terms:ir.ui.view,arch_db:money.money_get_pay_report_search
+msgid "收支类别"
+msgstr "Income And Expenditure Category"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_other_money_order_line__service
+#: model:ir.model.fields,field_description:money.field_other_money_statements_report__service
+#: model:ir.ui.menu,name:money.service_menu
+msgid "收支项"
+msgstr "Income And Expenditure"
+
+#. module: money
+#: model:ir.model.fields.selection,name:money.selection__money_order__type__get
+msgid "收款"
+msgstr "Collection"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_other_money_order__receiver
+#: model:ir.model.fields,help:money.field_other_money_order__receiver
+msgid "收款人"
+msgstr "Payee"
+
+#. module: money
+#: model:ir.actions.act_window,name:money.money_receipt_action
+#: model:ir.actions.report,name:money.report_money_order_get
+#: model:ir.ui.menu,name:money.menu_money_receipt_action
+msgid "收款单"
+msgstr "Receipt"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_customer_statements_report__discount_money
+msgid "收款折扣"
+msgstr "Receiving discounts"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_bank_statements_report__date
+#: model:ir.model.fields,field_description:money.field_money_get_pay_report__date
+#: model:ir.model.fields,field_description:money.field_money_invoice__date
+#: model:ir.model.fields,field_description:money.field_other_money_statements_report__date
+#: model_terms:ir.ui.view,arch_db:money.money_get_pay_report_search
+msgid "日期"
+msgstr "Date"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_other_money_order__details
+msgid "明细"
+msgstr "Details"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_money_invoice__is_init
+msgid "是否初始化单"
+msgstr "Whether to initialize the order"
+
+#. module: money
+#: model:ir.model,name:money.model_cash_flow_wizard
+msgid "显示现金流量表"
+msgstr "Displays the cash flow statement"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_money_invoice__get_amount_date
+msgid "最后收款日期"
+msgstr "Last payment date"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_bank_account__init_balance
+msgid "期初"
+msgstr "Beginning of the period"
+
+#. module: money
+#: model_terms:ir.ui.view,arch_db:money.cash_flow_template_form
+msgid "期初科目"
+msgstr "Opening subjects"
+
+#. module: money
+#: model_terms:ir.ui.view,arch_db:money.cash_flow_template_form
+msgid "期末科目"
+msgstr "Final subjects"
+
+#. module: money
+#: model_terms:ir.ui.view,arch_db:money.money_invoice_search
+msgid "未开票"
+msgstr "Uninvoiced"
+
+#. module: money
+#: model_terms:ir.ui.view,arch_db:money.money_invoice_search
+msgid "未核销"
+msgstr "Unwritten"
+
+#. module: money
+#: model_terms:ir.ui.view,arch_db:money.money_order_tree
+msgid "未核销总额"
+msgstr "The Total Amount That Has Not Been Written Off"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_advance_payment__to_reconcile
+#: model:ir.model.fields,help:money.field_money_order__to_reconcile
+msgid "未核销的预收/预付款金额"
+msgstr "Unapplied Prepaid/Prepaid Amounts"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_advance_payment__to_reconcile
+#: model:ir.model.fields,field_description:money.field_money_invoice__to_reconcile
+#: model:ir.model.fields,field_description:money.field_money_order__to_reconcile
+#: model:ir.model.fields,field_description:money.field_source_order_line__to_reconcile
+#: model_terms:ir.ui.view,arch_db:money.money_handwork_invoice_tree
+#: model_terms:ir.ui.view,arch_db:money.money_invoice_mini_tree
+#: model_terms:ir.ui.view,arch_db:money.money_invoice_tree
+msgid "未核销金额"
+msgstr "Unwritten Amount"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_partner__money_ids
+msgid "未清付款"
+msgstr "Outstanding payment"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_partner__invoice_ids
+msgid "未清结算单"
+msgstr "Outstanding Statement of Account"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_cash_flow_statement__year_amount
+msgid "本年累计金额"
+msgstr "Cumulative amount for the current year"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_cash_flow_statement__amount
+msgid "本月金额"
+msgstr "Amount of the month"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_other_money_order__total_amount
+msgid "本次其他收支的总金额"
+msgstr "The total amount of other income and expenditure this time"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_other_money_order__bank_id
+msgid "本次其他收支的结算账户"
+msgstr "The settlement account of other income and expenditure this time"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_money_order_line__bank_id
+msgid "本次收款/付款所用的计算账户，确认收付款单会修改对应账户的金额"
+msgstr "The calculation account used for this receipt/payment, confirming the receipt and payment slip will modify the amount of the corresponding account"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_advance_payment__this_reconcile
+msgid "本次核销的预收/预付款金额"
+msgstr "The amount of advance receipt/advance payment written off this time"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_advance_payment__this_reconcile
+#: model:ir.model.fields,field_description:money.field_source_order_line__this_reconcile
+msgid "本次核销金额"
+msgstr "The Amount of This Write-off"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_money_order_line__number
+#: model:ir.model.fields,help:money.field_money_transfer_order_line__number
+msgid "本次结算号"
+msgstr "This Settlement Number"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_money_order_line__amount
+msgid "本次结算金额"
+msgstr "Amount of This Settlement"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_source_order_line__this_reconcile
+msgid "本次要核销掉的金额"
+msgstr "The Amount to Be Writeoff This Time"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_money_order__advance_payment
+msgid "本次预付"
+msgstr "This Prepayment"
+
+#. module: money
+#: model_terms:ir.ui.view,arch_db:money.bank_statements_report_tree
+#: model_terms:ir.ui.view,arch_db:money.money_invoice_mini_tree
+#: model_terms:ir.ui.view,arch_db:money.money_invoice_tree
+msgid "查看原始单据"
+msgstr "View Original Document"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_bank_statements_report_wizard__from_date
+#: model:ir.model.fields,help:money.field_money_get_pay_wizard__date_start
+#: model:ir.model.fields,help:money.field_other_money_statements_report_wizard__from_date
+#: model:ir.model.fields,help:money.field_partner_statements_report_wizard__from_date
+msgid "查看本次报表的开始日期"
+msgstr "View The Start Date of This Report"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_bank_statements_report_wizard__bank_id
+msgid "查看本次报表的现金/银行账户名称"
+msgstr "View the cash/bank account name for this statement"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_bank_statements_report_wizard__to_date
+#: model:ir.model.fields,help:money.field_money_get_pay_wizard__date_end
+#: model:ir.model.fields,help:money.field_other_money_statements_report_wizard__to_date
+#: model:ir.model.fields,help:money.field_partner_statements_report_wizard__to_date
+msgid "查看本次报表的结束日期"
+msgstr "View the end date of this report"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_partner_statements_report_wizard__partner_id
+msgid "查看某一个业务伙伴的对账单报表"
+msgstr "View statement reports for a business partner"
+
+#. module: money
+#: model_terms:ir.ui.view,arch_db:money.bank_account_tree_inherit_first
+msgid "查看现金银行报表"
+msgstr "View cash bank statements"
+
+#. module: money
+#: model_terms:ir.ui.view,arch_db:money.money_order_tree
+msgid "核销"
+msgstr "Verification"
+
+#. module: money
+#: model:ir.actions.act_window,name:money.reconcile_action
+#: model:ir.model,name:money.model_reconcile_order
+#: model:ir.model.fields,field_description:money.field_advance_payment__pay_reconcile_id
+#: model:ir.ui.menu,name:money.menu_reconcile_action
+#: model_terms:ir.ui.view,arch_db:money.reconcile_order_search
+msgid "核销单"
+msgstr "Verification Form"
+
+#. module: money
+#: model:ir.actions.report,name:money.reconcile_order_pay_to_pay
+msgid "核销单:应付转应付"
+msgstr "Write-off Form: Payables to Payables"
+
+#. module: money
+#: model:ir.actions.report,name:money.reconcile_order_get_to_pay
+msgid "核销单:应收冲应付"
+msgstr "Write-off Notes: Receivables and Payables"
+
+#. module: money
+#: model:ir.actions.report,name:money.reconcile_order_get_to_get
+msgid "核销单:应收转应收"
+msgstr "Write-off Form: Receivables to Receivables"
+
+#. module: money
+#: model:ir.actions.report,name:money.reconcile_order_adv_get_to_pay
+msgid "核销单:预付冲应付"
+msgstr "Write-off Form: Prepaid Offset Payable"
+
+#. module: money
+#: model:ir.actions.report,name:money.reconcile_order_adv_pay_to_get
+msgid "核销单:预收冲应收"
+msgstr "Verification Order: Pre-receipts and Receivables"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_source_order_line__payable_reconcile_id
+msgid "核销单上的应付结算单明细"
+msgstr "The Statement Line Payable On the Write-off Order"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_source_order_line__receivable_reconcile_id
+msgid "核销单上的应收结算单明细"
+msgstr "Details of A/R Statements on the Verification Order"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_reconcile_order__state
+msgid "核销单状态标识，新建时状态为草稿;确认后状态为已确认"
+msgstr "The status of the verification order is identified, and the status is Draft when it is created; After confirmation, the status is Confirmed"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_advance_payment__name
+msgid "核销单预收/付款行对应的预收/付款单"
+msgstr "The pre-receipt/payment slip corresponding to the pre-receipt/payment line of the verification order"
+
+#. module: money
+#: model:ir.model,name:money.model_advance_payment
+msgid "核销单预收付款行"
+msgstr "Write-off Order Prepayment Line"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_advance_payment__pay_reconcile_id
+msgid "核销单预收付款行对应的核销单"
+msgstr "The verification note that corresponds to the write-off line that is pre-received"
+
+#. module: money
+#: model_terms:ir.ui.view,arch_db:money.money_order_form
+msgid "核销行金额清零"
+msgstr "The Write-off Line Amount Is Cleared To Zero"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_money_order__advance_payment
+msgid "根据收/付款单行金额总和，原始单据行金额总和及折扣额计算得来的预收/预付款，值>=0"
+msgstr "The pre-receipt/prepayment calculated from the sum of the receipt/payment line amounts, the sum of the original document line amounts, and the discount amount, with a value of >=0"
+
+#. module: money
+#: model:ir.actions.act_window,name:money.action_view_money_invoice
+#: model_terms:ir.ui.view,arch_db:money.money_invoice_mini_tree
+msgid "欠款记录"
+msgstr "Records of arrears"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_other_money_order__is_init
+msgid "此单是否为初始化单"
+msgstr "Whether this order is an initialization order"
+
+#. module: money
+#: model_terms:ir.actions.act_window,help:money.money_payment_action
+msgid "点击创建付款单"
+msgstr "Click Create payment slip"
+
+#. module: money
+#: model_terms:ir.actions.act_window,help:money.other_money_payment_action
+msgid "点击创建其他支出单"
+msgstr "Click Create additional expense invoice"
+
+#. module: money
+#: model_terms:ir.actions.act_window,help:money.other_money_receipt_action
+msgid "点击创建其他收入单"
+msgstr "Click Create Additional Invoice"
+
+#. module: money
+#: model_terms:ir.actions.act_window,help:money.money_receipt_action
+msgid "点击创建收款单"
+msgstr "Click Create payout"
+
+#. module: money
+#: model_terms:ir.actions.act_window,help:money.reconcile_action
+msgid "点击创建核销单"
+msgstr "Click Create Verification Form"
+
+#. module: money
+#: model_terms:ir.actions.act_window,help:money.money_transfer_order_action
+msgid "点击创建资金转账单"
+msgstr "Click Create funds transfer form"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_money_invoice__state
+#: model:ir.model.fields,field_description:money.field_money_order__state
+#: model:ir.model.fields,field_description:money.field_money_transfer_order__state
+#: model:ir.model.fields,field_description:money.field_other_money_order__state
+#: model:ir.model.fields,field_description:money.field_reconcile_order__state
+msgid "状态"
+msgstr "Status"
+
+#. module: money
+#: model:ir.actions.act_window,name:money.cash_flow_wizard_action
+#: model:ir.model,name:money.model_cash_flow_statement
+#: model:ir.ui.menu,name:money.menu_cash_flow_wizard
+#: model_terms:ir.ui.view,arch_db:money.cash_flow_statement_tree
+#: model_terms:ir.ui.view,arch_db:money.cash_flow_wizard_form
+msgid "现金流量表"
+msgstr "Cash flow statement"
+
+#. module: money
+#: model:ir.actions.act_window,name:money.action_cash_flow_template
+#: model:ir.ui.menu,name:money.menu_cash_flow_template
+#: model_terms:ir.ui.view,arch_db:money.cash_flow_template_form
+#: model_terms:ir.ui.view,arch_db:money.cash_flow_template_tree
+msgid "现金流量表模板"
+msgstr "Cash flow statement template"
+
+#. module: money
+#: model:ir.model,name:money.model_cash_flow_template
+msgid "现金流量表模版"
+msgstr "Cash flow statement template"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_core_category__cash_flow_template_ids
+msgid "现金流量表行"
+msgstr "Cash flow statement lines"
+
+#. module: money
+#: model:ir.actions.act_window,name:money.bank_statements_report_wizard_action
+#: model:ir.model,name:money.model_bank_statements_report
+#: model:ir.ui.menu,name:money.report_bank_statements_action
+msgid "现金银行报表"
+msgstr "Cash bank statements"
+
+#. module: money
+#: model:ir.model,name:money.model_bank_statements_report_wizard
+msgid "现金银行报表向导"
+msgstr "Cash Bank Statement Wizard"
+
+#. module: money
+#: model_terms:ir.ui.view,arch_db:money.cash_flow_wizard_form
+msgid "生成"
+msgstr "Generate"
+
+#. module: money
+#: model_terms:ir.ui.view,arch_db:money.bank_statements_report_wizard_form
+#: model_terms:ir.ui.view,arch_db:money.money_get_pay_wizard_form
+#: model_terms:ir.ui.view,arch_db:money.other_money_statements_report_wizard_form
+msgid "确定"
+msgstr "Confirm"
+
+#. module: money
+#: model_terms:ir.ui.view,arch_db:money.money_handwork_invoice_form
+#: model_terms:ir.ui.view,arch_db:money.money_invoice_form
+#: model_terms:ir.ui.view,arch_db:money.money_invoice_tree
+#: model_terms:ir.ui.view,arch_db:money.money_order_form
+#: model_terms:ir.ui.view,arch_db:money.money_transfer_order_form
+#: model_terms:ir.ui.view,arch_db:money.other_money_order_form
+#: model_terms:ir.ui.view,arch_db:money.reconcile_order_form
+msgid "确认"
+msgstr "Confirm"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_money_order__approve_uid
+msgid "确认人"
+msgstr "Confirm Person"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_money_order__approve_date
+msgid "确认日期"
+msgstr "Confirmation date "
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_other_money_order_line__account_id
+#: model:ir.model.fields,help:money.field_other_money_order_line__account_id
+#: model_terms:ir.ui.view,arch_db:money.bank_account_search_inherit
+msgid "科目"
+msgstr "Subjects"
+
+#. module: money
+#: model:ir.model.fields.selection,name:money.selection__cash_flow_template__line_type__begin
+msgid "科目期初"
+msgstr "Beginning of the subject"
+
+#. module: money
+#: model:ir.model.fields.selection,name:money.selection__cash_flow_template__line_type__end
+msgid "科目期末"
+msgstr "End of subject period"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_cost_line__tax_rate
+#: model:ir.model.fields,field_description:money.field_other_money_order_line__tax_rate
+msgid "税率(%)"
+msgstr "Tax Rate (%)"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_cost_line__tax
+#: model:ir.model.fields,field_description:money.field_money_invoice__tax_amount
+#: model:ir.model.fields,field_description:money.field_other_money_order_line__tax_amount
+#: model_terms:ir.ui.view,arch_db:money.money_handwork_invoice_tree
+#: model_terms:ir.ui.view,arch_db:money.money_invoice_tree
+msgid "税额"
+msgstr "Tax Amount"
+
+#. module: money
+#: model:res.groups,name:money.other_get_pay_groups
+msgid "管理其他收入支出"
+msgstr "Manage Other Income and Expenses"
+
+#. module: money
+#: model:res.groups,name:money.money_invoice_handwork_groups
+msgid "管理手工结算"
+msgstr "Manage Manual Billing"
+
+#. module: money
+#: model:res.groups,name:money.reconcile_groups
+msgid "管理核销"
+msgstr "Manage Write-Offs"
+
+#. module: money
+#: model:res.groups,name:money.tax_groups
+msgid "管理税"
+msgstr "Management tax"
+
+#. module: money
+#: model:ir.model,name:money.model_core_category
+#: model:ir.model.fields,field_description:money.field_cost_line__category_id
+#: model:ir.model.fields,field_description:money.field_money_get_pay_report__type
+#: model:ir.model.fields,field_description:money.field_money_get_pay_wizard__type
+#: model:ir.model.fields,field_description:money.field_money_invoice__category_id
+#: model:ir.model.fields,field_description:money.field_other_money_order_line__category_id
+#: model:ir.model.fields,field_description:money.field_other_money_statements_report__category_id
+#: model:ir.model.fields,field_description:money.field_source_order_line__category_id
+#: model_terms:ir.ui.view,arch_db:money.money_invoice_search
+msgid "类别"
+msgstr "Category"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_money_order__type
+#: model:ir.model.fields,field_description:money.field_other_money_order__type
+msgid "类型"
+msgstr "Type"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_other_money_order__type
+msgid "类型：其他收入 或者 其他支出"
+msgstr "Type: Other income or Other Expenses"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_money_order__type
+msgid "类型：收款单 或者 付款单"
+msgstr "Type: Receipt or Payment Slip"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_money_get_pay_report__category_id
+#: model:ir.model.fields,help:money.field_other_money_order_line__category_id
+msgid "类型：运费、咨询费等"
+msgstr "Type: Freight, Consulting Fee, etc"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_reconcile_order__business_type
+msgid "类型：预收冲应收,预付冲应付,应收冲应付,应收转应收,应付转应付"
+msgstr "Type: pre-receivable, prepaid receivable, receivable receivable, receivable to receivable, payable to payable"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_money_invoice__bill_number
+#: model:ir.model.fields,help:money.field_money_invoice__bill_number
+msgid "纸质发票号"
+msgstr "Paper Invoice Reference"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_bank_statements_report_wizard__to_date
+#: model:ir.model.fields,field_description:money.field_money_get_pay_wizard__date_end
+#: model:ir.model.fields,field_description:money.field_other_money_statements_report_wizard__to_date
+#: model:ir.model.fields,field_description:money.field_partner_statements_report_wizard__to_date
+msgid "结束日期"
+msgstr "End Date"
+
+#. module: money
+#: model:ir.actions.act_window,name:money.money_invoice_action
+#: model:ir.model,name:money.model_money_invoice
+#: model:ir.ui.menu,name:money.menu_money_invoice_action
+#: model_terms:ir.ui.view,arch_db:money.money_handwork_invoice_form
+#: model_terms:ir.ui.view,arch_db:money.money_handwork_invoice_tree
+#: model_terms:ir.ui.view,arch_db:money.money_invoice_form
+#: model_terms:ir.ui.view,arch_db:money.money_invoice_search
+#: model_terms:ir.ui.view,arch_db:money.money_invoice_tree
+msgid "结算单"
+msgstr "Invoices"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_money_invoice__state
+msgid "结算单状态标识，新建时状态为草稿;确认后状态为完成"
+msgstr "The status of the invoice is identified, and the status is Draft when it is created; After confirmation, the status is Complete"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_money_invoice__date_due
+msgid "结算单的到期日"
+msgstr "The Due Date of The Invoice"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_money_invoice__voucher_id
+msgid "结算单确认时生成的对应凭证"
+msgstr "The corresponding document that is generated when the invoice is confirmed"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_money_invoice__cogs_voucher_id
+msgid "结算单确认时生成的成本凭证"
+msgstr "Cost documents that are generated when an invoice is confirmed"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_money_invoice__category_id
+msgid "结算单类别：采购 或者 销售等"
+msgstr "Statement category: Purchase or Sales, etc"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_money_order_line__number
+#: model:ir.model.fields,field_description:money.field_money_transfer_order_line__number
+msgid "结算号"
+msgstr "Settlement Number"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_money_order_line__mode_id
+#: model:ir.model.fields,field_description:money.field_money_transfer_order_line__mode_id
+#: model:ir.ui.menu,name:money.settle_mode_menu
+msgid "结算方式"
+msgstr "Billing Method"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_money_order_line__mode_id
+#: model:ir.model.fields,help:money.field_money_transfer_order_line__mode_id
+msgid "结算方式：支票、信用卡等"
+msgstr "Settlement Method: Cheque, Credit Card, etc"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_money_order_line__bank_id
+#: model:ir.model.fields,field_description:money.field_other_money_order__bank_id
+msgid "结算账户"
+msgstr "Transaction Account"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_money_order_line__currency_id
+msgid "结算账户对应的外币币别"
+msgstr "The foreign currency corresponding to the transaction account"
+
+#. module: money
+#: model:ir.model.fields.selection,name:money.selection__money_invoice__state__draft
+#: model:ir.model.fields.selection,name:money.selection__money_order__state__draft
+#: model:ir.model.fields.selection,name:money.selection__money_transfer_order__state__draft
+#: model:ir.model.fields.selection,name:money.selection__other_money_order__state__draft
+#: model:ir.model.fields.selection,name:money.selection__reconcile_order__state__draft
+#: model_terms:ir.ui.view,arch_db:money.money_order_search
+#: model_terms:ir.ui.view,arch_db:money.money_transfer_order_search
+#: model_terms:ir.ui.view,arch_db:money.other_money_order_search
+#: model_terms:ir.ui.view,arch_db:money.reconcile_order_search
+msgid "草稿"
+msgstr "Draft"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_cash_flow_statement__line_num
+#: model:ir.model.fields,field_description:money.field_cash_flow_template__line_num
+msgid "行次"
+msgstr "Number of rows"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_cash_flow_template__line_type
+msgid "行类型"
+msgstr "Row type"
+
+#. module: money
+#: model:ir.model.fields.selection,name:money.selection__cash_flow_template__line_type__lines
+msgid "表行计算"
+msgstr "Table row calculation"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_money_order_line__money_id
+msgid "订单行对应的收付款单"
+msgstr "The receipt and payment slip corresponding to the order line"
+
+#. module: money
+#: model:ir.ui.menu,name:money.menu_money_setting
+msgid "设置"
+msgstr "Settings"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_money_invoice__partner_id
+msgid "该单据对应的业务伙伴"
+msgstr "The business partner to which the document relates"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_reconcile_order__partner_id
+msgid "该单据对应的业务伙伴，与业务类型一起带出待核销的明细行"
+msgstr "The business partner that corresponds to the document brings out the detail lines to be written off along with the business type"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_money_order__partner_id
+msgid "该单据对应的业务伙伴，单据确认时会影响他的应收应付余额"
+msgstr "The document corresponds to the business partner, and when the document is recognized, it affects his receivable and payable balance"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_money_invoice__name
+msgid "该结算单编号，取自生成结算单的采购入库单和销售入库单"
+msgstr "The invoice number, taken from the purchase and sales receipts that generated the invoices"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_cost_line__note
+msgid "该采购/销售费用添加的一些标识信息"
+msgstr "The Purchase/Sales Expense Adds Some Identifying Information"
+
+#. module: money
+#: model:res.groups,name:money.group_money_manager
+msgid "财务经理"
+msgstr "Finance Manager"
+
+#. module: money
+#: model:ir.model,name:money.model_bank_account
+#: model:ir.model.fields,field_description:money.field_other_money_statements_report__bank_id
+#: model:ir.ui.menu,name:money.bank_account_menu
+msgid "账户"
+msgstr "Account"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_bank_statements_report__balance
+msgid "账户余额"
+msgstr "Account Balance"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_bank_statements_report__bank_id
+#: model:ir.model.fields,field_description:money.field_bank_statements_report_wizard__bank_id
+msgid "账户名称"
+msgstr "Account Name"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_money_order__discount_account_id
+msgid "费用科目"
+msgstr "Expense accounts"
+
+#. module: money
+#: model:ir.ui.menu,name:money.menu_money_manage
+#: model:ir.ui.menu,name:money.menu_money_root
+msgid "资金"
+msgstr "Money"
+
+#. module: money
+#: model:ir.model,name:money.model_money_get_pay_report
+#: model:ir.ui.menu,name:money.menu_money_get_pay
+#: model_terms:ir.ui.view,arch_db:money.money_get_pay_report_search
+#: model_terms:ir.ui.view,arch_db:money.money_get_pay_report_tree
+msgid "资金收支报表"
+msgstr "Statement of income and expenditure of funds"
+
+#. module: money
+#: model:ir.actions.act_window,name:money.money_get_pay_wizard_action
+#: model:ir.model,name:money.model_money_get_pay_wizard
+#: model_terms:ir.ui.view,arch_db:money.money_get_pay_wizard_form
+msgid "资金收支报表向导"
+msgstr "Funds Income and Expenditure Statement Wizard"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_bank_account__init_balance
+msgid "资金的期初余额"
+msgstr "The opening balance of the funds"
+
+#. module: money
+#: model:ir.actions.act_window,name:money.money_transfer_order_action
+#: model:ir.actions.report,name:money.money_transfer_order_print
+#: model:ir.model,name:money.model_money_transfer_order
+#: model:ir.model.fields,field_description:money.field_money_transfer_order_line__transfer_id
+#: model:ir.ui.menu,name:money.menu_money_transfer_order_action
+#: model_terms:ir.ui.view,arch_db:money.money_transfer_order_form
+#: model_terms:ir.ui.view,arch_db:money.money_transfer_order_search
+#: model_terms:ir.ui.view,arch_db:money.money_transfer_order_tree
+msgid "资金转账单"
+msgstr "Funds transfer slip"
+
+#. module: money
+#: model:ir.model,name:money.model_money_transfer_order_line
+msgid "资金转账单明细"
+msgstr "Details of the funds transfer slip"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_money_transfer_order__line_ids
+msgid "资金转账单明细行"
+msgstr "Funds transfer slip line details"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_money_transfer_order__state
+msgid "资金转账单状态标识，新建时状态为草稿;确认后状态为已确认"
+msgstr "The status of the fund transfer slip is identified, and the status is draft when it is created; After confirmation, the status is Confirmed"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_money_transfer_order__voucher_id
+msgid "资金转账单确认时生成的对应凭证"
+msgstr "The corresponding voucher generated when the funds transfer slip is confirmed"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_money_transfer_order__line_ids
+msgid "资金转账单行"
+msgstr "Funds transfer line"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_money_transfer_order_line__in_bank_id
+msgid "资金转账单行上的转入账户"
+msgstr "The transfer-in account on the funds transfer slip"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_money_transfer_order_line__out_bank_id
+msgid "资金转账单行上的转出账户"
+msgstr "The transfer-out account on the funds transfer slip"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_money_transfer_order_line__transfer_id
+msgid "资金转账单行对应的资金转账单"
+msgstr "The funds transfer slip corresponding to the fund transfer slip line"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_money_invoice__overdue_amount
+msgid "超过到期日后仍未核销的金额"
+msgstr "Amounts that Remain Unwritten After The Due Date Have Passed"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_reconcile_order__to_partner_id
+msgid "转入往来单位"
+msgstr "Transferred to Correspondence Companys"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_money_transfer_order_line__in_bank_id
+msgid "转入账户"
+msgstr "Transfer To The Account"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_money_transfer_order_line__currency_amount
+msgid "转出或转入的外币金额"
+msgstr "The amount of foreign currency transferred out or in"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_money_transfer_order_line__amount
+msgid "转出或转入的金额"
+msgstr "The amount transferred out or in"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_money_transfer_order_line__out_bank_id
+msgid "转出账户"
+msgstr "Transfer Out Of The Account"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_money_transfer_order__transfer_amount
+msgid "转账总金额"
+msgstr "The total amount transferred"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_money_invoice__auxiliary_id
+#: model:ir.model.fields,field_description:money.field_other_money_order_line__auxiliary_id
+#: model:ir.model.fields,help:money.field_money_invoice__auxiliary_id
+msgid "辅助核算"
+msgstr "Auxiliary Accounting"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_money_invoice__overdue_days
+msgid "逾期天数"
+msgstr "Number of Overdue Days"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_money_invoice__overdue_amount
+#: model_terms:ir.ui.view,arch_db:money.money_handwork_invoice_tree
+#: model_terms:ir.ui.view,arch_db:money.money_invoice_mini_tree
+#: model_terms:ir.ui.view,arch_db:money.money_invoice_tree
+msgid "逾期金额"
+msgstr "Overdue Amount"
+
+#. module: money
+#: model:ir.model.fields.selection,name:money.selection__money_get_pay_report__type__pay
+#: model:ir.model.fields.selection,name:money.selection__money_get_pay_wizard__type__pay
+msgid "采购"
+msgstr "Purchase"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_cost_line__partner_id
+msgid "采购/销售费用对应的业务伙伴"
+msgstr "Business Partners Corresponding To Purchase/Sales Expenses"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_cost_line__tax
+msgid "采购/销售费用税额"
+msgstr "Purchase/Sales Expense Tax Amounts"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_cost_line__amount
+msgid "采购/销售费用金额"
+msgstr "Purchase/Sales Expense Amount"
+
+#. module: money
+#: model:ir.model.fields.selection,name:money.selection__cash_flow_template__line_type__pay
+msgid "采购付款"
+msgstr "Purchase payments"
+
+#. module: money
+#: model:ir.actions.act_window,name:money.money_invoice_expense_action
+msgid "采购发票"
+msgstr "Purchase invoices"
+
+#. module: money
+#: model:ir.model,name:money.model_cost_line
+msgid "采购销售费用"
+msgstr "Purchase Sales Expenses"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_cost_line__amount
+#: model:ir.model.fields,field_description:money.field_money_get_pay_report__amount
+#: model:ir.model.fields,field_description:money.field_money_order_line__amount
+#: model:ir.model.fields,field_description:money.field_money_transfer_order_line__amount
+#: model:ir.model.fields,field_description:money.field_other_money_order__total_amount
+#: model:ir.model.fields,field_description:money.field_other_money_order_line__amount
+#: model_terms:ir.ui.view,arch_db:money.money_handwork_invoice_tree
+#: model_terms:ir.ui.view,arch_db:money.money_invoice_tree
+#: model_terms:ir.ui.view,arch_db:money.report_other_money_order
+msgid "金额"
+msgstr "Amount"
+
+#. module: money
+#: model_terms:ir.ui.view,arch_db:money.money_get_pay_report_tree
+msgid "金额合计"
+msgstr "Total amounts"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_money_invoice__amount
+msgid "金额（含税）"
+msgstr "Amount Taxed"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_money_order__bank_num
+#: model:ir.model.fields,field_description:money.field_other_money_order__bank_num
+msgid "银行账号"
+msgstr "Account"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_money_order__bank_num
+msgid "银行账号取自业务伙伴，可修改"
+msgstr "The bank account number is taken from the business partner and can be modified"
+
+#. module: money
+#: model:ir.model.fields.selection,name:money.selection__money_get_pay_report__type__get
+#: model:ir.model.fields.selection,name:money.selection__money_get_pay_wizard__type__get
+msgid "销售"
+msgstr "Sale"
+
+#. module: money
+#: model:ir.actions.act_window,name:money.money_invoice_income_action
+msgid "销售发票"
+msgstr "Sales Invoices"
+
+#. module: money
+#: model_terms:ir.ui.view,arch_db:money.report_other_money_order
+msgid "销售员："
+msgstr "Salesman:"
+
+#. module: money
+#: model:ir.model.fields.selection,name:money.selection__cash_flow_template__line_type__get
+msgid "销售收款"
+msgstr "Collection Of Sales"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_cash_flow_statement__name
+#: model:ir.model.fields,field_description:money.field_cash_flow_template__name
+msgid "项目"
+msgstr "Project"
+
+#. module: money
+#: model:ir.model.fields.selection,name:money.selection__reconcile_order__business_type__adv_get_to_pay
+msgid "预付冲应付"
+msgstr "Prepaid offences"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_advance_payment__name
+msgid "预收/付款单"
+msgstr "Pre-receipt/payment slips"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_advance_payment__amount
+msgid "预收/付款单的预收/付金额"
+msgstr "The amount of the advance receipt/payment of the prepayment/payment slip"
+
+#. module: money
+#: model:ir.model.fields,field_description:money.field_reconcile_order__advance_payment_ids
+msgid "预收/付款单行"
+msgstr "Pre-receipt/payment order lines"
+
+#. module: money
+#: model:ir.model.fields.selection,name:money.selection__reconcile_order__business_type__adv_pay_to_get
+msgid "预收冲应收"
+msgstr "Pre-collection flush receivable"
+
+#. module: money
+#: model:ir.model.fields,help:money.field_cost_line__tax_rate
+msgid "默认值取公司进项税率"
+msgstr "The default value is the company's purchase tax rate"

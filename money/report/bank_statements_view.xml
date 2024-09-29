@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <odoo>
     <data>
-        <!--现金银行报表 tree-->
-    	<record id="bank_statements_report_tree" model="ir.ui.view">
-            <field name="name">bank.statements.report.tree</field>
+        <!--现金银行报表 list-->
+    	<record id="bank_statements_report_list" model="ir.ui.view">
+            <field name="name">bank.statements.report.list</field>
             <field name="model">bank.statements.report</field>
             <field name="arch" type="xml">
                 <list string="Bank Statements Report">

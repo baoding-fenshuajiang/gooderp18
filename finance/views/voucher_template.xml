@@ -44,8 +44,8 @@
                 </field>
             </field>
         </record>
-         <record id="voucher_template_tree" model="ir.ui.view">
-             <field name="name">voucher.template.tree</field>
+         <record id="voucher_template_list" model="ir.ui.view">
+             <field name="name">voucher.template.list</field>
             <field name="model">voucher.template</field>
             <field name="arch" type="xml">
                 <list>

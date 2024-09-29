@@ -496,9 +496,9 @@ msgid "gooderp"
 msgstr ""
 
 #. module: core
-#: model_terms:ir.ui.view,arch_db:core.bank_account_tree
-#: model_terms:ir.ui.view,arch_db:core.customer_tree
-#: model_terms:ir.ui.view,arch_db:core.vendor_tree
+#: model_terms:ir.ui.view,arch_db:core.bank_account_list
+#: model_terms:ir.ui.view,arch_db:core.customer_list
+#: model_terms:ir.ui.view,arch_db:core.vendor_list
 msgid "sum"
 msgstr ""
 
@@ -626,7 +626,7 @@ msgstr "Balance"
 #: model:ir.model.fields.selection,name:core.selection__warehouse__type__supplier
 #: model_terms:ir.ui.view,arch_db:core.supplier_address_form
 #: model_terms:ir.ui.view,arch_db:core.vendor_search
-#: model_terms:ir.ui.view,arch_db:core.vendor_tree
+#: model_terms:ir.ui.view,arch_db:core.vendor_list
 msgid "供应商"
 msgstr "Vendor"
 
@@ -728,7 +728,7 @@ msgstr "Check this box and all new invoices will not be automatically billed"
 #. module: core
 #: model:ir.actions.act_window,name:core.uom_action
 #: model_terms:ir.ui.view,arch_db:core.uom_search
-#: model_terms:ir.ui.view,arch_db:core.uom_tree
+#: model_terms:ir.ui.view,arch_db:core.uom_list
 msgid "单位"
 msgstr "Unit of Mesure"
 
@@ -743,7 +743,7 @@ msgstr "Units cannot have the same name"
 #: model:ir.ui.menu,name:core.core_value_menu
 #: model_terms:ir.ui.view,arch_db:core.core_value_form
 #: model_terms:ir.ui.view,arch_db:core.core_value_search
-#: model_terms:ir.ui.view,arch_db:core.core_value_tree
+#: model_terms:ir.ui.view,arch_db:core.core_value_list
 msgid "可选值"
 msgstr "Optional value"
 
@@ -916,7 +916,7 @@ msgstr "Fixed cost"
 #: model:ir.model.fields.selection,name:core.selection__warehouse__type__customer
 #: model_terms:ir.ui.view,arch_db:core.customer_address_form
 #: model_terms:ir.ui.view,arch_db:core.customer_search
-#: model_terms:ir.ui.view,arch_db:core.customer_tree
+#: model_terms:ir.ui.view,arch_db:core.customer_list
 msgid "客户"
 msgstr "Customer"
 
@@ -1066,7 +1066,7 @@ msgstr "Revenue Category"
 #: model:ir.actions.act_window,name:core.service_action
 #: model:ir.model,name:core.model_service
 #: model_terms:ir.ui.view,arch_db:core.service_search
-#: model_terms:ir.ui.view,arch_db:core.service_tree
+#: model_terms:ir.ui.view,arch_db:core.service_list
 msgid "收支项"
 msgstr "Income And Expenditure"
 
@@ -1199,7 +1199,7 @@ msgstr "Used to display the billing method and settlement reference"
 #. module: core
 #: model:ir.ui.menu,name:core.users_menu
 #: model_terms:ir.ui.view,arch_db:core.res_users_form_inherit
-#: model_terms:ir.ui.view,arch_db:core.res_users_tree_inherit
+#: model_terms:ir.ui.view,arch_db:core.res_users_list_inherit
 msgid "用户"
 msgstr "User"
 
@@ -1261,7 +1261,7 @@ msgstr "Manage Billing Methods"
 #: model:ir.ui.menu,name:core.core_category_menu
 #: model_terms:ir.ui.view,arch_db:core.core_category_form
 #: model_terms:ir.ui.view,arch_db:core.core_category_search
-#: model_terms:ir.ui.view,arch_db:core.core_category_tree
+#: model_terms:ir.ui.view,arch_db:core.core_category_list
 msgid "类别"
 msgstr "Category"
 
@@ -1283,7 +1283,7 @@ msgstr "Termination date"
 #: model:ir.actions.act_window,name:core.settle_mode_action
 #: model:ir.model,name:core.model_settle_mode
 #: model_terms:ir.ui.view,arch_db:core.settle_mode_search
-#: model_terms:ir.ui.view,arch_db:core.settle_mode_tree
+#: model_terms:ir.ui.view,arch_db:core.settle_mode_list
 msgid "结算方式"
 msgstr "Billing method"
 
@@ -1335,7 +1335,7 @@ msgstr "Account"
 #: model:ir.actions.act_window,name:core.bank_account_action
 #: model:ir.model,name:core.model_bank_account
 #: model_terms:ir.ui.view,arch_db:core.bank_account_search
-#: model_terms:ir.ui.view,arch_db:core.bank_account_tree
+#: model_terms:ir.ui.view,arch_db:core.bank_account_list
 msgid "账户"
 msgstr "Account"
 

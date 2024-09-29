@@ -21,9 +21,9 @@
         <menuitem id='vendor_menu' action='core.vendor_action' name="供应商" 
             parent='menu_money_setting' sequence='6'/>
 
-		<!--收/付款单tree-->
-    	<record id="money_order_tree" model="ir.ui.view">
-            <field name="name">money.order.tree</field>
+		<!--收/付款单list-->
+    	<record id="money_order_list" model="ir.ui.view">
+            <field name="name">money.order.list</field>
             <field name="model">money.order</field>
             <field name="arch" type="xml">
                 <list string="收付款单" decoration-info='state == "draft"' decoration-muted= 'state == "cancel"' >
@@ -186,9 +186,9 @@
             </field>
         </record>
 
-        <!--结算单tree-->
-    	<record id="money_invoice_tree" model="ir.ui.view">
-            <field name="name">money.invoice.tree</field>
+        <!--结算单list-->
+    	<record id="money_invoice_list" model="ir.ui.view">
+            <field name="name">money.invoice.list</field>
             <field name="model">money.invoice</field>
             <field name="arch" type="xml">
                 <list string="结算单" editable='top' create="false" delete="false">
@@ -222,9 +222,9 @@
             </field>
         </record>
 
-        <!--手工结算单tree-->
-    	<record id="money_handwork_invoice_tree" model="ir.ui.view">
-            <field name="name">money.invoice.handwork.tree</field>
+        <!--手工结算单list-->
+    	<record id="money_handwork_invoice_list" model="ir.ui.view">
+            <field name="name">money.invoice.handwork.list</field>
             <field name="model">money.invoice</field>
             <field name="priority">17</field>
             <field name="arch" type="xml">
@@ -357,14 +357,14 @@
         <record id="money_invoice_action" model="ir.actions.act_window">
             <field name="name">结算单</field>
             <field name="type">ir.actions.act_window</field>
-            <field name="view_id" ref="money_invoice_tree"/>
+            <field name="view_id" ref="money_invoice_list"/>
             <field name="res_model">money.invoice</field>
             <field name="view_mode">listpivot</field>
         </record>
 
         <!-- 查看结算单， 用于客户上的按钮显示未核销发票 -->
-        <record id="money_invoice_mini_tree" model="ir.ui.view">
-            <field name="name">money.invoice.tree</field>
+        <record id="money_invoice_mini_list" model="ir.ui.view">
+            <field name="name">money.invoice.list</field>
             <field name="model">money.invoice</field>
             <field name="arch" type="xml">
                 <list string="欠款记录" create="false" delete="false">
@@ -391,7 +391,7 @@
         <record id="action_view_money_invoice" model="ir.actions.act_window">
             <field name="name">欠款记录</field>
             <field name="type">ir.actions.act_window</field>
-            <field name="view_id" ref="money_invoice_mini_tree"/>
+            <field name="view_id" ref="money_invoice_mini_list"/>
             <field name="res_model">money.invoice</field>
             <field name="view_mode">list</field>
         </record>
@@ -406,7 +406,7 @@
             <field name="view_mode">list,form</field>
             <field name="view_ids"
                eval="[(5, 0, 0),
-                      (0, 0, {'view_mode': 'list', 'view_id': ref('money_handwork_invoice_tree')}),
+                      (0, 0, {'view_mode': 'list', 'view_id': ref('money_handwork_invoice_list')}),
                       (0, 0, {'view_mode': 'form', 'view_id': ref('money_handwork_invoice_form')}),
                       ]"/>
         </record>

@@ -93,8 +93,8 @@
                 </form>
             </field>
         </record>
-        <record id="voucher_tree" model="ir.ui.view">
-            <field name="name">voucher.tree</field>
+        <record id="voucher_list" model="ir.ui.view">
+            <field name="name">voucher.list</field>
             <field name="model">voucher</field>
             <field name="arch" type="xml">
                 <list string="会计凭证" decoration-info="state=='draft'" decoration-muted="state=='cancel'">
@@ -152,8 +152,8 @@
                 </search>
             </field>
         </record>
-        <record id="voucher_line_tree" model="ir.ui.view">
-            <field name="name">voucher.line.tree</field>
+        <record id="voucher_line_list" model="ir.ui.view">
+            <field name="name">voucher.line.list</field>
             <field name="model">voucher.line</field>
             <field name="arch" type="xml">
                 <list string='分录查询' decoration-info="state=='draft'" decoration-muted="state=='cancel'" create="false" edit='false'>
@@ -216,8 +216,8 @@
 
         <menuitem id='voucher_line_menu' action='voucher_line_action' parent='voucher_books_menu' sequence='10' />
 
-        <record id="chang_voucher_name_tree" model="ir.ui.view">
-            <field name="name">change.voucher.name.tree</field>
+        <record id="chang_voucher_name_list" model="ir.ui.view">
+            <field name="name">change.voucher.name.list</field>
             <field name="model">change.voucher.name</field>
             <field name="arch" type="xml">
 				<list string='凭证变更记录' create='0'>

@@ -2,8 +2,8 @@
 <odoo>
     <data>
 
-        <record id="trial_balance_tree" model="ir.ui.view">
-            <field name="name">trial.balance.tree</field>
+        <record id="trial_balance_list" model="ir.ui.view">
+            <field name="name">trial.balance.list</field>
             <field name="model">trial.balance</field>
             <field name="arch" type="xml">
                 <list string="科目余额表" decoration-info="account_type=='view'" default_order='subject_name_id'>
@@ -21,7 +21,7 @@
                 </list>
             </field>
         </record>
-        <record id="init_balance_tree" model="ir.ui.view">
+        <record id="init_balance_list" model="ir.ui.view">
             <field name="name">initial.balance.form</field>
             <field name="model">trial.balance</field>
             <field name="arch" type="xml">
@@ -213,7 +213,7 @@
             <field name="target">new</field>
         </record>
 
-        <record id="vouchers_summary_tree" model="ir.ui.view">
+        <record id="vouchers_summary_list" model="ir.ui.view">
             <field name="name">trial.balance.form</field>
             <field name="model">vouchers.summary</field>
             <field name="arch" type="xml">
@@ -265,8 +265,8 @@
             <field name="context">{'create_general_ledger_account':True}</field>
         </record>
         
-        <record id="general_ledger_account_tree" model="ir.ui.view">
-            <field name="name">general_ledger_account_tree</field>
+        <record id="general_ledger_account_list" model="ir.ui.view">
+            <field name="name">general_ledger_account_list</field>
             <field name="model">general.ledger.account</field>
             <field name="arch" type="xml">
                 <list string="科目总账" create="false" edit='false'>

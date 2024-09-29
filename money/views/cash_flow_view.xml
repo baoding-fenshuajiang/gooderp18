@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <odoo>
     <data>
-            <record id="cash_flow_template_tree" model="ir.ui.view">
-                <field name="name">cash.flow.template.tree</field>
+            <record id="cash_flow_template_list" model="ir.ui.view">
+                <field name="name">cash.flow.template.list</field>
                 <field name="model">cash.flow.template</field>
                 <field name="arch" type="xml">
                     <list string="现金流量表模板">
@@ -59,12 +59,12 @@
                 <field name="res_model">cash.flow.template</field>
                 <field name="type">ir.actions.act_window</field>
                 <field name="view_mode">list,form</field>
-                <field name="view_id" ref="cash_flow_template_tree"/>
+                <field name="view_id" ref="cash_flow_template_list"/>
             </record> 
             <menuitem id='menu_cash_flow_template' action='action_cash_flow_template' parent='finance.finance_setting_menu' groups="base.group_no_one" sequence='90'/>
 
-            <record id="cash_flow_statement_tree" model="ir.ui.view">
-                <field name="name">cash.flow.statement.tree</field>
+            <record id="cash_flow_statement_list" model="ir.ui.view">
+                <field name="name">cash.flow.statement.list</field>
                 <field name="model">cash.flow.statement</field>
                 <field name="arch" type="xml">
                     <list string="现金流量表" create="false">
@@ -76,8 +76,8 @@
                 </field>
             </record>
                     <!--付款方式，菜单放在资金模块下-->
-		<record id="pay_method_tree" model="ir.ui.view">
-			<field name="name">pay.method.tree</field>
+		<record id="pay_method_list" model="ir.ui.view">
+			<field name="name">pay.method.list</field>
 			<field name="model">pay.method</field>
 			<field name="arch" type="xml">
 				<list editable="top" string="付款方式">

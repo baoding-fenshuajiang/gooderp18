@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <odoo>
     <data>
-        <!--资金转账单tree-->
-        <record id="money_transfer_order_tree" model="ir.ui.view">
-            <field name="name">money.transfer.order.tree</field>
+        <!--资金转账单list-->
+        <record id="money_transfer_order_list" model="ir.ui.view">
+            <field name="name">money.transfer.order.list</field>
             <field name="model">money.transfer.order</field>
             <field name="arch" type="xml">
                 <list string="资金转账单" decoration-info='state == "draft"' decoration-muted= 'state == "cancel"' >

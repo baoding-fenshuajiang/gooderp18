@@ -41,14 +41,14 @@ class PartnerStatementsReportWizard(models.TransientModel):
 
             if self.env.context.get('default_customer'):  # 客户
                 view = self.env.get('sell.order') != None \
-                    and self.env.ref('sell.customer_statements_report_tree') \
-                    or self.env.ref('money.customer_statements_report_simple_tree')
+                    and self.env.ref('sell.customer_statements_report_list') \
+                    or self.env.ref('money.customer_statements_report_simple_list')
                 name = u'客户对账单:' + s.partner_id.name
                 res_model = 'customer.statements.report'
             else:  # 供应商
                 view = self.env.get('buy.order') != None \
-                    and self.env.ref('buy.supplier_statements_report_tree') \
-                    or self.env.ref('money.supplier_statements_report_simple_tree')
+                    and self.env.ref('buy.supplier_statements_report_list') \
+                    or self.env.ref('money.supplier_statements_report_simple_list')
                 name = u'供应商对账单:' + s.partner_id.name
                 res_model = 'supplier.statements.report'
 
@@ -184,7 +184,7 @@ class PartnerStatementsReportWizard(models.TransientModel):
                                                                                        'customer')
                             res_ids.append(record_id)
                 view = self.env.ref(
-                    'sell.customer_statements_report_with_goods_tree')
+                    'sell.customer_statements_report_with_goods_list')
 
                 return {
                     'name': u'客户对账单:' + s.partner_id.name,
@@ -242,7 +242,7 @@ class PartnerStatementsReportWizard(models.TransientModel):
                             res_ids.append(record_id)
 
                 view = self.env.ref(
-                    'buy.supplier_statements_report_with_goods_tree')
+                    'buy.supplier_statements_report_with_goods_list')
 
                 return {
                     'name': u'供应商对账单:' + s.partner_id.name,

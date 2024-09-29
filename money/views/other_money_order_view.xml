@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <odoo>
     <data>
-        <!--其他收入/支出tree-->
-    	<record id="other_money_order_tree" model="ir.ui.view">
-            <field name="name">other.money.order.tree</field>
+        <!--其他收入/支出list-->
+    	<record id="other_money_order_list" model="ir.ui.view">
+            <field name="name">other.money.order.list</field>
             <field name="model">other.money.order</field>
             <field name="arch" type="xml">
                 <list string="其他收支单" decoration-info='state == "draft"' decoration-muted= 'state == "cancel"' >

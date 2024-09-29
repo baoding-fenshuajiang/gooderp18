@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <odoo>
     <data>
-        <!--其他支出单tree-->
-    	<record id="other_money_statements_report_tree" model="ir.ui.view">
-            <field name="name">other.money.statements.report.tree</field>
+        <!--其他支出单list-->
+    	<record id="other_money_statements_report_list" model="ir.ui.view">
+            <field name="name">other.money.statements.report.list</field>
             <field name="model">other.money.statements.report</field>
             <field name="arch" type="xml">
                 <list string="其他收支明细表" create='0'>

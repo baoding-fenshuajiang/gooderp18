@@ -111,7 +111,7 @@ class CreateBalanceSheetWizard(models.TransientModel):
         balance_wizard = self.env['create.trial.balance.wizard'].create(
             {'period_id': self.period_id.id})
         balance_wizard.create_trial_balance()
-        view_id = self.env.ref('finance.balance_sheet_tree_wizard').id
+        view_id = self.env.ref('finance.balance_sheet_list_wizard').id
         balance_sheet_objs = self.env['balance.sheet'].search([])
         year_begain_field = ['year_init_debit', 'year_init_credit']
         current_period_field = [
@@ -136,11 +136,11 @@ class CreateBalanceSheetWizard(models.TransientModel):
         return {  # 返回生成资产负债表的数据的列表
             'type': 'ir.actions.act_window',
             'name': '资产负债表：' + self.period_id.name,
-            'view_mode': 'tree',
+            'view_mode': 'list',
             'res_model': 'balance.sheet',
             'target': 'main',
             'view_id': False,
-            'views': [(view_id, 'tree')],
+            'views': [(view_id, 'list')],
             'context': {'period_id': self.period_id.id,
                         'attachment_information': attachment_information},
             'domain': domain,
@@ -165,7 +165,7 @@ class CreateBalanceSheetWizard(models.TransientModel):
         balance_wizard = self.env['create.trial.balance.wizard'].create(
             {'period_id': self.period_id.id})
         balance_wizard.create_trial_balance()
-        view_id = self.env.ref('finance.profit_statement_tree').id
+        view_id = self.env.ref('finance.profit_statement_list').id
         balance_sheet_objs = self.env['profit.statement'].search([])
         year_begain_field = ['cumulative_occurrence_debit',
                              'cumulative_occurrence_credit']
@@ -198,11 +198,11 @@ class CreateBalanceSheetWizard(models.TransientModel):
         return {  # 返回生成利润表的数据的列表
             'type': 'ir.actions.act_window',
             'name': '利润表：' + self.period_id.name,
-            'view_mode': 'tree',
+            'view_mode': 'list',
             'res_model': 'profit.statement',
             'target': 'main',
             'view_id': False,
-            'views': [(view_id, 'tree')],
+            'views': [(view_id, 'list')],
             'context': {'period_id': self.period_id.id,
                         'attachment_information': attachment_information},
             'domain': domain,

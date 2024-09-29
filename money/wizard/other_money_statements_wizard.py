@@ -35,7 +35,7 @@ class OtherMoneyStatementsReportWizard(models.Model):
         if self.from_date > self.to_date:
             raise UserError(u'结束日期不能小于开始日期。')
 
-        view = self.env.ref('money.other_money_statements_report_tree')
+        view = self.env.ref('money.other_money_statements_report_list')
 
         return {
             'name': u'其他收支明细表',

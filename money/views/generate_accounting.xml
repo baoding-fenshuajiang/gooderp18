@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <odoo>
     <data>
-    	<record id="core_category_tree_inherit" model="ir.ui.view">
-            <field name="name">core_category_tree</field>
+    	<record id="core_category_list_inherit" model="ir.ui.view">
+            <field name="name">core_category_list</field>
             <field name="model">core.category</field>
-            <field name='inherit_id' ref='core.core_category_tree' />
+            <field name='inherit_id' ref='core.core_category_list' />
             <field name="arch" type="xml">
                 <field name="type" position="after">
 					<field name="account_id" required="1"/>

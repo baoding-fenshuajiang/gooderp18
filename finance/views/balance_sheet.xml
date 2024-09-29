@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <odoo>
     <data>
-        <record id="profit_statement_tree" model="ir.ui.view">
-            <field name="name">profit_statement_tree</field>
+        <record id="profit_statement_list" model="ir.ui.view">
+            <field name="name">profit_statement_list</field>
             <field name="model">profit.statement</field>
             <field name="arch" type="xml">
                 <list string='利润表' create='false' edit='false' >
@@ -13,8 +13,8 @@
                 </list>
             </field>
         </record>
-        <record id="profit_statement_tree_template" model="ir.ui.view">
-            <field name="name">profit_statement_tree_template</field>
+        <record id="profit_statement_list_template" model="ir.ui.view">
+            <field name="name">profit_statement_list_template</field>
             <field name="model">profit.statement</field>
             <field name="arch" type="xml">
                 <list string='利润表模板' editable="bottom" >
@@ -31,14 +31,14 @@
             <field name="type">ir.actions.act_window</field>
             
             <field name="view_mode">list</field>
-            <field name="view_id" ref="profit_statement_tree_template"/>
+            <field name="view_id" ref="profit_statement_list_template"/>
         </record> 
 
          <menuitem id='profit_statement_menu' action='profit_statement_action_template' groups="base.group_no_one" parent='finance_setting_menu' sequence='80'/>
 
 
-        <record id="balance_sheet_tree" model="ir.ui.view">
-            <field name="name">balance_sheet_tree</field>
+        <record id="balance_sheet_list" model="ir.ui.view">
+            <field name="name">balance_sheet_list</field>
             <field name="model">balance.sheet</field>
             <field name="arch" type="xml">
                 <list string="资产负债表模板" editable="bottom" >
@@ -52,8 +52,8 @@
                 </list>
             </field>
         </record>
-        <record id="balance_sheet_tree_wizard" model="ir.ui.view">
-            <field name="name">balance_sheet_tree</field>
+        <record id="balance_sheet_list_wizard" model="ir.ui.view">
+            <field name="name">balance_sheet_list</field>
             <field name="model">balance.sheet</field>
             <field name="arch" type="xml">
                 <list string="资产负债表" create="false" edit='false'>
@@ -74,7 +74,7 @@
             <field name="type">ir.actions.act_window</field>
             
             <field name="view_mode">list</field>
-            <field name="view_id" ref="balance_sheet_tree"/>
+            <field name="view_id" ref="balance_sheet_list"/>
         </record> 
        <record id="create_balance_sheet_wizard_form" model="ir.ui.view">
             <field name="name">create.balance.sheet.wizard.form</field>
@@ -102,14 +102,14 @@
             <field name="target">new</field>
         </record>
 
-        <record id="profit_statement_tree_wizard_action" model="ir.actions.act_window">
+        <record id="profit_statement_list_wizard_action" model="ir.actions.act_window">
             <field name="name">利润表</field>
             <field name="res_model">create.balance.sheet.wizard</field>
             <field name="view_mode">form</field>
             <field name="target">new</field>
         </record>
 
-         <menuitem id='profit_statement_tree_wizard_action_menu' action='profit_statement_tree_wizard_action' parent='voucher_books_menu' sequence='30'/>
+         <menuitem id='profit_statement_list_wizard_action_menu' action='profit_statement_list_wizard_action' parent='voucher_books_menu' sequence='30'/>
          <menuitem id='create_balance_sheet_wizard_menu' action='create_balance_sheet_wizard_action' parent='voucher_books_menu' sequence='25'/>
          <menuitem id='balance_sheet_menu' action='balance_sheet_action' parent='finance_setting_menu' groups="base.group_no_one" sequence='70'/>
     </data>

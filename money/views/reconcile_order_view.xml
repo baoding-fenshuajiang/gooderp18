@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <odoo>
     <data>
-		<!--核销单tree-->
-    	<record id="reconcile_order_tree" model="ir.ui.view">
-            <field name="name">reconcile.order.tree</field>
+		<!--核销单list-->
+    	<record id="reconcile_order_list" model="ir.ui.view">
+            <field name="name">reconcile.order.list</field>
             <field name="model">reconcile.order</field>
             <field name="arch" type="xml">
                 <list string="Reconcile Order">

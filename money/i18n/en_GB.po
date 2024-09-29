@@ -126,7 +126,7 @@ msgid "Attachment Count"
 msgstr ""
 
 #. module: money
-#: model_terms:ir.ui.view,arch_db:money.bank_statements_report_tree
+#: model_terms:ir.ui.view,arch_db:money.bank_statements_report_list
 msgid "Bank Statements Report"
 msgstr ""
 
@@ -490,7 +490,7 @@ msgstr ""
 
 #. module: money
 #: model_terms:ir.ui.view,arch_db:money.reconcile_order_form
-#: model_terms:ir.ui.view,arch_db:money.reconcile_order_tree
+#: model_terms:ir.ui.view,arch_db:money.reconcile_order_list
 msgid "Reconcile Order"
 msgstr ""
 
@@ -606,7 +606,7 @@ msgstr "Payment discounts"
 #: model:ir.actions.act_window,name:money.pay_method_action
 #: model:ir.model.fields,field_description:money.field_money_invoice__pay_method
 #: model:ir.ui.menu,name:money.menu_pay_method
-#: model_terms:ir.ui.view,arch_db:money.pay_method_tree
+#: model_terms:ir.ui.view,arch_db:money.pay_method_list
 msgid "付款方式"
 msgstr "Payment Method"
 
@@ -643,7 +643,7 @@ msgstr "Vendor"
 #: model:ir.actions.report,name:money.report_supplier_statements_report
 #: model:ir.model,name:money.model_supplier_statements_report
 #: model:ir.ui.menu,name:money.report_supplier_statements_action
-#: model_terms:ir.ui.view,arch_db:money.supplier_statements_report_simple_tree
+#: model_terms:ir.ui.view,arch_db:money.supplier_statements_report_simple_list
 msgid "供应商对账单"
 msgstr "Vendor Statements"
 
@@ -722,7 +722,7 @@ msgstr "Other Income And Expenditure"
 #. module: money
 #: model:ir.actions.report,name:money.other_money_order_print
 #: model_terms:ir.ui.view,arch_db:money.other_money_order_form
-#: model_terms:ir.ui.view,arch_db:money.other_money_order_tree
+#: model_terms:ir.ui.view,arch_db:money.other_money_order_list
 msgid "其他收支单"
 msgstr "Other Income And Expenditure Bills"
 
@@ -781,7 +781,7 @@ msgstr "Other receipts and payments corresponding to other receipts and payments
 #: model:ir.actions.act_window,name:money.other_money_statements_report_wizard_action
 #: model:ir.model,name:money.model_other_money_statements_report
 #: model:ir.ui.menu,name:money.report_other_money_statements_action
-#: model_terms:ir.ui.view,arch_db:money.other_money_statements_report_tree
+#: model_terms:ir.ui.view,arch_db:money.other_money_statements_report_list
 msgid "其他收支明细表"
 msgstr "Other Statements Of Income And Expenditure"
 
@@ -878,7 +878,7 @@ msgstr "Document Date"
 #: model:ir.model.fields,field_description:money.field_other_money_statements_report__name
 #: model:ir.model.fields,field_description:money.field_reconcile_order__name
 #: model:ir.model.fields,field_description:money.field_supplier_statements_report__name
-#: model_terms:ir.ui.view,arch_db:money.money_order_tree
+#: model_terms:ir.ui.view,arch_db:money.money_order_list
 msgid "单据编号"
 msgstr "Document Number"
 
@@ -965,10 +965,10 @@ msgstr "You can fill in the basis for calculating the due date"
 
 #. module: money
 #: model_terms:ir.ui.view,arch_db:money.money_order_form
-#: model_terms:ir.ui.view,arch_db:money.money_order_tree
+#: model_terms:ir.ui.view,arch_db:money.money_order_list
 #: model_terms:ir.ui.view,arch_db:money.money_transfer_order_form
 #: model_terms:ir.ui.view,arch_db:money.other_money_order_form
-#: model_terms:ir.ui.view,arch_db:money.other_money_statements_report_tree
+#: model_terms:ir.ui.view,arch_db:money.other_money_statements_report_list
 #: model_terms:ir.ui.view,arch_db:money.reconcile_order_form
 msgid "合计"
 msgstr "Total"
@@ -1046,7 +1046,7 @@ msgstr "Customer"
 #: model:ir.actions.report,name:money.report_customer_statements_report
 #: model:ir.model,name:money.model_customer_statements_report
 #: model:ir.ui.menu,name:money.report_customer_statements_action
-#: model_terms:ir.ui.view,arch_db:money.customer_statements_report_simple_tree
+#: model_terms:ir.ui.view,arch_db:money.customer_statements_report_simple_list
 msgid "客户对账单"
 msgstr "Customer statements"
 
@@ -1108,8 +1108,8 @@ msgstr "Reversed Prepaid/Prepayment Amounts"
 #: model:ir.model.fields,field_description:money.field_money_invoice__reconciled
 #: model:ir.model.fields,field_description:money.field_money_order__reconciled
 #: model:ir.model.fields,field_description:money.field_source_order_line__reconciled
-#: model_terms:ir.ui.view,arch_db:money.money_handwork_invoice_tree
-#: model_terms:ir.ui.view,arch_db:money.money_invoice_tree
+#: model_terms:ir.ui.view,arch_db:money.money_handwork_invoice_list
+#: model_terms:ir.ui.view,arch_db:money.money_invoice_list
 msgid "已核销金额"
 msgstr "Amount Reversed"
 
@@ -1382,7 +1382,7 @@ msgstr "Filter by type"
 #. module: money
 #: model_terms:ir.ui.view,arch_db:money.money_handwork_invoice_form
 #: model_terms:ir.ui.view,arch_db:money.money_invoice_form
-#: model_terms:ir.ui.view,arch_db:money.money_invoice_tree
+#: model_terms:ir.ui.view,arch_db:money.money_invoice_list
 #: model_terms:ir.ui.view,arch_db:money.reconcile_order_form
 msgid "撤销"
 msgstr "Revocation"
@@ -1398,13 +1398,13 @@ msgstr "Revocation of Confirmation"
 #: model:ir.model.fields,field_description:money.field_bank_statements_report__pay
 #: model:ir.model.fields,field_description:money.field_money_get_pay_report__pay
 #: model:ir.model.fields,field_description:money.field_other_money_statements_report__pay
-#: model_terms:ir.ui.view,arch_db:money.bank_statements_report_tree
+#: model_terms:ir.ui.view,arch_db:money.bank_statements_report_list
 #: model_terms:ir.ui.view,arch_db:money.money_get_pay_report_search
 msgid "支出"
 msgstr "Expenditures"
 
 #. module: money
-#: model_terms:ir.ui.view,arch_db:money.money_get_pay_report_tree
+#: model_terms:ir.ui.view,arch_db:money.money_get_pay_report_list
 msgid "支出合计"
 msgstr "Total expenditures"
 
@@ -1458,7 +1458,7 @@ msgstr "Bank charges or cash discounts to business partners incurred when receiv
 #: model:ir.model.fields,field_description:money.field_money_order_line__money_id
 #: model:ir.model.fields,field_description:money.field_source_order_line__money_id
 #: model_terms:ir.ui.view,arch_db:money.money_order_form
-#: model_terms:ir.ui.view,arch_db:money.money_order_tree
+#: model_terms:ir.ui.view,arch_db:money.money_order_list
 msgid "收付款单"
 msgstr "Receipt and payment slips"
 
@@ -1471,13 +1471,13 @@ msgstr "Payment slip details"
 #: model:ir.model.fields,field_description:money.field_bank_statements_report__get
 #: model:ir.model.fields,field_description:money.field_money_get_pay_report__get
 #: model:ir.model.fields,field_description:money.field_other_money_statements_report__get
-#: model_terms:ir.ui.view,arch_db:money.bank_statements_report_tree
+#: model_terms:ir.ui.view,arch_db:money.bank_statements_report_list
 #: model_terms:ir.ui.view,arch_db:money.money_get_pay_report_search
 msgid "收入"
 msgstr "Revenue"
 
 #. module: money
-#: model_terms:ir.ui.view,arch_db:money.money_get_pay_report_tree
+#: model_terms:ir.ui.view,arch_db:money.money_get_pay_report_list
 msgid "收入合计"
 msgstr "Total Revenue"
 
@@ -1584,7 +1584,7 @@ msgid "未核销"
 msgstr "Unwritten"
 
 #. module: money
-#: model_terms:ir.ui.view,arch_db:money.money_order_tree
+#: model_terms:ir.ui.view,arch_db:money.money_order_list
 msgid "未核销总额"
 msgstr "The Total Amount That Has Not Been Written Off"
 
@@ -1599,9 +1599,9 @@ msgstr "Unapplied Prepaid/Prepaid Amounts"
 #: model:ir.model.fields,field_description:money.field_money_invoice__to_reconcile
 #: model:ir.model.fields,field_description:money.field_money_order__to_reconcile
 #: model:ir.model.fields,field_description:money.field_source_order_line__to_reconcile
-#: model_terms:ir.ui.view,arch_db:money.money_handwork_invoice_tree
-#: model_terms:ir.ui.view,arch_db:money.money_invoice_mini_tree
-#: model_terms:ir.ui.view,arch_db:money.money_invoice_tree
+#: model_terms:ir.ui.view,arch_db:money.money_handwork_invoice_list
+#: model_terms:ir.ui.view,arch_db:money.money_invoice_mini_list
+#: model_terms:ir.ui.view,arch_db:money.money_invoice_list
 msgid "未核销金额"
 msgstr "Unwritten Amount"
 
@@ -1673,9 +1673,9 @@ msgid "本次预付"
 msgstr "This Prepayment"
 
 #. module: money
-#: model_terms:ir.ui.view,arch_db:money.bank_statements_report_tree
-#: model_terms:ir.ui.view,arch_db:money.money_invoice_mini_tree
-#: model_terms:ir.ui.view,arch_db:money.money_invoice_tree
+#: model_terms:ir.ui.view,arch_db:money.bank_statements_report_list
+#: model_terms:ir.ui.view,arch_db:money.money_invoice_mini_list
+#: model_terms:ir.ui.view,arch_db:money.money_invoice_list
 msgid "查看原始单据"
 msgstr "View Original Document"
 
@@ -1706,12 +1706,12 @@ msgid "查看某一个业务伙伴的对账单报表"
 msgstr "View statement reports for a business partner"
 
 #. module: money
-#: model_terms:ir.ui.view,arch_db:money.bank_account_tree_inherit_first
+#: model_terms:ir.ui.view,arch_db:money.bank_account_list_inherit_first
 msgid "查看现金银行报表"
 msgstr "View cash bank statements"
 
 #. module: money
-#: model_terms:ir.ui.view,arch_db:money.money_order_tree
+#: model_terms:ir.ui.view,arch_db:money.money_order_list
 msgid "核销"
 msgstr "Verification"
 
@@ -1791,7 +1791,7 @@ msgstr "The pre-receipt/prepayment calculated from the sum of the receipt/paymen
 
 #. module: money
 #: model:ir.actions.act_window,name:money.action_view_money_invoice
-#: model_terms:ir.ui.view,arch_db:money.money_invoice_mini_tree
+#: model_terms:ir.ui.view,arch_db:money.money_invoice_mini_list
 msgid "欠款记录"
 msgstr "Records of arrears"
 
@@ -1843,7 +1843,7 @@ msgstr "Status"
 #: model:ir.actions.act_window,name:money.cash_flow_wizard_action
 #: model:ir.model,name:money.model_cash_flow_statement
 #: model:ir.ui.menu,name:money.menu_cash_flow_wizard
-#: model_terms:ir.ui.view,arch_db:money.cash_flow_statement_tree
+#: model_terms:ir.ui.view,arch_db:money.cash_flow_statement_list
 #: model_terms:ir.ui.view,arch_db:money.cash_flow_wizard_form
 msgid "现金流量表"
 msgstr "Cash flow statement"
@@ -1852,7 +1852,7 @@ msgstr "Cash flow statement"
 #: model:ir.actions.act_window,name:money.action_cash_flow_template
 #: model:ir.ui.menu,name:money.menu_cash_flow_template
 #: model_terms:ir.ui.view,arch_db:money.cash_flow_template_form
-#: model_terms:ir.ui.view,arch_db:money.cash_flow_template_tree
+#: model_terms:ir.ui.view,arch_db:money.cash_flow_template_list
 msgid "现金流量表模板"
 msgstr "Cash flow statement template"
 
@@ -1893,7 +1893,7 @@ msgstr "Confirm"
 #. module: money
 #: model_terms:ir.ui.view,arch_db:money.money_handwork_invoice_form
 #: model_terms:ir.ui.view,arch_db:money.money_invoice_form
-#: model_terms:ir.ui.view,arch_db:money.money_invoice_tree
+#: model_terms:ir.ui.view,arch_db:money.money_invoice_list
 #: model_terms:ir.ui.view,arch_db:money.money_order_form
 #: model_terms:ir.ui.view,arch_db:money.money_transfer_order_form
 #: model_terms:ir.ui.view,arch_db:money.other_money_order_form
@@ -1938,8 +1938,8 @@ msgstr "Tax Rate (%)"
 #: model:ir.model.fields,field_description:money.field_cost_line__tax
 #: model:ir.model.fields,field_description:money.field_money_invoice__tax_amount
 #: model:ir.model.fields,field_description:money.field_other_money_order_line__tax_amount
-#: model_terms:ir.ui.view,arch_db:money.money_handwork_invoice_tree
-#: model_terms:ir.ui.view,arch_db:money.money_invoice_tree
+#: model_terms:ir.ui.view,arch_db:money.money_handwork_invoice_list
+#: model_terms:ir.ui.view,arch_db:money.money_invoice_list
 msgid "税额"
 msgstr "Tax Amount"
 
@@ -2022,10 +2022,10 @@ msgstr "End Date"
 #: model:ir.model,name:money.model_money_invoice
 #: model:ir.ui.menu,name:money.menu_money_invoice_action
 #: model_terms:ir.ui.view,arch_db:money.money_handwork_invoice_form
-#: model_terms:ir.ui.view,arch_db:money.money_handwork_invoice_tree
+#: model_terms:ir.ui.view,arch_db:money.money_handwork_invoice_list
 #: model_terms:ir.ui.view,arch_db:money.money_invoice_form
 #: model_terms:ir.ui.view,arch_db:money.money_invoice_search
-#: model_terms:ir.ui.view,arch_db:money.money_invoice_tree
+#: model_terms:ir.ui.view,arch_db:money.money_invoice_list
 msgid "结算单"
 msgstr "Invoices"
 
@@ -2186,7 +2186,7 @@ msgstr "Money"
 #: model:ir.model,name:money.model_money_get_pay_report
 #: model:ir.ui.menu,name:money.menu_money_get_pay
 #: model_terms:ir.ui.view,arch_db:money.money_get_pay_report_search
-#: model_terms:ir.ui.view,arch_db:money.money_get_pay_report_tree
+#: model_terms:ir.ui.view,arch_db:money.money_get_pay_report_list
 msgid "资金收支报表"
 msgstr "Statement of income and expenditure of funds"
 
@@ -2210,7 +2210,7 @@ msgstr "The opening balance of the funds"
 #: model:ir.ui.menu,name:money.menu_money_transfer_order_action
 #: model_terms:ir.ui.view,arch_db:money.money_transfer_order_form
 #: model_terms:ir.ui.view,arch_db:money.money_transfer_order_search
-#: model_terms:ir.ui.view,arch_db:money.money_transfer_order_tree
+#: model_terms:ir.ui.view,arch_db:money.money_transfer_order_list
 msgid "资金转账单"
 msgstr "Funds transfer slip"
 
@@ -2303,9 +2303,9 @@ msgstr "Number of Overdue Days"
 
 #. module: money
 #: model:ir.model.fields,field_description:money.field_money_invoice__overdue_amount
-#: model_terms:ir.ui.view,arch_db:money.money_handwork_invoice_tree
-#: model_terms:ir.ui.view,arch_db:money.money_invoice_mini_tree
-#: model_terms:ir.ui.view,arch_db:money.money_invoice_tree
+#: model_terms:ir.ui.view,arch_db:money.money_handwork_invoice_list
+#: model_terms:ir.ui.view,arch_db:money.money_invoice_mini_list
+#: model_terms:ir.ui.view,arch_db:money.money_invoice_list
 msgid "逾期金额"
 msgstr "Overdue Amount"
 
@@ -2352,14 +2352,14 @@ msgstr "Purchase Sales Expenses"
 #: model:ir.model.fields,field_description:money.field_money_transfer_order_line__amount
 #: model:ir.model.fields,field_description:money.field_other_money_order__total_amount
 #: model:ir.model.fields,field_description:money.field_other_money_order_line__amount
-#: model_terms:ir.ui.view,arch_db:money.money_handwork_invoice_tree
-#: model_terms:ir.ui.view,arch_db:money.money_invoice_tree
+#: model_terms:ir.ui.view,arch_db:money.money_handwork_invoice_list
+#: model_terms:ir.ui.view,arch_db:money.money_invoice_list
 #: model_terms:ir.ui.view,arch_db:money.report_other_money_order
 msgid "金额"
 msgstr "Amount"
 
 #. module: money
-#: model_terms:ir.ui.view,arch_db:money.money_get_pay_report_tree
+#: model_terms:ir.ui.view,arch_db:money.money_get_pay_report_list
 msgid "金额合计"
 msgstr "Total amounts"
 

@@ -23,7 +23,7 @@ class ReportAuxiliaryAccounting(models.Model):
             'res_model': 'voucher.line',
             'name': "%s - %s 明细行" % (
                 self.account_id.name, self.auxiliary_id.name),
-            'view_mode': 'tree',
+            'view_mode': 'list',
             'domain': [
                 ('account_id', '=', self.account_id.id),
                 ('auxiliary_id', '=', self.auxiliary_id.id)],

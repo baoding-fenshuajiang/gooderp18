@@ -403,9 +403,9 @@ msgid "View"
 msgstr "视图"
 
 #. module: core
-#: model_terms:ir.ui.view,arch_db:core.bank_account_tree
-#: model_terms:ir.ui.view,arch_db:core.customer_tree
-#: model_terms:ir.ui.view,arch_db:core.vendor_tree
+#: model_terms:ir.ui.view,arch_db:core.bank_account_list
+#: model_terms:ir.ui.view,arch_db:core.customer_list
+#: model_terms:ir.ui.view,arch_db:core.vendor_list
 msgid "sum"
 msgstr "合计"
 

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data>
-        <record id='report_auxiliary_accounting_tree' model='ir.ui.view'>
-            <field name='name'>report.auxiliary.accounting.tree</field>
+        <record id='report_auxiliary_accounting_list' model='ir.ui.view'>
+            <field name='name'>report.auxiliary.accounting.list</field>
             <field name='model'>report.auxiliary.accounting</field>
             <field name='arch' type='xml'>
                 <list string='辅助核算余额表' create="false" edit='false'>
@@ -44,7 +44,7 @@
         <record id='report_auxiliary_accounting_action' model='ir.actions.act_window' >
             <field name='name'>辅助核算余额表</field>
             <field name='res_model'>report.auxiliary.accounting</field>
-            <field name='view_mode'>pivot,tree</field>
+            <field name='view_mode'>pivot,list</field>
             <field name='view_id' ref='report_auxiliary_accounting_graph' />
         </record>
          <menuitem id='report_auxiliary_accounting_menu' name='辅助核算余额表' action="report_auxiliary_accounting_action" parent='voucher_books_menu' sequence='70'/>

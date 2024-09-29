@@ -20,5 +20,5 @@ class ActionStatistics(http.Controller):
             'company': user.company_id.name,
             'company_phone': user.company_id.phone,
             'company_start_date': '2018-08-18',
-            'company_street': user.company_id.street
+            'company_slistt': user.company_id.slistt
         })

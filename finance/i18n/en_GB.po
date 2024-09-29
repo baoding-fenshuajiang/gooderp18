@@ -770,8 +770,8 @@ msgid "finance_account_type_form"
 msgstr ""
 
 #. module: finance
-#: model_terms:ir.ui.view,arch_db:finance.view_finance_account_type_tree
-msgid "finance_account_type_tree"
+#: model_terms:ir.ui.view,arch_db:finance.view_finance_account_type_list
+msgid "finance_account_type_list"
 msgstr ""
 
 #. module: finance
@@ -877,7 +877,7 @@ msgstr "Finance"
 #. module: finance
 #: model:ir.actions.act_window,name:finance.voucher_action model:ir.model,name:finance.model_voucher
 #: model:ir.ui.menu,name:finance.voucher_home_menu model:ir.ui.menu,name:finance.voucher_menu
-#: model_terms:ir.ui.view,arch_db:finance.voucher_form model_terms:ir.ui.view,arch_db:finance.voucher_tree
+#: model_terms:ir.ui.view,arch_db:finance.voucher_form model_terms:ir.ui.view,arch_db:finance.voucher_list
 msgid "会计凭证"
 msgstr "Accounting documents"
 
@@ -923,7 +923,7 @@ msgstr "Fiscal Month"
 #: model:ir.model.fields,help:finance.field_vouchers_summary__period_id
 #: model:ir.ui.menu,name:finance.period_menu model_terms:ir.ui.view,arch_db:finance.finance_period_search
 #: model_terms:ir.ui.view,arch_db:finance.month_product_cost_search
-#: model_terms:ir.ui.view,arch_db:finance.period_form model_terms:ir.ui.view,arch_db:finance.period_tree
+#: model_terms:ir.ui.view,arch_db:finance.period_form model_terms:ir.ui.view,arch_db:finance.period_list
 #: model_terms:ir.ui.view,arch_db:finance.trial_balance_search
 #: model_terms:ir.ui.view,arch_db:finance.view_voucher_line_search_filter
 #: model_terms:ir.ui.view,arch_db:finance.view_voucher_search_filter
@@ -1044,7 +1044,7 @@ msgstr "debit"
 
 #. module: finance
 #: model_terms:ir.ui.view,arch_db:finance.voucher_form
-#: model_terms:ir.ui.view,arch_db:finance.voucher_line_tree
+#: model_terms:ir.ui.view,arch_db:finance.voucher_line_list
 msgid "借方合计"
 msgstr "Debit totals"
 
@@ -1115,7 +1115,7 @@ msgstr "document ID"
 
 #. module: finance
 #: model:ir.actions.act_window,name:finance.chang_voucher_name_action
-#: model_terms:ir.ui.view,arch_db:finance.chang_voucher_name_tree
+#: model_terms:ir.ui.view,arch_db:finance.chang_voucher_name_list
 msgid "凭证变更记录"
 msgstr "Document change records"
 
@@ -1205,7 +1205,7 @@ msgstr "document amount"
 #: model:ir.ui.menu,name:finance.voucher_line_menu
 #: model_terms:ir.ui.view,arch_db:finance.voucher_line_graph
 #: model_terms:ir.ui.view,arch_db:finance.voucher_line_pivot
-#: model_terms:ir.ui.view,arch_db:finance.voucher_line_tree
+#: model_terms:ir.ui.view,arch_db:finance.voucher_line_list
 msgid "分录查询"
 msgstr "Entry queries"
 
@@ -1255,17 +1255,17 @@ msgid "初始化对象"
 msgstr "Initialize the object"
 
 #. module: finance
-#: model:ir.actions.act_window,name:finance.profit_statement_tree_wizard_action
-#: model:ir.ui.menu,name:finance.profit_statement_tree_wizard_action_menu
+#: model:ir.actions.act_window,name:finance.profit_statement_list_wizard_action
+#: model:ir.ui.menu,name:finance.profit_statement_list_wizard_action_menu
 #: model_terms:ir.ui.view,arch_db:finance.create_balance_sheet_wizard_form
-#: model_terms:ir.ui.view,arch_db:finance.profit_statement_tree
+#: model_terms:ir.ui.view,arch_db:finance.profit_statement_list
 msgid "利润表"
 msgstr "Income statement"
 
 #. module: finance
 #: model:ir.actions.act_window,name:finance.profit_statement_action_template
 #: model:ir.model,name:finance.model_profit_statement model:ir.ui.menu,name:finance.profit_statement_menu
-#: model_terms:ir.ui.view,arch_db:finance.profit_statement_tree_template
+#: model_terms:ir.ui.view,arch_db:finance.profit_statement_list_template
 msgid "利润表模板"
 msgstr "Income Statement Template"
 
@@ -1322,7 +1322,7 @@ msgid "取消"
 msgstr "Cancel"
 
 #. module: finance
-#: model_terms:ir.ui.view,arch_db:finance.chang_voucher_name_tree
+#: model_terms:ir.ui.view,arch_db:finance.chang_voucher_name_list
 msgid "变更日期"
 msgstr "Date of change"
 
@@ -1332,7 +1332,7 @@ msgid "另存为模板"
 msgstr "Save as a template"
 
 #. module: finance
-#: model_terms:ir.ui.view,arch_db:finance.report_auxiliary_accounting_tree
+#: model_terms:ir.ui.view,arch_db:finance.report_auxiliary_accounting_list
 msgid "合计"
 msgstr "Total"
 
@@ -1364,13 +1364,13 @@ msgid "固定资产科目"
 msgstr "Fixed Asset Accounts"
 
 #. module: finance
-#: model_terms:ir.ui.view,arch_db:finance.finance_account_tree
+#: model_terms:ir.ui.view,arch_db:finance.finance_account_list
 msgid "增加下级科目"
 msgstr "Add sub-subjects"
 
 #. module: finance
 #: model_terms:ir.ui.view,arch_db:finance.voucher_form
-#: model_terms:ir.ui.view,arch_db:finance.voucher_line_tree
+#: model_terms:ir.ui.view,arch_db:finance.voucher_line_list
 msgid "外币合计"
 msgstr "Foreign Currency Totals"
 
@@ -1511,7 +1511,7 @@ msgid "成本类"
 msgstr "Cost Class"
 
 #. module: finance
-#: model_terms:ir.ui.view,arch_db:finance.month_product_cost_tree
+#: model_terms:ir.ui.view,arch_db:finance.month_product_cost_list
 msgid "成本账"
 msgstr "Cost Accounting"
 
@@ -1616,7 +1616,7 @@ msgid "数量"
 msgstr "Quantity"
 
 #. module: finance
-#: model_terms:ir.ui.view,arch_db:finance.voucher_line_tree
+#: model_terms:ir.ui.view,arch_db:finance.voucher_line_list
 msgid "数量合计"
 msgstr "Total Quantity"
 
@@ -1947,17 +1947,17 @@ msgid "杜邦分析"
 msgstr "DuPont analysis"
 
 #. module: finance
-#: model_terms:ir.ui.view,arch_db:finance.voucher_line_tree
+#: model_terms:ir.ui.view,arch_db:finance.voucher_line_list
 msgid "查看凭证"
 msgstr "Review the document"
 
 #. module: finance
-#: model_terms:ir.ui.view,arch_db:finance.report_auxiliary_accounting_tree
+#: model_terms:ir.ui.view,arch_db:finance.report_auxiliary_accounting_list
 msgid "查看凭证明细行"
 msgstr "View the document details row"
 
 #. module: finance
-#: model_terms:ir.ui.view,arch_db:finance.vouchers_summary_tree
+#: model_terms:ir.ui.view,arch_db:finance.vouchers_summary_list
 msgid "查看明细"
 msgstr "View details"
 
@@ -2100,9 +2100,9 @@ msgstr "Confirm"
 #: model:ir.model.fields,help:finance.field_core_category__account_id
 #: model_terms:ir.ui.view,arch_db:finance.finance_account_form
 #: model_terms:ir.ui.view,arch_db:finance.finance_account_restricted_search
-#: model_terms:ir.ui.view,arch_db:finance.finance_account_restricted_tree
+#: model_terms:ir.ui.view,arch_db:finance.finance_account_restricted_list
 #: model_terms:ir.ui.view,arch_db:finance.finance_account_search
-#: model_terms:ir.ui.view,arch_db:finance.finance_account_tree
+#: model_terms:ir.ui.view,arch_db:finance.finance_account_list
 #: model_terms:ir.ui.view,arch_db:finance.trial_balance_search
 msgid "科目"
 msgstr "account"
@@ -2112,8 +2112,8 @@ msgstr "account"
 #: model:ir.actions.act_window,name:finance.trial_balance_action
 #: model:ir.model,name:finance.model_trial_balance model:ir.ui.menu,name:finance.create_trial_balance_menu
 #: model_terms:ir.ui.view,arch_db:finance.create_trial_balance_wizard_form
-#: model_terms:ir.ui.view,arch_db:finance.init_balance_tree
-#: model_terms:ir.ui.view,arch_db:finance.trial_balance_tree
+#: model_terms:ir.ui.view,arch_db:finance.init_balance_list
+#: model_terms:ir.ui.view,arch_db:finance.trial_balance_list
 msgid "科目余额表"
 msgstr "Account balance table"
 
@@ -2144,14 +2144,14 @@ msgstr "Account hierarchy level"
 #: model:ir.ui.menu,name:finance.create_general_ledger_account_menu
 #: model_terms:ir.ui.view,arch_db:finance.create_vouchers_summary_wizard_form
 #: model_terms:ir.ui.view,arch_db:finance.general_ledger_account_search
-#: model_terms:ir.ui.view,arch_db:finance.general_ledger_account_tree
+#: model_terms:ir.ui.view,arch_db:finance.general_ledger_account_list
 msgid "科目总账"
 msgstr "Account general ledger"
 
 #. module: finance
 #: model:ir.ui.menu,name:finance.create_vouchers_summary_menu
 #: model_terms:ir.ui.view,arch_db:finance.vouchers_summary_search
-#: model_terms:ir.ui.view,arch_db:finance.vouchers_summary_tree
+#: model_terms:ir.ui.view,arch_db:finance.vouchers_summary_list
 msgid "科目明细账"
 msgstr "Account ledger"
 
@@ -2315,7 +2315,7 @@ msgstr "Trial balance"
 
 #. module: finance
 #: model:ir.actions.act_window,name:finance.change_cumulative_occurrence_wizard_action
-#: model_terms:ir.ui.view,arch_db:finance.init_balance_tree
+#: model_terms:ir.ui.view,arch_db:finance.init_balance_list
 msgid "调整累计数"
 msgstr "Adjust the total"
 
@@ -2347,7 +2347,7 @@ msgstr "creditor"
 
 #. module: finance
 #: model_terms:ir.ui.view,arch_db:finance.voucher_form
-#: model_terms:ir.ui.view,arch_db:finance.voucher_line_tree
+#: model_terms:ir.ui.view,arch_db:finance.voucher_line_list
 msgid "贷方合计"
 msgstr "Credit total"
 
@@ -2385,7 +2385,7 @@ msgstr "asset"
 #. module: finance
 #: model:ir.actions.act_window,name:finance.create_balance_sheet_wizard_action
 #: model:ir.ui.menu,name:finance.create_balance_sheet_wizard_menu
-#: model_terms:ir.ui.view,arch_db:finance.balance_sheet_tree_wizard
+#: model_terms:ir.ui.view,arch_db:finance.balance_sheet_list_wizard
 #: model_terms:ir.ui.view,arch_db:finance.create_balance_sheet_wizard_form
 msgid "资产负债表"
 msgstr "balance sheet"
@@ -2403,7 +2403,7 @@ msgstr "Wizard for balance sheet and income statement"
 #. module: finance
 #: model:ir.actions.act_window,name:finance.balance_sheet_action
 #: model:ir.model,name:finance.model_balance_sheet model:ir.ui.menu,name:finance.balance_sheet_menu
-#: model_terms:ir.ui.view,arch_db:finance.balance_sheet_tree
+#: model_terms:ir.ui.view,arch_db:finance.balance_sheet_list
 msgid "资产负债表模板"
 msgstr "Balance sheet template"
 
@@ -2421,7 +2421,7 @@ msgstr "The number of rows on the balance sheet"
 #: model:ir.model.fields,field_description:finance.field_voucher_template_line__auxiliary_id
 #: model:ir.ui.menu,name:finance.auxiliary_financing_menu
 #: model_terms:ir.ui.view,arch_db:finance.auxiliary_financing_search
-#: model_terms:ir.ui.view,arch_db:finance.auxiliary_financing_tree
+#: model_terms:ir.ui.view,arch_db:finance.auxiliary_financing_list
 #: model_terms:ir.ui.view,arch_db:finance.finance_account_search
 msgid "辅助核算"
 msgstr "Auxiliary Accounting"
@@ -2437,7 +2437,7 @@ msgstr "Secondary accounting cannot have the same name"
 #: model:ir.ui.menu,name:finance.report_auxiliary_accounting_menu
 #: model_terms:ir.ui.view,arch_db:finance.report_auxiliary_accounting_graph
 #: model_terms:ir.ui.view,arch_db:finance.report_auxiliary_accounting_search
-#: model_terms:ir.ui.view,arch_db:finance.report_auxiliary_accounting_tree
+#: model_terms:ir.ui.view,arch_db:finance.report_auxiliary_accounting_list
 msgid "辅助核算余额表"
 msgstr "Auxiliary accounting balance sheet"
 

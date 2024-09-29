@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <odoo>
     <data>
-        <!--客户对账单tree-->
-		<record id="customer_statements_report_simple_tree" model="ir.ui.view">
-            <field name="name">customer.statements.report.simple.tree</field>
+        <!--客户对账单list-->
+		<record id="customer_statements_report_simple_list" model="ir.ui.view">
+            <field name="name">customer.statements.report.simple.list</field>
             <field name="model">customer.statements.report</field>
             <field name="arch" type="xml">
                 <list string="客户对账单" create="false">

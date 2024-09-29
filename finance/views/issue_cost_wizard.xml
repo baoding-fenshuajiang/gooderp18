@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <odoo>
     <data>
-        <record id="month_product_cost_tree" model="ir.ui.view">
-            <field name="name">month.product.cost.tree</field>
+        <record id="month_product_cost_list" model="ir.ui.view">
+            <field name="name">month.product.cost.list</field>
             <field name="model">month.product.cost</field>
             <field name="arch" type="xml">
                 <list string="成本账"   create="false" edit='false'>

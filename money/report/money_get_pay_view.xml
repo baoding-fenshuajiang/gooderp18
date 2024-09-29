@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <odoo>
     <data>
-        <!--资金收支报表 tree-->
-    	<record id="money_get_pay_report_tree" model="ir.ui.view">
-            <field name="name">money.get.pay.report.tree</field>
+        <!--资金收支报表 list-->
+    	<record id="money_get_pay_report_list" model="ir.ui.view">
+            <field name="name">money.get.pay.report.list</field>
             <field name="model">money.get.pay.report</field>
             <field name="arch" type="xml">
                 <list string="资金收支报表">

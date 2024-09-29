@@ -386,16 +386,16 @@ class ChangeCumulativeOccurrenceWizard(models.TransientModel):
                      (trial_balance_id.cumulative_occurrence_credit
                       + diff_cumulative_occurrence_credit)})
 
-        view = self.env.ref('finance.init_balance_tree')
+        view = self.env.ref('finance.init_balance_list')
         return {
             'type': 'ir.actions.act_window',
             'name': '科目余额表：' + self.trial_balance_id.period_id.name,
 
-            'view_mode': 'tree',
+            'view_mode': 'list',
             'res_model': 'trial.balance',
             'target': 'main',
             'view_id': False,
-            'views': [(view.id, 'tree')],
+            'views': [(view.id, 'list')],
             'domain': [('period_id', '=', self.trial_balance_id.period_id.id)]
         }
 
@@ -599,9 +599,9 @@ class CreateTrialBalanceWizard(models.TransientModel):
                 }
             )
 
-        view_id = self.env.ref('finance.trial_balance_tree').id
+        view_id = self.env.ref('finance.trial_balance_list').id
         if self.period_id == self.period_id.get_init_period():
-            view_id = self.env.ref('finance.init_balance_tree').id
+            view_id = self.env.ref('finance.init_balance_list').id
 
         context = {}
         if self.has_balance and not self.has_transaction:
@@ -616,12 +616,12 @@ class CreateTrialBalanceWizard(models.TransientModel):
             'type': 'ir.actions.act_window',
             'name': '科目余额表：' + self.period_id.name,
 
-            'view_mode': 'tree',
+            'view_mode': 'list',
             'res_model': 'trial.balance',
             'target': 'main',
             'view_id': False,
             'context': context,
-            'views': [(view_id, 'tree')],
+            'views': [(view_id, 'list')],
             'domain': [('id', 'in', trial_balance_ids)]
         }
 
@@ -1074,7 +1074,7 @@ class CreateVouchersSummaryWizard(models.TransientModel):
                 for vals in create_vals:  # create_vals 值顺序为：期初余额  本期明细  本期本年累计
                     vouchers_summary_ids.append(
                         (self.env['vouchers.summary'].create(vals)).id)
-        view_id = self.env.ref('finance.vouchers_summary_tree').id
+        view_id = self.env.ref('finance.vouchers_summary_list').id
 
         title = self.period_begin_id.name
         if self.period_end_id != self.period_begin_id:
@@ -1090,11 +1090,11 @@ class CreateVouchersSummaryWizard(models.TransientModel):
             'type': 'ir.actions.act_window',
             'name': '明细账 : %s' % title,
 
-            'view_mode': 'tree',
+            'view_mode': 'list',
             'res_model': 'vouchers.summary',
             'target': 'main',
             'view_id': False,
-            'views': [(view_id, 'tree')],
+            'views': [(view_id, 'list')],
             'domain': [('id', 'in', vouchers_summary_ids)],
             'limit': 65535,
         }
@@ -1161,7 +1161,7 @@ class CreateVouchersSummaryWizard(models.TransientModel):
                     vouchers_summary_ids.append(
                         (self.env['general.ledger.account'].create(vals)).id)
 
-        view_id = self.env.ref('finance.general_ledger_account_tree').id
+        view_id = self.env.ref('finance.general_ledger_account_list').id
 
         title = self.period_begin_id.name
         if self.period_end_id != self.period_begin_id:
@@ -1177,11 +1177,11 @@ class CreateVouchersSummaryWizard(models.TransientModel):
             'type': 'ir.actions.act_window',
             'name': '总账 %s' % title,
 
-            'view_mode': 'tree',
+            'view_mode': 'list',
             'res_model': 'general.ledger.account',
             'target': 'main',
             'view_id': False,
-            'views': [(view_id, 'tree')],
+            'views': [(view_id, 'list')],
             'domain': [('id', 'in', vouchers_summary_ids)],
             'limit': 65535,
         }

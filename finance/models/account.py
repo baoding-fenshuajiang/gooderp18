@@ -449,14 +449,14 @@ class WizardAccountAddChild(models.TransientModel):
         if not new_account:  # pragma: no cover
             raise UserError('新科目创建失败！')
 
-        view = self.env.ref('finance.finance_account_tree')
+        view = self.env.ref('finance.finance_account_list')
 
         return {
             'name': '科目',
             'type': 'ir.actions.act_window',
-            'view_mode': 'tree',
+            'view_mode': 'list',
             'res_model': 'finance.account',
-            'views': [(view.id, 'tree')],
+            'views': [(view.id, 'list')],
             'view_id': view.id,
             'target': 'current',
             'context': dict(

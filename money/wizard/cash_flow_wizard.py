@@ -143,7 +143,7 @@ class CashFlowWizard(models.TransientModel):
                     }
                 )
                 rep_ids.append(new_rep.id)
-        view_id = self.env.ref('money.cash_flow_statement_tree').id
+        view_id = self.env.ref('money.cash_flow_statement_list').id
         attachment_information = u'编制单位：' + self.env.user.company_id.name + u',,' + self.period_id.year\
                                  + u'年' + self.period_id.month + u'月' + u',' + u'单位：元'
         return {

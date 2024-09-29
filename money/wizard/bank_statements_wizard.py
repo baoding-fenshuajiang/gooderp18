@@ -34,7 +34,7 @@ class PartnerStatementsReportWizard(models.Model):
             raise UserError(u'结束日期不能小于开始日期！\n开始日期:%s 结束日期:%s ' %
                             (self.from_date, self.to_date))
 
-        view = self.env.ref('money.bank_statements_report_tree')
+        view = self.env.ref('money.bank_statements_report_list')
 
         return {
             'name': u'现金银行报表:' + self.bank_id.name,

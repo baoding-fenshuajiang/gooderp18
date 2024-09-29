@@ -12,8 +12,8 @@
 		<menuitem id='system_menu' name='高级配置' parent='setting_menu' sequence='30'/>
 
 		<!--类别-->
-		<record id="core_category_tree" model="ir.ui.view">
-			<field name="name">core.category.tree</field>
+		<record id="core_category_list" model="ir.ui.view">
+			<field name="name">core.category.list</field>
 			<field name="model">core.category</field>
 			<field name="arch" type="xml">
 				<list editable="top" string="类别">
@@ -67,8 +67,8 @@
 		<menuitem id='core_category_menu' name='类别' action='core_category_action' parent='config_data_menu' sequence='2'/>
 
 		<!--可选值-->
-		<record id="core_value_tree" model="ir.ui.view">
-			<field name="name">core.value.tree</field>
+		<record id="core_value_list" model="ir.ui.view">
+			<field name="name">core.value.list</field>
 			<field name="model">core.value</field>
 			<field name="arch" type="xml">
 				<list editable="top" string="可选值">
@@ -160,8 +160,8 @@
 		</record>
 		<menuitem id='company_menu' name='公司' action='company_action' parent='system_menu' sequence='10'/>
 		<!--单位，菜单放在仓库模块下-->
-		<record id="uom_tree" model="ir.ui.view">
-			<field name="name">uom.tree</field>
+		<record id="uom_list" model="ir.ui.view">
+			<field name="name">uom.list</field>
 			<field name="model">uom</field>
 			<field name="arch" type="xml">
 				<list editable="top" string="单位">
@@ -187,8 +187,8 @@
 			<field name="view_mode">list</field>
 		</record>
 		<!--结算方式，菜单放在资金模块下-->
-		<record id="settle_mode_tree" model="ir.ui.view">
-			<field name="name">settle.mode.tree</field>
+		<record id="settle_mode_list" model="ir.ui.view">
+			<field name="name">settle.mode.list</field>
 			<field name="model">settle.mode</field>
 			<field name="arch" type="xml">
 				<list editable="top" string="结算方式">
@@ -280,7 +280,7 @@
 				</form>
 			</field>
 		</record>
-		<record id="customer_tree" model="ir.ui.view">
+		<record id="customer_list" model="ir.ui.view">
 			<field name="name">客户列表</field>
 			<field name="model">partner</field>
 			<field name="arch" type="xml">
@@ -324,10 +324,10 @@
 			<field name="search_view_id" ref="customer_search"/>
 			<field name="domain">[('c_category_id','!=',False)]</field>
 		</record>
-		<record id="customer_address_action_tree" model="ir.actions.act_window.view">
+		<record id="customer_address_action_list" model="ir.actions.act_window.view">
 			<field eval="1" name="sequence"/>
 			<field name="view_mode">list</field>
-			<field name="view_id" ref="customer_tree"/>
+			<field name="view_id" ref="customer_list"/>
 			<field name="act_window_id" ref="customer_action"/>
 		</record>
 		<record id="customer_address_action_form" model="ir.actions.act_window.view">
@@ -396,7 +396,7 @@
 				</form>
 			</field>
 		</record>
-		<record id="vendor_tree" model="ir.ui.view">
+		<record id="vendor_list" model="ir.ui.view">
 			<field name="name">供应商列表</field>
 			<field name="model">partner</field>
 			<field name="arch" type="xml">
@@ -438,10 +438,10 @@
 			<field name="search_view_id" ref="vendor_search"/>
 			<field name="domain">[('s_category_id','!=',False)]</field>
 		</record>
-		<record id="supplier_address_action_tree" model="ir.actions.act_window.view">
+		<record id="supplier_address_action_list" model="ir.actions.act_window.view">
 			<field eval="1" name="sequence"/>
 			<field name="view_mode">list</field>
-			<field name="view_id" ref="vendor_tree"/>
+			<field name="view_id" ref="vendor_list"/>
 			<field name="act_window_id" ref="vendor_action"/>
 		</record>
 		<record id="supplier_address_action_form" model="ir.actions.act_window.view">
@@ -453,8 +453,8 @@
 		<!--用户-->
 		<menuitem id='users_menu' name="用户" action='base.action_res_users' parent='config_data_menu' sequence='1' groups="base.group_erp_manager"/>
 		<!--账户，菜单放在资金模块下-->
-		<record id="bank_account_tree" model="ir.ui.view">
-			<field name="name">bank.account.tree</field>
+		<record id="bank_account_list" model="ir.ui.view">
+			<field name="name">bank.account.list</field>
 			<field name="model">bank.account</field>
 			<field name="arch" type="xml">
 				<list editable="top" string="账户">
@@ -484,7 +484,7 @@
 		</record>
 
 		<!--收支项，菜单放在资金模块下-->
-		<record id="service_tree" model="ir.ui.view">
+		<record id="service_list" model="ir.ui.view">
 			<field name="name">收支项列表</field>
 			<field name="model">service</field>
 			<field name="arch" type="xml">
@@ -553,11 +553,11 @@
 				</field>
             </field>
         </record>
-        <!-- 继承res.users tree -->
-        <record id='res_users_tree_inherit' model='ir.ui.view'>
-            <field name='name'>res users tree inherit</field>
+        <!-- 继承res.users list -->
+        <record id='res_users_list_inherit' model='ir.ui.view'>
+            <field name='name'>res users list inherit</field>
             <field name='model'>res.users</field>
-             <field name="inherit_id" ref="base.view_users_tree"/>
+             <field name="inherit_id" ref="base.view_users_list"/>
             <field name='arch' type='xml'>
                 <field name='login' position='attributes'>
                     <attribute name='string'>用户</attribute>

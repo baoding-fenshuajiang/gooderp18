@@ -46,7 +46,7 @@ class MoneyGetPayWizard(models.Model):
             raise UserError(u'结束日期不能小于开始日期\n开始日期:%s 结束日期:%s ' %
                             (self.date_start, self.date_end))
 
-        view = self.env.ref('money.money_get_pay_report_tree')
+        view = self.env.ref('money.money_get_pay_report_list')
         domain = [('date', '>=', self.date_start),
                   ('date', '<=', self.date_end)]
         if self.type:
